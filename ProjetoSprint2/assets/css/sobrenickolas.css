@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
+}
+p {
+    margin: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+/*Configurações Nome e link do instagram*/
+h1 {
+    color: #3b3169;
+    font-family: serif;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+/*Configurações subtítulo*/
+h2 {
+    color: #3b3169;
+    font-family: serif;
+    text-align: center;
+}
+
+/*Configurações Article 1*/
+#article1 {
+    display: flex;
+    margin: 25px;
+    background-color: #E0CFE6;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+}
+
+/*Configurações Imagem 1*/
+#foto {
+    width: 30%;
+    margin: 10px;
+}
+#fotopessoal {
+    border-radius: 10px;
+    border: 5px outset #7657b2;
+    width: 100%;
+    
+}
+
+/*Configurações Texto 1*/
+#sobremim {
+    width: 70%;
+}
+#sobremimtexto {
+    margin: 10px;
+    text-align: justify;
+    margin: 10px;
+}
+
+/*Configurações Article 2*/
+#article2 {
+    display: flex;
+    margin: 25px;
+}
+
+/*Configurações Sections*/
+.section1 {
+    background-color: #E0CFE6;
+    border-radius: 10px;
+    width: 33%;
+    -webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+
+}
+.subtitulo {
+    text-align: left;
+    margin: 5px;
+    color: #3b3169;
+    font-family: serif;
+}
+
+/*Configurações Section Hobbie*/
+.section2 {
+    background-color: #E0CFE6;
+    border-radius: 10px;
+    width: 33%;
+margin-left: 25px;
+margin-right: 25px;
+-webkit-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+-moz-box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+box-shadow: 10px 10px 36px -13px rgba(82,65,109,1);
+border-left: 6px solid #52416d;
+}

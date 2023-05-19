@@ -1,0 +1,145 @@
+/*Configurações*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
+}
+main {
+    display: flex;
+}
+h1 {
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p {
+    line-height: 30px;
+text-align: justify;
+width: 95%;
+margin: 5px;
+}
+
+/*Article Principal*/
+#articleprincipal {
+    display: flex;
+    align-items: center;
+}
+
+/*Article de Titulos*/
+h2,
+h3 {
+    color: #7657b2;
+    text-align: center;
+}
+
+#escritatitulo {
+    font-size: 200%;
+    color: #7657b2;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Article Imagem*/
+#fotoprincipal {
+    width: 90%;
+    margin: 20px;
+    border: 5px outset #7657b2;
+}
+
+#imgprincipal {
+    width: 50%;
+}
+
+div {
+    width: 50%;
+}
+
+/*Noticia Principal*/
+#textoprincipal {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+#noticia {
+    line-height: 40px;
+    text-align: justify;
+    margin: 10px;
+    width: 95%;
+}
+
+/*Navbar Lateral*/
+#container {
+    width: 30%;
+}
+aside {
+    background-color: #E0CFE6;
+    height: 380px;
+}
+.navbarlateral {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    height: 80px;
+
+}
+.fotonoticias {
+    border-radius: 10px;
+    width: 100%;
+}
+#navbarlateral3 {
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 80px;
+}a {
+    text-decoration: none;
+    color: #7657b2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*Comentários*/
+#divcomentarios {
+    width: 100%;
+}
+.sectioncomentarios {
+    background-color: #E0CFE6;
+display: flex;
+    margin: 10px;
+}
+.imgdepoimentos {
+    width: 70px;
+    margin: 10px;
+    border: 5px outset #7657b2;
+    height: 70px;
+}
+.nomedepoimentos {
+    color: #7657b2;
+    text-align: left; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0;
+}
+#estrelaavaliacao {
+    width: 2%;
+    border: none;
+    margin: 5px;
+}
+#nomeeinsta {
+    width: 100%;
+}
+#divcomentarios {
+    align-items: center;
+}
+#div_bottom {
+    margin-bottom: 10px;
+}

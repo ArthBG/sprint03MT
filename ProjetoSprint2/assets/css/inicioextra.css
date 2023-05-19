@@ -1,0 +1,79 @@
+/*Configurações Gerais*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0CFE6;
+}
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin-bottom: -5px;
+}
+
+/*Título e Subtítulos*/
+h1 {
+    color: #7657b2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: #7657b2;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+h3 {
+    margin: 10px;
+    text-align: center;
+}
+#contato {
+    color: white;
+}
+
+/*Imagens*/
+img {
+    width: 60%;
+    margin: 20px;
+    border-radius: 10px;
+}
+#redessociais {
+    width: 10%;
+}
+
+/*Outras Configurações*/
+section {
+    background-color: #7657b2;
+    width: 50%;
+    margin: 20px;
+    -webkit-box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    -moz-box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+    border-radius: 10px;
+    text-align: center;
+}
+article {
+    display: flex;
+}
+.centralizar {
+    text-align: center;
+}
+li {
+    color: white;
+    text-align: left;
+    line-height: 30px;
+}
+p {
+    color: black;
+}
+div {
+    text-align: center;
+}
+ul {
+    width: 60%;
+    margin: auto;
+}

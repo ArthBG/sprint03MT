@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+<head>
+    <!-- Metadados -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/css/formulario.css" media="screen">
+    <link rel="icon" href="../assets/images/logo.png.png">
+
+
+
+    <!-- Título da página (aparece na aba) -->
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <iframe src="../layouts/header.html" scrolling="no" frameborder="0"></iframe>
+    <div id="formtotal">
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Faça seu Cadastro</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form action="../pages/posformulario.html">
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset>
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- campo de pergunts dos temas -->
+            <div class="campo">
+                <label><strong>Qual seu gênero?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Masculino
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Feminino
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Outro
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Prefiro não informar
+                </label>
+
+            </div>
+
+            <!-- campo de temas com temas diferentes -->
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia" required></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit">Concluído</button>
+
+
+        </form>
+    </div>
+    <iframe id="footer" src="../layouts/footer.html" frameborder="0"></iframe>
+</body>
+
+</html>
