@@ -38,6 +38,9 @@ h3:hover {
 }
 
 @media (max-width: 768px) {
+    body{
+        font-size: 25px;
+    }
     ul {
         padding: 0;
     }
