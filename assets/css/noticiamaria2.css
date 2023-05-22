@@ -172,13 +172,12 @@ margin: 0;
     }
 
     #fotoprincipal{
-        width: 80%;
-        height: 70%;
+
+        margin: auto;
       
     }
     #imgprincipal{
-        width: 80%;
-        height: 70%;
+
         
     }
     #noticia {
