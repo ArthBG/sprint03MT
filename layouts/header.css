@@ -38,6 +38,15 @@ h3:hover {
 }
 
 @media (max-width: 768px) {
+    header {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    body {
+        font-size: 18px;
+    }
+
     ul {
         padding: 0;
     }
@@ -63,7 +72,8 @@ h3:hover {
         width: 100px;
         height: 100px;
     }
-    div{
+
+    div {
         background-color: #7657b2;
     }
 
