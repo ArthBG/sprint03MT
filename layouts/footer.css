@@ -44,3 +44,6 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+@media (max-width:768px) {
+    
+}
