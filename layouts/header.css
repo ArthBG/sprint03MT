@@ -38,13 +38,15 @@ h3:hover {
 }
 
 @media (max-width: 768px) {
-    header{
+    header {
         align-items: center;
         flex-direction: column;
     }
-    body{
+
+    body {
         font-size: 18px;
     }
+
     ul {
         padding: 0;
     }
@@ -67,10 +69,11 @@ h3:hover {
     img {
         padding-top: 25px;
         margin: auto;
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
-    div{
+
+    div {
         background-color: #7657b2;
     }
 
