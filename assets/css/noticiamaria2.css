@@ -139,4 +139,46 @@ margin: 0;
 #div_bottom {
     margin-bottom: 10px;
 }
+@media (max-width: 768px){
+    body{
+        font-size: 25px;
+    }
+    #escritatitulo{
+        font-size: 40px;
+        text-align: justify;
+    }
+    #articleprincipal {
+        display: flex;
+        flex-direction: column;
+    }
 
+    #fotoprincipal{
+        margin: auto;
+    }
+
+    #noticia {
+        margin: auto;
+        width: 95%;
+    }
+    aside{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin: auto;
+        width: 95%;
+    }
+
+    #container {
+        display: none;
+    }
+
+    #textoprincipal {
+        width: 100%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+    #divcomentarios{
+        margin-top: 5%;
+    }
+
+}
