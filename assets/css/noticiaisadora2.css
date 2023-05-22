@@ -244,4 +244,9 @@ margin: 0;
     #escritatitulo{
         margin-left: 5%;
     }
+
+    #divv{
+        text-align: center;
+        width: 100%;
+    }
 }

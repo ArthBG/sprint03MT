@@ -190,11 +190,16 @@ a {
         width: 90%;
         padding: 5%;
         margin-right: 0%;
+        margin-left: 5%;
     }
 
     #escritatitulo {
         font-size: 40px;
         text-align: justify;
+        margin-left: 5%;
+    }
+    #escritatitulo{
+        margin-left: 5%;
     }
 
     h2 {
@@ -252,6 +257,7 @@ a {
     }
 
     #titus {
+        text-align: center;
         width: 100%;
     }
 
@@ -268,4 +274,5 @@ a {
         margin-left: 2%;
         margin-top: 5%;
     }
+
 }
