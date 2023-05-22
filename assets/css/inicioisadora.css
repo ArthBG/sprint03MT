@@ -15,7 +15,7 @@ iframe {
 a {
     text-decoration: none;
 
-}
+} 
 
 /*Article 1*/
 #noticiaprincipal {
@@ -108,6 +108,27 @@ img {
 }
 .div {
 
+}
+@media (max-width: 768px){
+    #noticiaprincipal{
+        flex-direction: column;
+    }
+    #resumotema{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 35px;
+        margin-bottom: 7%;
+    }
+    #ultimasnoticias{
+        font-size: 20px;
+    }
+    #fotoprincipal{
+        width: 60%;
+    }
+    #ultimasnoticiasfotos{
+        width: 30%;
+    }
 }
 
 /*Final css*/
