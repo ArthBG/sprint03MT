@@ -40,8 +40,7 @@ h2{
 }
 h3 {
     color: #7657b2;
-    margin: 2%;
-    font-size: 15px;
+    text-align: justify;
 }
 
 #escritatitulo {
@@ -88,8 +87,10 @@ div {
 }
 aside {
     background-color: #E0CFE6;
-    height: 380px;
-    
+    width: 30%;
+    right: 0;
+    top: 87%;
+    position: absolute;
 }
 .navbarlateral {
     display: flex;
@@ -156,38 +157,52 @@ margin: 0;
         font-size: 40px;
         text-align: justify;
     }
-    #articleprincipal {
+    main{
         display: flex;
         flex-direction: column;
     }
+    #articleprincipal {
+        display: flex;
+        flex-direction: column;
 
-    #fotoprincipal{
-        margin: auto;
     }
+    #textoprincipal{
+        margin: 5%;
+    }
+    #fotoprincipal{
 
+        margin: auto;
+      
+    }
+    #divcomentarios{
+        margin: 1%;
+        margin-right: 4%;
+    }
     #noticia {
         margin: auto;
         width: 95%;
     }
-    aside{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        margin: auto;
-        width: 95%;
-    }
+
 
     #container {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
     }
 
     #textoprincipal {
-        width: 100%;
+        width: 95%;
         margin-right: 2%;
         margin-left: 2%;
     }
     #divcomentarios{
         margin-top: 5%;
     }
-
+    aside{
+        position: relative;
+        width: 90%;
+        margin: auto;
+        margin-top: 4%;
+    }
 }
