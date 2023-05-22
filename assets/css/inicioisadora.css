@@ -106,9 +106,7 @@ img {
 #ultimasnoticiasfotos {
     width: 10%;
 }
-.div {
 
-}
 @media (max-width: 768px){
     #noticiaprincipal{
         flex-direction: column;
@@ -128,6 +126,12 @@ img {
     }
     #ultimasnoticiasfotos{
         width: 30%;
+    }
+    #resumotema{
+        width: 100%;
+        font-size: 25px;
+        text-align: justify;
+        margin-top: 7%;
     }
 }
 
