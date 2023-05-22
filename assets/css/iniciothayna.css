@@ -1,7 +1,7 @@
-
 /*Configurações Gerais*/
 body {
-    font-family: Arial, Helvetica, sans-serif;}
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -9,6 +9,7 @@ body {
     padding: 0%;
 
 }
+
 a {
     text-decoration: none;
 }
@@ -57,10 +58,12 @@ h2 {
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #resumotema {
     margin: 20px;
     width: 50%;
 }
+
 p {
     line-height: 35px;
 }
@@ -70,6 +73,7 @@ article {
     display: flex;
     margin: 20px;
 }
+
 #ultimasnoticias {
     display: flex;
     flex-direction: column;
@@ -77,36 +81,109 @@ article {
     margin: 20px;
     border-radius: 10px;
 }
+
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-left: 300px;
     margin-right: 300px;
 }
+
 #h1texto {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+
 .sectionultimasnoticias {
     display: flex;
     align-items: center;
     border-radius: 10px;
     background-color: white;
     margin: 20px;
+
 }
+
 img {
     border-radius: 10px;
     margin: 5px;
 }
+
 #h2eltimasnoticias {
     color: #7657b2;
     margin-left: 15px;
 }
+
 #ultimasnoticiasfotos {
     width: 10%;
 
 }
 
+@media(max-width: 768px) {
+    .sectionultimasnoticias {
+        display: block;
+        margin: auto;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+    #ultimasnoticias {
+        margin: auto;
+        display: block;
+        width: auto;
+        width: 90%;
+
+    }
+    #fotoenem {
+        width: 90%;
+    }
+    h1 {
+        font-size: 35px;
+    }
+
+    #fotoprincipal {
+        margin: auto;
+        width: 90%;
+        height: 60%;
+        margin-bottom: 10%;
+    }
+
+    article {
+        display: block;
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    p {
+        padding: 0%;
+        font-size: 25px;
+        margin: 7%;
+        justify-content: center;
+    }
+
+    #resumotema {
+        
+        margin: auto;
+        margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    }
+
+    #ultimasnoticiasfotos {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10%;
+        padding: 0;
+
+    }
 
 
+}
