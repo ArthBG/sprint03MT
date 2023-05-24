@@ -93,6 +93,11 @@ aside {
     border-radius: 10px;
     width: 100%;
 }
+
+.fotonoticias2{
+    border-radius: 10px;
+    width: 100%;
+  }
 #navbarlateral3 {
     display: flex;
     background-color: white;
@@ -202,15 +207,35 @@ margin: 0;
   }
 
   aside{
-    width: 100%;
+    width: 80%;
     padding: 5%;
+    height: 10%;
+    margin-left: 5%;
   }
 
   .navbarlateral{
-    width: 80%;
+    width: 96%;
     
   }
   .navbarlateral3{
-    width: 80%;
+    width: 30%;
+  }
+
+  .fotonoticias2{
+    border-radius: 10px;
+    width: 98%;
+    height: 100%;
+  }
+
+  div{
+    width: 100%;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h6{
+    font-size: 90%;
   }
    }
