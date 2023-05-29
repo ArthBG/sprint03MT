@@ -50,13 +50,24 @@ p {
         height: 150px;
     }
     div{
+        flex-direction: column;
         text-align: center;
         align-items: center;
     }
     body{
+        width: 100%;
         font-size: 25px;
     }
-    #section1{
+    article{
+        flex-direction: column;
+        width: 100%;
         align-items: center;
+    }
+    div{
+    }
+}
+@media(max-width:530px){
+    #section1{
+        flex-direction: column;
     }
 }
