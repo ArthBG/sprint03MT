@@ -106,5 +106,38 @@ img {
 @media(max-width:768px){
     #ifr{
         height: 500px;
+        }
+        body{
+        font-size: 30px;
+    }
+    #noticiaprincipal{
+        flex-direction: column;
+    }
+    #fotoprincipal{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin:0;
+        padding-top: 2%;
+        }
+    #fotogeologica{
+        width: 90%;
+        height: 100%;
+        margin: 0;
+    }
+    #ultimasnoticias{
+        font-size: 20px;
+        margin: 0;
+    }
+    #ultimasnoticias{
+        flex-direction: column;
+    }
+    .sectionultimasnoticias{
+        flex-direction: column;
+    }
+    #ultimasnoticiasfotos{
+        width: 100%;
+        height: 100%;
+        margin: 0;
     }
 }
