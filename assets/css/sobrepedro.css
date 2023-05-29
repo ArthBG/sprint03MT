@@ -146,4 +146,7 @@ border-left: 6px solid #52416d;
         margin-left: 0%;
         font-size: 100%;
     }
+    #ifr{
+        height: 500px;
+    }
 }

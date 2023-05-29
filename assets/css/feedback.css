@@ -138,6 +138,9 @@ main {
     margin-top: 2%;
 }
 @media(max-width:768px){
+
+    #ifr{
+        height: 500px;}
     body{
         font-size: 40px;
     }

@@ -144,3 +144,8 @@ margin: 0;
 #sectiontext3 {
     margin-top: 10px;
 }
+@media(max-width:768px){
+    #ifr{
+        height: 500px;
+    }
+}

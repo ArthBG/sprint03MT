@@ -139,6 +139,11 @@ img {
         font-size: 20px;
         text-align: justify;
     }
+
+        #ifr{
+            height: 500px;
+        }
+    
 }
 
 

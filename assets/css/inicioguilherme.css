@@ -104,7 +104,10 @@ img {
     width: 10%;
 }
 @media(max-width:768px){
-    body{
+    #ifr{
+        height: 500px;
+        }
+        body{
         font-size: 30px;
     }
     #noticiaprincipal{

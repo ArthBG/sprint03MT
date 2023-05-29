@@ -103,6 +103,9 @@ a {
     main{
         margin: 10px;
     }
+    #ifr{
+        height: 500px;
+    }
 }
 
 @media(max-width:320px) {
@@ -111,5 +114,8 @@ a {
     }
     p {
         font-size: 20px;
+    }
+    #ifr{
+        height: 500px;
     }
 }
