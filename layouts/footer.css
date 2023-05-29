@@ -44,3 +44,28 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+@media (max-width:768px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    div{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    body{
+        width: 100%;
+        font-size: 25px;
+    }
+    article{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
+@media(max-width:530px){
+    #section1{
+        flex-direction: column;
+    }
+}
