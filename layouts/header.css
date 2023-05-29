@@ -3,71 +3,89 @@ body {
     font-family: Arial, sans-serif;
     margin: 0%;
 }
-
 header {
     background-color: #7657b2;
     display: flex;
 }
-
 /*Foto Logo*/
 img {
     width: 15%;
     margin: 15px;
 }
-
 a {
     text-decoration: none;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 /*NavBar*/
 ul {
     display: flex;
 }
-
 li {
     margin: 20px;
     list-style-type: none;
 }
-
 h3:hover {
     background-color: white;
     color: #7657b2;
     border-radius: 3px;
 }
-
+#div1{
+    display: flex;
+}
+#div2{
+    display: flex;
+}
 @media (max-width: 768px) {
-    body{
-        font-size: 25px;
+    header {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    body {
+        font-size: 18px;
+        width: 100%;
     }
     ul {
         padding: 0;
-    }
+        width: 100%;
 
+    }
     li {
-        margin: 10px;
-    }
+        width: 100%;
 
+    }
     h3 {
         text-align: center;
-    }
+        width: 100%;
 
+    }
     h3:hover {
         background-color: white;
         color: #7657b2;
         border-radius: 3px;
+        width: 100%;
     }
-
-
     img {
         padding-top: 25px;
-        margin: auto;
-        width: 100px;
-        height: 100px;
-    }
-    div{
-        background-color: #7657b2;
+        margin: auto;  
+        width: 150px;
+        height: 150px;
     }
 
+    div {
+        background-color: #7657b2;
+        width: 100%;
+    }
+    a{
+        text-align: center;
+        width: 100%;
+    }
+    #div1{
+        flex-direction: column;
+        width: 100%;
+    }
+    #div2{
+        flex-direction: column;
+    }
 }
