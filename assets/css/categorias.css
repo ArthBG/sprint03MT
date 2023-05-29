@@ -130,3 +130,22 @@ a {
         height: 500px;
     }
 }
+@media(max-width:280px) {
+    main{
+        margin: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #ifr{
+        height: 500px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    body{
+        font-size: 20px;
+    }
+}
