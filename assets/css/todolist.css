@@ -32,17 +32,23 @@ input {
     width: 30%;
     height: 50%;
     font-size: 20px;
+    text-align: center;
+
    
 }
 #label2{
-    display: flex;
+    /* display: flex;
+    flex-direction: column; */
     font-size: 20px;
     
 }
 #butao {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin-left: 20px;
     font-size: 20px;
-    width: 17%;
-    height: 15%;
+    width: 20%;
+    height: 20%;
     text-align: center;
     box-shadow: inset 0px 0px 0px -9px #efdcfb;
     background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
@@ -79,4 +85,7 @@ article {
     box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
+}
+strong{
+    
 }
