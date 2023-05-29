@@ -103,7 +103,7 @@ img {
 #ultimasnoticiasfotos {
     width: 10%;
 }
-@media (max-width: 768px){
+@media screen and (max-device-width: 768px) and (min-device-height: 400px){
     #ultimasnoticias{
         font-size: 25px;
     }
