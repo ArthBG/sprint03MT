@@ -63,8 +63,6 @@ p {
         width: 100%;
         align-items: center;
     }
-    div{
-    }
 }
 @media(max-width:530px){
     #section1{
