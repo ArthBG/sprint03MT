@@ -167,46 +167,70 @@ a {
 /* comandos para responsividade */
 @media(max-width: 768px) {
 
-    body{
+    body {
         text-align: center;
     }
-    div{
+
+    div {
         width: 100%;
     }
 
-    #escritatitulo{
-        
+    #imgprincipal {
+        width: 35%;
+        height: 10%;
+        margin: auto;
     }
+
     #divcomentarios {
-        width:  90%;
+        width: 100%;
     }
+
     #textoprincipal {
         /* display: block; */
         text-align: justify;
         margin: 0%;
         width: 90%;
+        justify-content: center;
+        margin: auto;
     }
+
+    h2,
+    h3 {
+        text-align: center;
+        margin-right: -20px;
+    }
+    #começo{
+text-align: center;
+    }
+
     main {
         display: block;
     }
-    #articleprincipal{
+
+    #articleprincipal {
         display: block;
     }
-    iframe {
-     
-    }
+
     
-    #footer {
-        
-    }
     aside {
         text-align: center;
         height: 20%;
-      width: 100%;
-        
+        width: 100%;
+
     }
+
     #noticia {
         width: 100%;
     }
 
+    #articleprincipal {
+        margin: auto;
+    }
+    #escritatitulo{
+        margin-left: 4%;
+    }
+    #container{
+
+       margin:  80%;
+    }
 }
