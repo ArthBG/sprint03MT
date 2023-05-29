@@ -66,6 +66,8 @@ li {
     color: white;
     text-align: left;
     line-height: 30px;
+    margin: 10px;
+    width: 100%;
 }
 p {
     color: black;
@@ -76,4 +78,38 @@ div {
 ul {
     width: 60%;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+h2 {
+    margin: 10px;
+    font-size: 25px;
+}
+h3 {
+    font-size: 25px;
+}
+article {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    background-color: #7657b2;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+img {
+    width: 90%;
+}
+li {
+    font-size: 25px;
+
+}
+#redessociais {
+    width: 20%;
+}
+#contato {
+    color: white;
+    font-size: 35px;
+}
 }
