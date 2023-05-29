@@ -4,26 +4,33 @@ body {
     margin: 0;
     padding: 0;
 }
+.fotonoticias2{
+    border-radius: 10px;
+    width: 100%;
+
+}
+
 iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 #footer {
     margin-bottom: -5px;
 }
-main {
-    display: flex;
-}
+
+
 h1 {
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 p {
     line-height: 30px;
-text-align: justify;
-width: 95%;
-margin: 5px;
+    text-align: justify;
+    width: 95%;
+    margin: 5px;
 }
 
 /*Article Principal*/
@@ -33,16 +40,24 @@ margin: 5px;
 }
 
 /*Article Principal Titulos*/
-h2,
+h2 {
+    margin: 2%;
+    color: #7657b2;
+    font-size: 15px;
+}
+
 h3 {
     color: #7657b2;
-    text-align: center;
+    text-align: justify;
+    margin: 2%;
 }
 
 #escritatitulo {
     font-size: 200%;
+    margin-bottom: 5%;
+    margin-left: 2%;
     color: #7657b2;
-    text-align: center;
+    font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -64,10 +79,11 @@ div {
 /*Noticia Principal*/
 #textoprincipal {
     background-color: white;
-    width: 70%;
+    width: 65%;
     display: flex;
     flex-direction: column;
 }
+
 #noticia {
     line-height: 40px;
     text-align: justify;
@@ -79,32 +95,37 @@ div {
 #container {
     width: 30%;
 }
+
 aside {
     background-color: #E0CFE6;
-    height: 380px;
+    width: 30%;
+    right: 0;
+    top: 50%;
+    margin-top: 32%;
+    position: absolute;
 }
+
 .navbarlateral {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
 }
+
 .fotonoticias {
     border-radius: 10px;
     width: 100%;
 }
 
-.fotonoticias2{
-    border-radius: 10px;
-    width: 100%;
-  }
 #navbarlateral3 {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-}a {
+}
+
+a {
     text-decoration: none;
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -112,47 +133,51 @@ aside {
 
 /*Comentários*/
 #divcomentarios {
-    width: 100%;
+  width: 100%;
+    
 }
+
 .sectioncomentarios {
     background-color: #E0CFE6;
-display: flex;
+    display: flex;
     margin: 10px;
 }
+
 .imgdepoimentos {
     width: 70px;
     margin: 10px;
     border: 5px outset #7657b2;
     height: 70px;
 }
+
 .nomedepoimentos {
     color: #7657b2;
-    text-align: left; 
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 0;
+    margin: 0;
 }
+
 #estrelaavaliacao {
     width: 2%;
     border: none;
     margin: 5px;
 }
+
 #nomeeinsta {
     width: 100%;
 }
+
 #divcomentarios {
     align-items: center;
 }
+
 #div_bottom {
     margin-bottom: 10px;
 }
 
-#sectiontext3 {
-    margin-top: 10px;
-}
-
 @media (max-width: 768px){
     body {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #articleprincipal{
@@ -164,17 +189,19 @@ margin: 0;
 
    #div1{
     width: 100%;
+    text-align: center;
     
    }
    #escritatitulo{
-    font-size: 30px;
+    font-size: 20px;
    }
 
    h2{
-    font-size: 30px;
+    font-size: 20px;
    }
    h3{
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
    }
 
    main{
@@ -185,17 +212,20 @@ margin: 0;
    #container{
     width: 100%;
     margin: 0%;
+
    }
 
    #noticia{ 
     margin-top: 5%;
-
+    font-size: 24px;
     flex-direction: column;
    }
 
    #sectiontext3{
     margin-top: 5%;
     flex-direction: column;
+    font-size: 25px;
+    margin: 10px;
    }
    #divcomentarios{
     margin-top: 15%;
@@ -206,12 +236,6 @@ margin: 0;
     width: 100%;
   }
 
-  aside{
-     width: 80%;
-    padding: 5%;
-    height: 10%;
-    margin-left: 5%; 
-  }
 
   .navbarlateral{
     width: 96%;
@@ -219,6 +243,7 @@ margin: 0;
   }
   .navbarlateral3{
     width: 30%;
+    align-items: center;
   }
 
   .fotonoticias2{
@@ -236,6 +261,21 @@ margin: 0;
   }
 
   h6{
-    font-size: 90%;
+    font-size: 20px;
   }
-   }
+
+  #sectiontext2{
+    font-size: 30px;
+  }
+  #nomeeinsta{
+    font-size: 23px;
+  }
+  aside{
+  position: relative;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+
+ }
+
+   } 
