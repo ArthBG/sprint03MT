@@ -153,7 +153,7 @@ display: flex;
 #div_bottom {
     margin-bottom: 10px;
 }
-@media (max-width: 768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
         font-size: 25px;
     }
