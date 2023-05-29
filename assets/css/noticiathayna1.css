@@ -199,8 +199,9 @@ a {
         text-align: center;
         margin-right: -20px;
     }
-    #começo{
-text-align: center;
+
+    #começo {
+        text-align: center;
     }
 
     main {
@@ -211,26 +212,49 @@ text-align: center;
         display: block;
     }
 
-    
-    aside {
-        text-align: center;
-        height: 20%;
-        width: 100%;
 
+    aside {
+       height: 100%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
     }
 
     #noticia {
         width: 100%;
     }
+    #footer{
+        display: none;
+    }
+    
 
     #articleprincipal {
         margin: auto;
     }
-    #escritatitulo{
+
+    #escritatitulo {
         margin-left: 4%;
     }
-    #container{
 
-       margin:  80%;
+    #container {
+        margin: auto;
+        width: auto;
+        
+    }
+    .navbarlateral {
+        display: block;
+        margin-bottom: 5%;
+        font-size: 50px;
+    }
+    #navbarlateral3 {
+        font-size: 50px;
+        display: block;
+        margin-bottom: 5%;
+        
+    }
+    .fotonoticias {
+        width: 100%;
+        height: 100%;
+        
     }
 }
