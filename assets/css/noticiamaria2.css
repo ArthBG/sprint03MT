@@ -153,35 +153,48 @@ display: flex;
 #div_bottom {
     margin-bottom: 10px;
 }
-@media (max-width: 768px){
-    body{
+@media (max-width: 768px) {
+    body {
         font-size: 25px;
     }
-    #escritatitulo{
+
+    #escritatitulo {
         font-size: 40px;
         text-align: justify;
     }
-    main{
-        display: flex;
+
+    .sectioncomentarios {
+        background-color: #E0CFE6;
         flex-direction: column;
     }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
     #articleprincipal {
         display: flex;
         flex-direction: column;
 
     }
-    #textoprincipal{
+
+    #textoprincipal {
         margin: 5%;
     }
-    #fotoprincipal{
+
+    #fotoprincipal {
 
         margin: auto;
-      
+
     }
-    #divcomentarios{
+
+    #divcomentarios {
         margin: 1%;
         margin-right: 4%;
     }
+
     #noticia {
         margin: auto;
         width: 95%;
@@ -192,7 +205,7 @@ display: flex;
         display: flex;
         flex-direction: column;
         width: 100%;
-        
+
     }
 
     #textoprincipal {
@@ -200,14 +213,30 @@ display: flex;
         margin-right: 2%;
         margin-left: 2%;
     }
-    #divcomentarios{
+
+    #divcomentarios {
         margin-top: 5%;
     }
-    aside{
+
+    aside {
         position: relative;
         width: 90%;
         margin: auto;
         margin-top: 4%;
     }
 
+    .fotonoticias {
+        width: 100%;
+        height: 65%;
+        margin-top: 10%;
+    }
+
+    #estrelaavaliacao {
+        width: 10%;
+    }
+
+    #div_bottom {
+        margin: 0;
+        padding: 0;
+    }
 }
