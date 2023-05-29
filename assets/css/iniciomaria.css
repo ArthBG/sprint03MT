@@ -103,7 +103,39 @@ img {
 #ultimasnoticiasfotos {
     width: 10%;
 }
+@media (max-width: 768px){
+    #ultimasnoticias{
+        font-size: 25px;
+    }
+    #fotoprincipal{
+        width: 90%;
+     }
+    #ultimasnoticiasfotos{
+        width: 20%;
+        height: 20%;
+    }
+   
+    #noticiaprincipal{
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    #titu{
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
+    #resumotema{
+        width: 100%;
+        font-size: 30px;
+        margin: 5%;
+        text-align: justify;
+    }
+    p{
+        font-size: 30px;
+        margin: 0;
 
+    }
+}
 
 
 
