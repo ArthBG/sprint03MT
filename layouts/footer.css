@@ -71,3 +71,16 @@ p {
         font-size: 13px;
     }
 }
+@media (max-width:768px) {
+    #section1{
+        font-size: 8px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 10px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}
