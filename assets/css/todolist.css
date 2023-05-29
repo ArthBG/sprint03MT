@@ -17,7 +17,7 @@ body {
 
 h1 {
     text-shadow: 6px -2px 5px rgba(0, 0, 0, 0.56);
-    background-color: blueviolet;
+    background-color: #8a2be2;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
     color: white;
@@ -32,11 +32,16 @@ input {
     width: 30%;
     height: 50%;
     font-size: 20px;
+   
 }
-
+#label2{
+    display: flex;
+    font-size: 20px;
+    
+}
 #butao {
     font-size: 20px;
-    width: 15%;
+    width: 17%;
     height: 15%;
     text-align: center;
     box-shadow: inset 0px 0px 0px -9px #efdcfb;
@@ -56,8 +61,8 @@ input {
 }
 
 #butao:hover {
-    background: linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
-    background-color: #bc80ea;
+    background: linear-gradient(to bottom, #bc80ea 5%, #8a2be2 100%);
+    background-color: #8a2be2;
 }
 
 #butao:active {
