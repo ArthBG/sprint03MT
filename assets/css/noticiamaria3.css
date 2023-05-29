@@ -3,26 +3,31 @@ body {
     margin: 0;
     padding: 0;
 }
+
 iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 #footer {
     margin-bottom: -5px;
 }
+
 main {
     display: flex;
 }
+
 h1 {
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 p {
     line-height: 30px;
-text-align: justify;
-width: 95%;
-margin: 5px;
+    text-align: justify;
+    width: 95%;
+    margin: 5px;
 }
 
 /*Article Principal*/
@@ -32,11 +37,12 @@ margin: 5px;
 }
 
 /*Article Principal Titulos*/
-h2{
+h2 {
     margin: 2%;
     color: #7657b2;
     font-size: 15px;
 }
+
 h3 {
     color: #7657b2;
     text-align: justify;
@@ -51,6 +57,7 @@ h3 {
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /*Article Principal Imagem*/
 #fotoprincipal {
     width: 90%;
@@ -73,6 +80,7 @@ div {
     display: flex;
     flex-direction: column;
 }
+
 #noticia {
     line-height: 40px;
     text-align: justify;
@@ -84,6 +92,7 @@ div {
 #container {
     width: 30%;
 }
+
 aside {
     background-color: #E0CFE6;
     width: 30%;
@@ -91,23 +100,28 @@ aside {
     top: 87%;
     position: absolute;
 }
+
 .navbarlateral {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
 }
+
 .fotonoticias {
     border-radius: 10px;
     width: 100%;
 }
+
 #navbarlateral3 {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-}a {
+}
+
+a {
     text-decoration: none;
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -117,37 +131,45 @@ aside {
 #divcomentarios {
     width: 100%;
 }
+
 .sectioncomentarios {
     background-color: #E0CFE6;
-display: flex;
+    display: flex;
     margin: 10px;
 }
+
 .imgdepoimentos {
     width: 70px;
     margin: 10px;
     border: 5px outset #7657b2;
     height: 70px;
 }
+
 .nomedepoimentos {
     color: #7657b2;
-    text-align: left; 
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 0;
+    margin: 0;
 }
+
 #estrelaavaliacao {
     width: 2%;
     border: none;
     margin: 5px;
 }
+
 #nomeeinsta {
     width: 100%;
 }
+
 #divcomentarios {
     align-items: center;
 }
+
 #div_bottom {
     margin-bottom: 10px;
 }
+
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
         font-size: 25px;
@@ -234,8 +256,13 @@ margin: 0;
         margin: 0;
         padding: 0;
     }
-        #ifr{
-            height: 500px;
-        }
-    
+
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
 }
