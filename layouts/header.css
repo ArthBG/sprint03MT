@@ -30,27 +30,41 @@ h3:hover {
     color: #7657b2;
     border-radius: 3px;
 }
+#div1{
+    display: flex;
+}
+#div2{
+    display: flex;
+}
 @media (max-width: 768px) {
     header {
         align-items: center;
         flex-direction: column;
+        width: 100%;
     }
     body {
         font-size: 18px;
+        width: 100%;
     }
     ul {
         padding: 0;
+        width: 100%;
+
     }
     li {
-        margin: 10px;
+        width: 100%;
+
     }
     h3 {
         text-align: center;
+        width: 100%;
+
     }
     h3:hover {
         background-color: white;
         color: #7657b2;
         border-radius: 3px;
+        width: 100%;
     }
     img {
         padding-top: 25px;
@@ -61,5 +75,17 @@ h3:hover {
 
     div {
         background-color: #7657b2;
+        width: 100%;
+    }
+    a{
+        text-align: center;
+        width: 100%;
+    }
+    #div1{
+        flex-direction: column;
+        width: 100%;
+    }
+    #div2{
+        flex-direction: column;
     }
 }
