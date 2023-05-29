@@ -93,6 +93,15 @@ aside {
     border-radius: 10px;
     width: 100%;
 }
+
+/* .fotonoticias5 {
+    border-radius: 10px;
+    width: 50%;
+    height: 50%;
+}
+ */
+
+
 #navbarlateral3 {
     display: flex;
     background-color: white;
@@ -144,3 +153,101 @@ margin: 0;
 #sectiontext3 {
     margin-top: 10px;
 }
+
+@media (max-width: 768px){
+    body {
+        font-size: 30px;
+    }
+
+    #articleprincipal{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+   } 
+
+   #div1{
+    width: 100%;
+    
+   }
+   #escritatitulo{
+    font-size: 30px;
+   }
+
+   h2{
+    font-size: 30px;
+   }
+   h3{
+    font-size: 30px;
+   }
+
+   main{
+    flex-direction: column;
+    margin: 0%;
+   }
+
+   #container{
+    width: 100%;
+    margin: 0%;
+   }
+
+   #noticia{ 
+    margin-top: 5%;
+
+    flex-direction: column;
+   }
+
+   #sectiontext3{
+    margin-top: 5%;
+    flex-direction: column;
+   }
+   #divcomentarios{
+    margin-top: 15%;
+    margin-bottom: 5%;
+   }
+
+  #textoprincipal{
+    width: 100%;
+  }
+
+  aside{
+     width: 80%;
+    padding: 5%;
+    height: 10%;
+    margin-left: 5%; 
+  }
+
+  .navbarlateral{
+    width: 96%;
+    
+  }
+  #navbarlateral3{
+    width: 30%;
+  }
+
+  .fotonoticias2{
+    border-radius: 10px;
+    width: 98%;
+    height: 100%;
+  }
+
+  div{
+    width: 100%;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  h6{
+    font-size: 90%;
+  }
+/* 
+  .fotonoticias3{
+    border-radius: 10px;
+    width: 98%;
+    height: 100%;
+    
+  } */
+
+   }
