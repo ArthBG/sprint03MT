@@ -126,4 +126,7 @@ h2 {
         height: 0%;
         display: block;
     }
+    #ifr{
+        height: 500px;
+    }
 }

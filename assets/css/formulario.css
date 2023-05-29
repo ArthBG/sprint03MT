@@ -144,3 +144,8 @@ fieldset.grupo .campo {
 #experiencia {
     margin-bottom: 80px;
 }
+@media(max-width:768px){
+    #ifr{
+        height: 500px;
+    }
+}
