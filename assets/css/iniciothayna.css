@@ -118,7 +118,7 @@ img {
     width: 10%;
 
 }
-
+/* comandos para responsividade */
 @media(max-width: 768px) {
     .sectionultimasnoticias {
         display: block;

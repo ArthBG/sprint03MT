@@ -154,3 +154,9 @@ margin: 0;
 #div_bottom {
     margin-bottom: 10px;
 }
+/* comandos para responsividade */
+@media(max-width: 768px) {
+
+
+
+}
