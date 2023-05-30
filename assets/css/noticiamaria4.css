@@ -80,6 +80,10 @@ div {
     display: flex;
     flex-direction: column;
 }
+h6 {
+    font-size: 20px;
+
+ }
 
 #noticia {
     line-height: 40px;

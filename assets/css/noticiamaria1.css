@@ -243,7 +243,8 @@ a {
     aside {
         position: relative;
         width: 90%;
-        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 4%;
     }
 
