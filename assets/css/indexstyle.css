@@ -839,7 +839,12 @@ html {
         font-size: 30px;
 
     }
-
+    #ifr{
+        height: 500px;
+    }
+    #footer{
+        display: none;
+    }
     .main1 {
         display: flex;
         flex-direction: column;
@@ -860,12 +865,12 @@ html {
         flex-direction: column;
     }
 
-    #ifr {
-        height: 500px;
-    }
 
     .a0 {
-        display: none;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
     }
 
     #thediv {
@@ -884,85 +889,102 @@ html {
 
     .a1 {
         display: inline;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
         height: 100%;
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        width: auto;
+        
     }
     .a2 {
-        grid-template-columns: 300px minmax(300px, 445px);
+        display: inline;
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
-        width: 100%;
-        margin: 0;
-        margin-top: 30%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
+        
     }
     .main2 {
         display: inline;
         /* flex-direction: column; */
     }
     .a3 {
-        display: block;
-        grid-template-columns: 300px minmax(300px, 445px);
-        border-radius: 10px;
-        box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        height: 100%;
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    a3a4 {
         display: inline;
-        width: 60%;
-    }
-    .a4 {
         display: block;
-        grid-template-columns: 300px minmax(300px, 445px);
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
-        width: 100%;
-        margin-left: 20px;
-        margin-right: 20px;;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
+    }
+
+    .a4 {
+        display: inline;
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
+        -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
+        -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
+        height: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
     }
     .a5 {
-        grid-template-columns: 300px minmax(300px, 445px);
+        display: inline;
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
-        width: 100%;
-        margin: 0;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-top: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
     }
     .a6 {
-        display: block;
-        grid-template-columns: 300px minmax(300px, 445px);
+        display: inline;
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
-        width: auto;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 85%;
     }
     .a7a8 {
         display: inline;
         width: auto;
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .a7{
+        height: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 70%;
+    }
+    .a8{
+        height: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 70%;
     }
 }
