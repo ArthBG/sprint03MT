@@ -872,9 +872,9 @@ html {
     .a1 {
         display: inline;
         margin-right: 5%;
-        margin-left: 7%;
+        margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
+        width: 90%;
         height: 100%;
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
@@ -890,9 +890,9 @@ html {
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
         margin-right: 5%;
-        margin-left: 7%;
+        margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
+        width: 90%;
         
     }
     .main2 {
@@ -906,11 +906,11 @@ html {
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        margin-right: 5%;
-        margin-left: 7%;
-        margin-top: 10%;
-        width: 85%;
         height: 100%;
+        margin-right: 5%;
+        margin-left: 5%;
+        margin-top: 10%;
+        width: 90%;
     }
 
     .a4 {
@@ -921,9 +921,9 @@ html {
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         margin-right: 5%;
-        margin-left: 7%;
+        margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
+        width: 90%;
         height: 100%;
     }
     .a5 {
@@ -934,9 +934,9 @@ html {
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         margin-right: 5%;
-        margin-left: 7%;
+        margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
+        width: 90%;
         height: 100%;
     }
     .a6 {
@@ -947,9 +947,9 @@ html {
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         margin-right: 5%;
-        margin-left: 7%;
+        margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
+        width: 90%;
         height: 100%;
     }
     .a7a8 {
