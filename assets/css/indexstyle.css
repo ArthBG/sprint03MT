@@ -2,9 +2,8 @@ body {
     background-color: #E0CFE6;
     margin: 0;
     padding: 0;
-    min-height: 100vh;
-    justify-content: left;
-    overflow-x: hidden;
+
+ 
 }
 
 iframe {
@@ -262,10 +261,7 @@ html {
     align-items: center;
 }
 
-.contentfooter {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .autor1 {
     display: flex;
@@ -357,11 +353,6 @@ html {
     align-items: center;
 }
 
-.contentfooter2 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: -20px;
-}
 
 .autor2 {
     display: flex;
@@ -455,11 +446,7 @@ html {
     align-items: center;
 }
 
-.contentfooter3 {
-    display: flex;
-    justify-content: space-between;
 
-}
 
 .autor3 {
     display: flex;
@@ -552,11 +539,6 @@ html {
     align-items: center;
 }
 
-.contentfooter4 {
-    display: flex;
-    justify-content: space-between;
-
-}
 
 .autor4 {
     display: flex;
@@ -650,11 +632,6 @@ html {
     align-items: center;
 }
 
-.contentfooter5 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
 
 .autor5 {
     display: flex;
@@ -749,10 +726,6 @@ html {
     align-items: center;
 }
 
-.contentfooter6 {
-    display: flex;
-    justify-content: space-between;
-}
 
 .autor6 {
     display: flex;
@@ -842,15 +815,8 @@ html {
     #ifr{
         height: 500px;
     }
-    #footer{
-        display: none;
-    }
+ 
     .main1 {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .main2 {
         display: flex;
         flex-direction: column;
     }
@@ -867,10 +833,11 @@ html {
 
 
     .a0 {
-        margin-right: 5%;
+       /*  margin-right: 5%;
         margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
+        width: 85%; */
+        display: none;
     }
 
     #thediv {
@@ -878,11 +845,24 @@ html {
         flex-direction: column;
     }
 
-    s.bola {
+    .bola {
         width: 100%;
         margin: 0;
     }
-
+    .geo{
+        width: 100%;
+        margin: 0;
+    }
+    .bio{
+        width: 100%;
+        height: 50%;
+        margin: 0;
+    }
+    .inovação{
+        width: 100%;
+        margin: 0;
+    }
+   
     .a1text {
         width: auto;
     }
@@ -941,7 +921,6 @@ html {
         margin-right: 5%;
         margin-left: 5%;
         margin-top: 10%;
-        width: 85%;
     }
     .a5 {
         display: inline;
@@ -969,22 +948,22 @@ html {
     }
     .a7a8 {
         display: inline;
-        width: auto;
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 100%;
     }
     .a7{
-        height: 100%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-left: 15%;
+        margin-right: 15%;
         margin-top: 10%;
-        width: 70%;
+        margin-bottom: 10%;
+        width: 60%;
     }
-    .a8{
-        height: 100%;
-        margin-right: 5%;
-        margin-left: 5%;
-        margin-top: 10%;
-        width: 70%;
+    .lupacat{
+        margin: auto;
+        position: relative;
+    }
+    
+
+    #footer{
+        margin-bottom: -5px;
     }
 }
