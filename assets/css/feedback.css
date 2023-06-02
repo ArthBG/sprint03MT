@@ -138,20 +138,53 @@ main {
     margin-top: 2%;
 }
 @media(max-width:768px){
+    .grupo{
+        align-items: center;
+        text-align: center;
+    }
+    fieldset.grupo .campo{
+        float:none;
+        margin-right: 0;
+    }
+    #titulo{
+        margin: 0;
+    }
+    #subtitulo{
+        margin: 0;
+    }
+    #email{
+        width: 100%;
+        padding: 0;
+    }
+    #nome{
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+    #sobrenome{
+        width: 100%;
+        padding: 0;
+        margin: auto;
 
+    }
     #ifr{
         height: 500px;
     }
     #footer{
+        padding-top: 33%;
         height: 300px;
+        margin: 0;
+        padding: 0;
+    }
+    #experiencia{
+        margin: 0;
+        padding: 0;
+        width: 33%;
     }
     body{
         font-size: 40px;
     }
-    fieldset{
-        display: block;
-        align-items: center;
-    }
+    
     main{
         margin: 0;
         text-align: center;
@@ -159,5 +192,15 @@ main {
     div{
         align-items: center;
 
+    }
+}
+@media (max-width:375px){
+    h1{
+    font-size: 60px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
     }
 }
