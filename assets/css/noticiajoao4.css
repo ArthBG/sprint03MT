@@ -211,10 +211,11 @@ margin: 0;
   }
 
   aside{
-     width: 80%;
+     /* width: 80%;
     padding: 5%;
     height: 10%;
-    margin-left: 5%; 
+    margin-left: 5%;  */
+    display: none;
   }
 
   .navbarlateral{

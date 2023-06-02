@@ -184,7 +184,7 @@ margin: 0;
 
    #noticia{ 
     margin-top: 5%;
-
+    font-size: 24px;
     flex-direction: column;
    }
 
@@ -202,10 +202,11 @@ margin: 0;
   }
 
   aside{
-     width: 80%;
+     /* width: 80%;
     padding: 5%;
     height: 10%;
-    margin-left: 5%; 
+    margin-left: 5%;  */
+    display: none;
   }
 
   .navbarlateral{

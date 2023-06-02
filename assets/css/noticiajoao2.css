@@ -190,7 +190,7 @@ margin: 0;
 
    #noticia{ 
     margin-top: 5%;
-
+    font-size: 20px;
     flex-direction: column;
    }
 
