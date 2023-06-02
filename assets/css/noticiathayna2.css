@@ -149,3 +149,98 @@ margin: 0;
 #div_bottom {
     margin-bottom: 10px;
 }
+/* comandos para responsividade */
+@media(max-width: 768px) {
+
+    body {
+        text-align: center;
+    }
+
+    div {
+        width: 100%;
+    }
+
+    #imgprincipal {
+        width: 35%;
+        height: 10%;
+        margin: auto;
+    }
+
+    #divcomentarios {
+        width: 100%;
+    }
+
+    #textoprincipal {
+        /* display: block; */
+        text-align: justify;
+        margin: 0%;
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    h2,
+    h3 {
+        text-align: center;
+        margin-right: -20px;
+    }
+
+    #começo {
+        text-align: center;
+    }
+
+    main {
+        display: block;
+    }
+
+    #articleprincipal {
+        display: block;
+    }
+
+
+    aside {
+       height: 100%;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5%;
+    }
+
+    #noticia {
+        width: 100%;
+        font-size: 20px;
+    }
+    #footer{
+        display: none;
+    }
+    
+
+    #articleprincipal {
+        margin: auto;
+    }
+
+    #escritatitulo {
+        margin-left: 4%;
+    }
+
+    #container {
+        margin: auto;
+        width: auto;
+        
+    }
+    .navbarlateral {
+        display: block;
+        margin-bottom: 5%;
+        font-size: 50px;
+    }
+    #navbarlateral3 {
+        font-size: 50px;
+        display: block;
+        margin-bottom: 5%;
+        
+    }
+    .fotonoticias {
+        width: 100%;
+        height: 100%;
+        
+    }
+}
