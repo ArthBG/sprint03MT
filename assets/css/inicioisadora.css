@@ -105,9 +105,12 @@ img {
 }
 #ultimasnoticiasfotos {
     width: 10%;
+}/*Final css*/
+@media(max-width:768px){
+    #ifr{
+        height: 500px;
+    }
+    #footer{
+        height: 300px;
+    }
 }
-.div {
-
-}
-
-/*Final css*/

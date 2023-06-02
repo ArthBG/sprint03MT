@@ -101,15 +101,58 @@ a {
         margin-bottom: 5px;
     }
     main{
-        margin: 10px;
+        margin: 20px;
+    }
+    #ifr{
+        height: 500px;
     }
 }
 
+@media(max-width:425px) {
+    main{
+        margin: 15px;
+    }
+    p {
+        font-size: 30px;
+    }
+    #ifr{
+        height: 500px;
+    }
+    #footer{
+        height: 800px;
+    }
+}
 @media(max-width:320px) {
     main{
-        margin: 5px;
+        margin: 15px;
     }
     p {
         font-size: 20px;
+    }
+    #ifr{
+        height: 500px;
+    }
+
+}
+@media(max-width:280px) {
+    main{
+        margin: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #ifr{
+        height: 500px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    body{
+        font-size: 20px;
+
+    #footer{
+        height: 300px;
     }
 }

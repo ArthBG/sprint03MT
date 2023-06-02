@@ -839,5 +839,10 @@ html {
         display: flex;
         flex-direction: column;
     }
-    
+    #ifr{
+        height: 500px;
+    }
+    #footer{
+        height: 300px;
+    }
 }

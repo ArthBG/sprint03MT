@@ -98,7 +98,7 @@ aside {
     background-color: #E0CFE6;
     width: 30%;
     right: 0;
-    top: 87%;
+    top: 95%;
     position: absolute;
 }
 
@@ -171,7 +171,7 @@ a {
     margin-bottom: 10px;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
         font-size: 25px;
     }
@@ -189,7 +189,7 @@ a {
     main {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     #articleprincipal {
@@ -205,6 +205,10 @@ a {
     #fotoprincipal {
 
         margin: auto;
+
+    }
+    h6 {
+       font-size: 20px;
 
     }
 
@@ -239,7 +243,8 @@ a {
     aside {
         position: relative;
         width: 90%;
-        margin: auto;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 4%;
     }
 
@@ -257,4 +262,13 @@ a {
         margin: 0;
         padding: 0;
     }
+
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
 }

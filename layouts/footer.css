@@ -50,22 +50,50 @@ p {
         height: 150px;
     }
     div{
-        flex-direction: column;
         text-align: center;
-        align-items: center;
     }
     body{
         width: 100%;
         font-size: 25px;
     }
     article{
-        flex-direction: column;
         width: 100%;
         align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+    #section1{
+        font-size: 15px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 13px;
     }
 }
-@media(max-width:530px){
+@media (max-width:320px) {
     #section1{
-        flex-direction: column;
+        font-size: 10px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 12px;
+    }
+    img{
+        width: 125px;
+        height: 125px;
+    }
+}
+@media (max-width:280px) {
+    #section1{
+        font-size: 8px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 10px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
     }
 }
