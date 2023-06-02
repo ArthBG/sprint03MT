@@ -950,6 +950,7 @@ html {
         margin-top: 10%;
         margin-right: 2%;
         margin-left: 5%;
+        margin-bottom: 10%;
         width: 90%;
         height: 100%;
     }
@@ -958,15 +959,10 @@ html {
         width: 95%;
     }
     .a7a8 {
-        display: inline;
-        width: 100%;
+        display: none;
     }
     .a7{
-        margin-left: 15%;
-        margin-right: 15%;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        width: 50%;
+       display: none;
     }
     .lupacat{
         margin: auto;
@@ -993,6 +989,7 @@ html {
         margin-left: 4%;
         padding: 0;
     }
+
     #footer{
         margin-bottom: -5px;
     }
