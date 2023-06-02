@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,37 @@
     <link rel="stylesheet" href="../assets/css/todolist.css">
     <title>Painel Administrativo</title>
 </head>
+
 <body>
-    <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
+    <iframe id="header" src="../layouts/header.html" scrolling="no" frameborder="0"></iframe>
+    <article>
+           <h1>Painel Administrativo</h1>
+    
+        <div id="todolist">
+            <label for="" id="label1"><strong>Título:</strong></label><br>
+            <input type="text"required><br>
+            
+            <label for="" id="label1"><strong>Resumo:</strong></label><br>
+            <input type="text" required><br>
+
+            <label for="" id="label1"><strong>Data de publicação:</strong></label><br>
+            <input type="date" required><br>
+
+            <label for="" id="label1"><strong>Autor</strong></label><br>
+            <input type="text" required><br>
+<div id="categorias">
+            <label for="" id="label1"><strong>Categorias:</strong><br>
+            <input type="text" required>
+        
+        
+        </div>
+            <button type="submit" id="butao">enviar</button>
+        </div>
+    </article>
+
+
+    <iframe id="footer" src="../layouts/footer.html"  scrolling="no" frameborder="0"></iframe>
+
 </body>
+
 </html>
