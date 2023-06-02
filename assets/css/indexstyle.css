@@ -817,15 +817,21 @@ html {
  
     .main1 {
         display: flex;
+        margin: 0;
+        padding: 0;
         flex-direction: column;
     }
     .main2{
           display: flex;
+          margin: 0;
+          padding: 0;
         flex-direction: column;
     }
 
     .main3 {
         display: flex;
+        margin: 0;
+        padding: 0;
         flex-direction: column;
     }
 
@@ -835,15 +841,14 @@ html {
     }
 
 
-    .a0 {
-
-    }
-
     #thediv {
         display: flex;
         flex-direction: column;
     }
-
+    .pnews{
+        margin: 2%;
+        padding: 0;
+    }
     .bola {
         width: 100%;
         margin: 0;
@@ -871,10 +876,10 @@ html {
     }
     .a1 {
         display: inline;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
-        width: 92%;
+        width: 90%;
         height: 100%;
         border-radius: 10px;
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
@@ -889,15 +894,11 @@ html {
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
-        width: 92%;
+        width: 90%;
         
-    }
-    .main2 {
-        display: inline;
-        /* flex-direction: column; */
     }
     .a3 {
         display: inline;
@@ -907,8 +908,8 @@ html {
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         height: 100%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
         width: 90%;
     }
@@ -920,8 +921,8 @@ html {
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
         width: 90%;
         height: 100%;
@@ -933,8 +934,8 @@ html {
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
         width: 90%;
         height: 100%;
@@ -946,11 +947,15 @@ html {
         box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -webkit-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
         -moz-box-shadow: 0px 0px 20px 0px rgba(109, 109, 109, 0.75);
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 4%;
+        margin-left: 4%;
         margin-top: 10%;
         width: 90%;
         height: 100%;
+    }
+    .a3a4{
+        display: inline;
+        width: 95%;
     }
     .a7a8 {
         display: inline;
@@ -961,7 +966,7 @@ html {
         margin-right: 15%;
         margin-top: 10%;
         margin-bottom: 10%;
-        width: 60%;
+        width: 50%;
     }
     .lupacat{
         margin: auto;
@@ -977,7 +982,15 @@ html {
         margin-left: 30%;
         display: flex;
     }
+    .sectionbn{
 
+        padding: 0;
+        margin: 0;
+    }
+    .a0{
+        margin: 0;
+        padding: 0;
+    }
     #footer{
         margin-bottom: -5px;
     }
