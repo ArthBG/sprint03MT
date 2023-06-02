@@ -4,14 +4,14 @@ body {
     margin: 0;
     padding: 0;
 }
-iframe {
+/* iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
 #footer {
     margin-bottom: -5px;
-}
+} */
 main {
     display: flex;
 }
@@ -143,6 +143,15 @@ margin: 0;
 
 #sectiontext3 {
     margin-top: 10px;
+}
+#footer {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+#header{
+    width: 100%;
+    margin: 0;
 }
 
 @media (max-width: 768px){
