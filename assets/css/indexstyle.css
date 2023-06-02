@@ -842,4 +842,7 @@ html {
     #ifr{
         height: 500px;
     }
+    #footer{
+        height: 300px;
+    }
 }

@@ -134,9 +134,11 @@ img {
         width: 90%;
 
     }
+
     #fotoenem {
         width: 90%;
     }
+
     h1 {
         font-size: 35px;
     }
@@ -169,11 +171,11 @@ img {
     }
 
     #resumotema {
-        
+
         margin: auto;
         margin-left: 0;
-    margin-right: 0;
-    width: 100%;
+        margin-right: 0;
+        width: 100%;
     }
 
     #ultimasnoticiasfotos {
@@ -186,8 +188,12 @@ img {
     }
 
 
-        #ifr{
-            height: 500px;
-        }
-    
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
 }

@@ -16,7 +16,7 @@ body {
     margin: 10px;
 }
 
-h1{
+h1 {
     text-align: center;
     color: #7657b2;
 }
@@ -41,8 +41,13 @@ a:hover {
     color: #e0cfe6;
     border-radius: 3px;
 }
-@media(max-width:768px){
-    #ifr{
+
+@media(max-width:768px) {
+    #ifr {
         height: 500px;
+    }
+
+    #footer {
+        height: 300px;
     }
 }
