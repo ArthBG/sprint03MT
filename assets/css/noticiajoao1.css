@@ -101,7 +101,7 @@ aside {
     width: 30%;
     right: 0;
     top: 50%;
-    margin-top: 32%;
+    margin-top: 20%;
     position: absolute;
 }
 
@@ -271,10 +271,7 @@ a {
     font-size: 23px;
   }
   aside{
-  position: relative;
-  width: 90%;
-  margin: auto;
-  margin-top: 5%;
+  display: none;
 
  }
 
