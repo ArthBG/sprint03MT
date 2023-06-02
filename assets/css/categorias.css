@@ -118,6 +118,9 @@ a {
     #ifr{
         height: 500px;
     }
+    #footer{
+        height: 800px;
+    }
 }
 @media(max-width:320px) {
     main{
@@ -128,5 +131,28 @@ a {
     }
     #ifr{
         height: 500px;
+    }
+
+}
+@media(max-width:280px) {
+    main{
+        margin: 15px;
+    }
+    p {
+        font-size: 15px;
+    }
+    #ifr{
+        height: 500px;
+    }
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    body{
+        font-size: 20px;
+
+    #footer{
+        height: 300px;
     }
 }
