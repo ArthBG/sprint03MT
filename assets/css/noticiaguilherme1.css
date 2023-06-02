@@ -170,6 +170,7 @@ a {
     }
 
     #articleprincipal {
+        align-items: center;
         flex-direction: column;
     }
 
@@ -184,8 +185,26 @@ a {
         text-align: center;
     }
 
+    #escritatitulo {
+        line-height: normal;
+        font-size: 60px;
+    }
+
+    #divprin {
+        width: 100%;
+    }
+
+    #imgprincipal {
+        width: 100%;
+    }
+
     main {
         flex-direction: column;
         align-items: center;
     }
+
+    #noticia {
+        font-size: 40px;
+    }
+
 }
