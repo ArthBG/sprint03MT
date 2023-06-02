@@ -163,6 +163,10 @@ a {
 #div_bottom {
     margin-bottom: 10px;
 }
+p01{
+    width: 100%;
+}
+
 
 /* comandos para responsividade */
 @media(max-width: 768px) {
@@ -189,7 +193,7 @@ a {
         height: 100%;
     }
     p{
-        font-size: 25px;
+        font-size: 20px;
     }
     .nomedepoimentos{
         font-size: 25px;
@@ -207,7 +211,7 @@ a {
         justify-content: center;
         margin: auto;
     }
-
+   
     h2,
     h3 {
         text-align: center;
@@ -266,5 +270,8 @@ a {
         width: 100%;
         height: 100%;
         
+    }
+    p01{
+        font-size: 20px;
     }
 }
