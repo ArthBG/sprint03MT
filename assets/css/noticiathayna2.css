@@ -151,11 +151,10 @@ margin: 0;
 }
 /* comandos para responsividade */
 @media(max-width: 768px) {
-
     body {
         text-align: center;
     }
-
+   
     div {
         width: 100%;
     }
@@ -244,3 +243,5 @@ margin: 0;
         
     }
 }
+
+   
