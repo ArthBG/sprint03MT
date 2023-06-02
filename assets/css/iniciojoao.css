@@ -224,6 +224,16 @@ img {
     width: 10%;
 }
 
+#footer {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+#header{
+    width: 100%;
+    margin: 0;
+}
+
 @media screen and (max-width: 768px) and ( min-device-height: 400px) {
    /*  body {
         font-size: 30px;
