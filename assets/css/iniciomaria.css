@@ -4,17 +4,21 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
 a {
     text-decoration: none;
 }
+
 iframe {
     width: 100%;
     margin: 0%;
     padding: 0%;
 }
+
 #footer {
     margin-bottom: -5px;
 }
+
 /*Article 1*/
 #noticiaprincipal {
     align-items: center;
@@ -54,10 +58,12 @@ h2 {
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #resumotema {
     margin: 20px;
     width: 50%;
 }
+
 p {
     line-height: 35px;
 }
@@ -67,6 +73,7 @@ article {
     display: flex;
     margin: 20px;
 }
+
 #ultimasnoticias {
     display: flex;
     flex-direction: column;
@@ -74,17 +81,20 @@ article {
     margin: 20px;
     border-radius: 10px;
 }
+
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-left: 300px;
     margin-right: 300px;
 }
+
 #h1texto {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+
 .sectionultimasnoticias {
     display: flex;
     align-items: center;
@@ -92,22 +102,70 @@ article {
     background-color: white;
     margin: 20px;
 }
+
 img {
     border-radius: 10px;
     margin: 5px;
 }
+
 #h2eltimasnoticias {
     color: #7657b2;
     margin-left: 15px;
 }
+
 #ultimasnoticiasfotos {
     width: 10%;
 }
 
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
+    #ultimasnoticias {
+        font-size: 25px;
+    }
 
+    #h2eltimasnoticias {
+        font-size: 25px;
 
+    }
 
+    #fotoprincipal {
+        width: 90%;
+    }
 
+    #ultimasnoticiasfotos {
+        width: 30%;
+        height: 30%;
+        margin: 0;
+    }
 
+    #noticiaprincipal {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
 
+    #titu {
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
 
+    #resumotema {
+        width: 100%;
+        font-size: 30px;
+        margin: 5%;
+        text-align: justify;
+    }
+
+    p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
+}

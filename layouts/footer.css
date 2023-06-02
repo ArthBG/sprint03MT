@@ -44,3 +44,56 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
+@media (max-width:768px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+    div{
+        text-align: center;
+    }
+    body{
+        width: 100%;
+        font-size: 25px;
+    }
+    article{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+
+    }
+    #section1{
+        font-size: 15px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 13px;
+    }
+}
+@media (max-width:320px) {
+    #section1{
+        font-size: 10px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 12px;
+    }
+    img{
+        width: 125px;
+        height: 125px;
+    }
+}
+@media (max-width:280px) {
+    #section1{
+        font-size: 8px;
+        align-items: center;
+    }
+    #escrita{
+        font-size: 10px;
+    }
+    img{
+        width: 100px;
+        height: 100px;
+    }
+}

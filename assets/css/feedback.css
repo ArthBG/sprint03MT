@@ -137,3 +137,27 @@ main {
     margin-left: 33%;
     margin-top: 2%;
 }
+@media(max-width:768px){
+
+    #ifr{
+        height: 500px;
+    }
+    #footer{
+        height: 300px;
+    }
+    body{
+        font-size: 40px;
+    }
+    fieldset{
+        display: block;
+        align-items: center;
+    }
+    main{
+        margin: 0;
+        text-align: center;
+    }
+    div{
+        align-items: center;
+
+    }
+}

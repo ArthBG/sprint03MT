@@ -38,7 +38,7 @@ p {
 }
 
 /*Article Principal Titulos*/
-h2,
+
 h3 {
     color: #7657b2;
     text-align: center;
@@ -160,6 +160,7 @@ a {
     margin-bottom: 10px;
 }
 
+
 @media (max-width: 768px) {
     body {
         font-size: 30px;
@@ -273,5 +274,15 @@ a {
 
     #escritatitulo {
         margin-left: 5%;
+  }
+}
+@media(max-width:768px) {
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+
     }
 }
