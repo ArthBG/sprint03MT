@@ -50,4 +50,11 @@ a:hover {
     #footer {
         height: 300px;
     }
+    .btn{
+        border: solid;
+        border-color: #ffffff;
+        border-radius: 5px;
+        font-size: 30px;
+        background-color: #ffffff;
+    }
 }
