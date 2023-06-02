@@ -164,7 +164,6 @@ a {
     margin-bottom: 10px;
 }
 
-
 /* comandos para responsividade */
 @media(max-width: 768px) {
 
@@ -184,7 +183,21 @@ a {
 
     #divcomentarios {
         width: 100%;
+        height: 100%;
     }
+    #nomeeinsta {
+        height: 100%;
+    }
+    p{
+        font-size: 25px;
+    }
+    .nomedepoimentos{
+        font-size: 25px;
+    }
+    aside {
+        display: none;
+     }
+ 
 
     #textoprincipal {
         /* display: block; */
@@ -195,7 +208,7 @@ a {
         margin: auto;
     }
 
-    
+    h2,
     h3 {
         text-align: center;
         margin-right: -20px;
@@ -215,19 +228,14 @@ a {
 
 
     aside {
-       height: 100%;
-        width: 80%;
-        margin: auto;
-        margin-bottom: 5%;
+       display: none;
     }
 
     #noticia {
         width: 100%;
         font-size: 20px;
     }
-    #footer{
-        display: none;
-    }
+    
     
 
     #articleprincipal {
@@ -258,15 +266,5 @@ a {
         width: 100%;
         height: 100%;
         
-  }
-}
-@media(max-width:768px) {
-    #ifr {
-        height: 500px;
-    }
-
-    #footer {
-        height: 300px;
-
     }
 }
