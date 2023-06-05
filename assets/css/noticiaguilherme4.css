@@ -141,14 +141,19 @@ margin: 0;
     margin-bottom: 10px;
 }
 /* media para quando chegar a telas de celulares */
-@media(max-width:768px){
-    #ifr{
+@media(max-width:768px) {
+    /* iframe do header */
+    #ifr {
         height: 500px;
     }
-    #footer{
+    /* iframe do footer */
+    #footer {
         height: 300px;
-    }#articleprincipal {
+    }
+    /* article com o titulo da noticia e a imagem */
+    #articleprincipal {
         align-items: center;
+        text-align: center;
         flex-direction: column;
     }
 
@@ -157,17 +162,12 @@ margin: 0;
         width: 300px;
         margin: 0;
     }
-
-    #articleprincipal {
-        align-items: center;
-        text-align: center;
-    }
-
+    /* Titulo da noticia */
     #escritatitulo {
         line-height: normal;
         font-size: 40px;
     }
-
+    /* div com o titulo, quem fez e que dia foi feito */
     #divprin {
         width: 100%;
     }
@@ -175,31 +175,32 @@ margin: 0;
     #imgprincipal {
         width: 100%;
     }
-
+    /* main com o texto da noticia e os comentarios */
     main {
         flex-direction: column;
         align-items: center;
     }
-
+    /* texto da noticia */
     #noticia {
         font-size: 30px;
     }
-
+    /* abas do comentarios */
     .sectioncomentarios {
         width: 100%;
         margin: 5px;
     }
-
+    /* para tirar aside */
     aside {
         display: none;
     }
 }
 
 @media(max-width:368px) {
+    /* Titulo da noticia */
     #escritatitulo {
         font-size: 35px;
     }
-
+    /* texto da noticia */
     #noticia {
         font-size: 25px;
         margin: 0;
