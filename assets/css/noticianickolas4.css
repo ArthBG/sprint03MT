@@ -160,4 +160,8 @@ margin: 0;
     #escritatitulo {
         font-size: 30px;
     }
+    body {
+        font-size: 30px;
+        margin: 0;
+    }
 }
