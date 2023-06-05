@@ -6,15 +6,17 @@ body {
     background-color: rgb(240, 225, 255);
 
 }
-
+/* id da div principal */
 #todolist {
     text-align: center;
 }
 
+/* tamanho da letra em label */
 #label1 {
     font-size: 25px;
 }
 
+/* personalização do titulo */
 h1 {
     text-shadow: 6px -2px 5px rgba(0, 0, 0, 0.56);
     background-color: #8a2be2;
@@ -25,7 +27,7 @@ h1 {
     margin-left: 25%;
 
 }
-
+/* personalização do input */
 input {
     margin: 3%;
     border-radius: 20px;
@@ -42,10 +44,10 @@ input {
     font-size: 20px;
     
 }
-#butao {
+/* personalização do botão */
+#send {
     margin-top: 5%;
-    margin-bottom: 8%;
-    margin-left: 20px;
+    margin:auto;
     font-size: 20px;
     width: 30%;
     height: 30%;
@@ -61,21 +63,21 @@ input {
     font-family: Arial;
     font-size: 16px;
     font-weight: bold;
-    padding: 9px 26px;
+    padding: 1% ;
     text-decoration: none;
     text-shadow: 3px 0px 2px #9752cc;
 }
-
-#butao:hover {
+/* hover do botão */
+#send:hover {
     background: linear-gradient(to bottom, #bc80ea 5%, #8a2be2 100%);
     background-color: #8a2be2;
 }
 
-#butao:active {
+/* #send:active {
     position: relative;
-    top: 1px;
-}
-
+    top: 1%;
+} */
+/* personalização do article*/
 article {
     margin-top: 5%;
     background-color: rgb(225, 193, 255);
@@ -86,18 +88,21 @@ article {
     -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
 }
-
+/* para colar o footer em seu devido lugar */
 #footer {
     width: 100%;
+    margin-top: 5%;
     margin-bottom: -5px;
 }
-
-#header{
+/* para colar o header em seu devido lugar
+ */
+ #header{
     width: 100%;
     margin: 0;
 }
-
-@media (max-width: 768px) {
+/* abertura da tag media para respansivo
+ */
+ @media (max-width: 768px) {
 
     
     
