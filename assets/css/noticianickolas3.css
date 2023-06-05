@@ -270,4 +270,7 @@ a {
 #container{
     display: none;
 }
+#escritatitulo{
+    font-size: 30px;
+}
 }
