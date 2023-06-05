@@ -238,5 +238,8 @@ a {
     h6 {
         margin-left: 5%;
     }
+    #container {
+        width: 100%;
+    }
 
 }
