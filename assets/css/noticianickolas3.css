@@ -189,4 +189,8 @@ a {
         flex-direction: column;
         margin: 0;
     }
+    main {
+        flex-direction: column;
+        margin: 0;
+    }
 }
