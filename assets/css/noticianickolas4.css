@@ -246,4 +246,7 @@ margin: 0;
     #articleprincipal {
         flex-direction: column;
     }
+    #container {
+        display: none;
+    }
 }
