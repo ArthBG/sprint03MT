@@ -42,10 +42,9 @@ input {
     font-size: 20px;
     
 }
-#butao {
+#send {
     margin-top: 5%;
-    margin-bottom: 8%;
-    margin-left: 20px;
+    margin:auto;
     font-size: 20px;
     width: 30%;
     height: 30%;
@@ -61,7 +60,7 @@ input {
     font-family: Arial;
     font-size: 16px;
     font-weight: bold;
-    padding: 9px 26px;
+    padding: 2% 2%;
     text-decoration: none;
     text-shadow: 3px 0px 2px #9752cc;
 }
@@ -89,6 +88,7 @@ article {
 
 #footer {
     width: 100%;
+    margin-top: 5%;
     margin-bottom: -5px;
 }
 
