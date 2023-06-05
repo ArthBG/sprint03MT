@@ -249,4 +249,7 @@ margin: 0;
     #container {
         display: none;
     }
+    #escritatitulo {
+        font-size: 30px;
+    }
 }
