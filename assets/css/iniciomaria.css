@@ -73,7 +73,7 @@ article {
     display: flex;
     margin: 20px;
 }
-
+/* article do texto pricipal da notícia */
 #ultimasnoticias {
     display: flex;
     flex-direction: column;
@@ -81,20 +81,20 @@ article {
     margin: 20px;
     border-radius: 10px;
 }
-
+/* foto pricipal da notícia */
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-left: 300px;
     margin-right: 300px;
 }
-
+/* título da notícia */
 #h1texto {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
-
+/* seção do aside */
 .sectionultimasnoticias {
     display: flex;
     align-items: center;
@@ -102,17 +102,17 @@ article {
     background-color: white;
     margin: 20px;
 }
-
+/* configuração geral das imagens */
 img {
     border-radius: 10px;
     margin: 5px;
 }
-
+/* texto das noticias */
 #h2eltimasnoticias {
     color: #7657b2;
     margin-left: 15px;
 }
-
+/*fotos noticias*/
 #ultimasnoticiasfotos {
     width: 10%;
 }
