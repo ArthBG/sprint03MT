@@ -168,5 +168,9 @@ margin: 0;
         font-size: 30px;
         margin: 0;
     }
+    main {
+        flex-direction: column;
+        margin: 0;
+    }
 
 }
