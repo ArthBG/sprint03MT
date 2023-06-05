@@ -144,3 +144,26 @@ fieldset.grupo .campo {
 #experiencia {
     margin-bottom: 80px;
 }
+@media(max-width:768px) {
+    body{
+        font-size: 30px;
+    }
+    #formtotal{
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .grupo{
+        align-items: center;
+        text-align: center;
+    }
+    fieldset.grupo .campo{
+        float:none;
+        margin-right: 0;
+    }
+    .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+        display: inline;
+    }
+    
+}
