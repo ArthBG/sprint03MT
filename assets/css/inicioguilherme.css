@@ -165,4 +165,11 @@ img {
         height: 100%;
         margin: 0;
     }
+    #resumotema{
+        width: 100%;
+    }
+    p{
+        font-size: 30px;
+        width: 100%;
+    }
 }
