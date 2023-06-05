@@ -181,4 +181,8 @@ a {
     #footer {
         height: 300px;
     }
+    body {
+        font-size: 30px;
+        margin: 0;
+    }
 }
