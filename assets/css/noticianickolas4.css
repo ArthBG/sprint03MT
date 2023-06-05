@@ -196,4 +196,7 @@ margin: 0;
         text-align: center;
         margin-left: 0%;
     }
+    h3 {
+        font-size: 90%;
+    }
 }
