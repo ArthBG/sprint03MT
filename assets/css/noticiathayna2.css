@@ -166,31 +166,34 @@ a {
 
 /* comandos para responsividade */
 @media(max-width: 768px) {
-
+/* responsividade do corpo do site */
     body {
         text-align: center;
     }
-
+/* responsividade da div*/
     div {
         width: 100%;
     }
-
+  /* responsividade da imagem principal*/
     #imgprincipal {
         width: 35%;
         height: 10%;
         margin: auto;
     }
-
+/* responsividade dos comentários*/
     #divcomentarios {
         width: 100%;
         height: 100%;
     }
+    /* responsividade do instagram da parte de comentários*/
     #nomeeinsta {
         height: 100%;
     }
+     /* responsividade dos textos*/
     p{
         font-size: 25px;
     }
+    /* responsividade dos depoimentos*/
     .nomedepoimentos{
         font-size: 25px;
     }
