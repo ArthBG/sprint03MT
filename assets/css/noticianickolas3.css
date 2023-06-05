@@ -169,14 +169,14 @@ a {
     }
 
     #escritatitulo {
-        font-size: 40px;
-        text-align: justify;
+        font-size: 170%;
+        text-align: center;
     }
 
     .sectioncomentarios {
         background-color: #E0CFE6;
         flex-direction: column;
-        font-size: 25px;    
+        font-size: 210%;
     }
 
     main {
@@ -188,7 +188,7 @@ a {
     #articleprincipal {
         display: flex;
         flex-direction: column;
-
+        margin: 0%;
     }
 
     #textoprincipal {
@@ -198,15 +198,16 @@ a {
     #fotoprincipal {
 
         margin: auto;
-
+        width: 100%;
     }
+
     h6 {
-       font-size: 20px;
+        font-size: 20px;
 
     }
 
     #estrelaavaliacao {
-        width: 10%;
+        width: 5%;
     }
 
     #div_bottom {
@@ -214,27 +215,36 @@ a {
         padding: 0;
     }
 
+    #ifr {
+        height: 500px;
+    }
+
     #footer {
         height: 300px;
     }
-    
-    .navbarlateral{
+
+    .navbarlateral {
         width: 95%;
         height: 70%;
         text-align: center;
     }
-    #container{
-        font-size: 100%;
+
+    #container {
         text-align: center;
     }
-    .fotonoticias{
+
+    .fotonoticias {
         width: 100%;
         height: 80%;
     }
 
-    aside{
+    aside {
         display: none;
     }
 
-    
+    .imgdepoimentos{
+        width: 20%;
+        height: 20%;
+    }
+
 }
