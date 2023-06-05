@@ -208,3 +208,12 @@ a {
     }
 
 }
+@media(max-width:368px){
+    #escritatitulo{
+        font-size: 35px;
+    }
+    #noticia{
+        font-size: 25px;
+        margin: 0;
+    }
+}
