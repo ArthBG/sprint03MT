@@ -58,12 +58,12 @@ h2 {
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+/* estilização da section do sobre*/
 #resumotema {
     margin: 20px;
     width: 50%;
 }
-
+/* estilização dos textos*/
 p {
     line-height: 35px;
 }
@@ -73,7 +73,7 @@ article {
     display: flex;
     margin: 20px;
 }
-
+/* estilização das últimas notícias*/
 #ultimasnoticias {
     display: flex;
     flex-direction: column;
@@ -81,6 +81,7 @@ article {
     margin: 20px;
     border-radius: 10px;
 }
+/* estilização dos títulos das últimas notícias*/
 
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
@@ -88,12 +89,14 @@ article {
     margin-left: 300px;
     margin-right: 300px;
 }
+/* estilização dos textos das últimas notícias*/
 
 #h1texto {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+/* estilização das últimas notícias*/
 
 .sectionultimasnoticias {
     display: flex;
@@ -103,17 +106,18 @@ article {
     margin: 20px;
 
 }
+/* estilização das linkagem das imagens*/
 
 img {
     border-radius: 10px;
     margin: 5px;
 }
-
+/* estilização dos subtítulos das últimas notícias*/
 #h2eltimasnoticias {
     color: #7657b2;
     margin-left: 15px;
 }
-
+/* estilização das fotos das últimas notícias*/
 #ultimasnoticiasfotos {
     width: 10%;
 
