@@ -263,6 +263,9 @@ a {
         padding: 0;
     }
 
+    #ifr {
+        height: 500px;
+    }
 
     #footer {
         height: 300px;
@@ -283,7 +286,7 @@ a {
     .sectioncomentarios {
         background-color: #E0CFE6;
         flex-direction: column;
-        font-size: 25px;
+        font-size: 210%;
     }
 
     main {
@@ -314,7 +317,7 @@ a {
     }
 
     #estrelaavaliacao {
-        width: 10%;
+        width: 5%;
     }
 
     #div_bottom {
@@ -322,7 +325,13 @@ a {
         padding: 0;
     }
 
+    #ifr {
+        height: 500px;
+    }
 
+    #footer {
+        height: 300px;
+    }
 
     .navbarlateral {
         width: 95%;
@@ -343,5 +352,9 @@ a {
         display: none;
     }
 
+    .imgdepoimentos{
+        width: 20%;
+        height: 20%;
+    }
 
 }
