@@ -283,7 +283,12 @@ a {
   }
   aside{
   display: none;
+ }
 
+ #estrelaavaliacao{
+    width: 7%;
+    border: none;
+    margin: 5px;
  }
 
    } 
