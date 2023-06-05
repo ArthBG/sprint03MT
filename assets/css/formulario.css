@@ -9,6 +9,7 @@ iframe {
     margin: 0%;
     padding: 0%;
 }
+
 #footer {
     margin-bottom: -5px;
 }
@@ -18,16 +19,16 @@ iframe {
     font-family: sans-serif;
     color: #7657b2;
     margin-left: 5%;
-} 
+}
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
     color: #7657b2;
     margin-left: 4%;
-} 
+}
 
-#check{
+#check {
     display: inline-block;
 }
 
@@ -37,7 +38,7 @@ fieldset {
 }
 
 /* Elemento de tag <body> */
-body{
+body {
     background-color: #E0CFE6;
     font-family: sans-serif;
     font-size: 1em;
@@ -46,7 +47,10 @@ body{
 }
 
 /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
-input, select, textarea, button {
+input,
+select,
+textarea,
+button {
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
@@ -59,7 +63,8 @@ button {
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
-.grupo:before, .grupo:after {
+.grupo:before,
+.grupo:after {
     display: table;
 }
 
@@ -71,7 +76,7 @@ button {
 /* Elementos de classe "campo" */
 .campo {
     margin-bottom: 1em;
-    
+
 }
 
 /* Elementos de classe "campo" de tag <label> */
@@ -83,15 +88,18 @@ button {
 
 /* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
 fieldset.grupo .campo {
-    float:  left;
+    float: left;
     margin-right: 1em;
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+.campo input[type="text"],
+.campo input[type="email"],
+.campo select,
+.campo textarea {
     padding: 0.2em;
     border: 1px solid #7657b2;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display: block;
 }
 
@@ -101,7 +109,9 @@ fieldset.grupo .campo {
 }
 
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
-.campo input:focus, .campo select:focus, .campo textarea:focus {
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus {
     background: #E0E0F8;
 }
 
@@ -113,8 +123,8 @@ fieldset.grupo .campo {
     margin-bottom: 1em;
     color: #ffffff;
     padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
     position: absolute;
     top: 90%;
     left: 50%;
@@ -125,17 +135,19 @@ fieldset.grupo .campo {
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
 .botao:hover {
     background: #CCBBFF;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
 
 /* Elementos de classe botão e de tag <select> */
-.botao, select{
+.botao,
+select {
     cursor: pointer;
 
 
 
 }
+
 #formtotal {
     margin-left: 35%;
     margin-top: 2%;
@@ -144,35 +156,99 @@ fieldset.grupo .campo {
 #experiencia {
     margin-bottom: 80px;
 }
+
 @media(max-width:768px) {
-    body{
+    body {
         font-size: 30px;
     }
-    #formtotal{
+
+    #formtotal {
         margin: 0;
         flex-direction: column;
         text-align: center;
         align-items: center;
     }
-    .grupo{
+
+    .grupo {
         align-items: center;
         text-align: center;
     }
-    fieldset.grupo .campo{
-        float:none;
+
+    fieldset.grupo .campo {
+        float: none;
         margin-right: 0;
     }
-    .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
+
+    .campo input[type="text"],
+    .campo input[type="email"],
+    .campo select,
+    .campo textarea {
         display: inline;
     }
-    #experiencia{
-        margin: 0;
+
+    #experiencia {
         width: 90%;
+        margin: 0;
+        padding: 0;
     }
-    .botao{
+
+    .botao {
         top: auto;
     }
+
+    #titulo {
+        margin: 0;
+    }
+
+    #subtitulo {
+        margin: 0;
+    }
+
+    #email {
+        width: 100%;
+        padding: 0;
+    }
+
+    #nome {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+    }
+
+    #sobrenome {
+        width: 100%;
+        padding: 0;
+        margin: auto;
+
+    }
+
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        padding-top: 33%;
+        height: 300px;
+    }
+
+    body {
+        font-size: 40px;
+    }
+
+    div {
+        align-items: center;
+
+    }
 }
+
+
 @media (max-width:390px) {
-    
+    h1{
+        font-size: 60px;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        }
 }
