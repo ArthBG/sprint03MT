@@ -206,19 +206,23 @@ a {
     #noticia {
         font-size: 30px;
     }
-    .sectioncomentarios{
+
+    .sectioncomentarios {
         width: 100%;
         margin: 5px;
     }
-    aside{
+
+    aside {
         display: none;
     }
 }
-@media(max-width:368px){
-    #escritatitulo{
+
+@media(max-width:368px) {
+    #escritatitulo {
         font-size: 35px;
     }
-    #noticia{
+
+    #noticia {
         font-size: 25px;
         margin: 0;
     }
