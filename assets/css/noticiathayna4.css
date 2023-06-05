@@ -88,12 +88,12 @@ div {
     width: 30%;
     font-size: 20px;
 }
-
+/* estilização do aside */
 aside {
     background-color: #E0CFE6;
     height: 380px;
 }
-
+/* estilização da nav lateral */
 .navbarlateral {
     display: flex;
     background-color: white;
@@ -101,12 +101,12 @@ aside {
     border-radius: 10px;
 
 }
-
+/* estilização das fotos das noticias */
 .fotonoticias {
     border-radius: 10px;
     width: 65%;
 }
-
+/* estilização da nav lateral */
 #navbarlateral3 {
     display: flex;
     background-color: white;
@@ -114,7 +114,7 @@ aside {
     border-radius: 5px;
     margin-bottom: 5px;
 }
-
+/* estilização da linkagem */
 a {
     text-decoration: none;
     color: #7657b2;
