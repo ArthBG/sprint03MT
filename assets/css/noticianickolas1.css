@@ -294,7 +294,7 @@ a {
     }
 
     #textoprincipal {
-        margin: 5%;
+        
     }
 
     #fotoprincipal {
@@ -323,5 +323,24 @@ a {
     #footer {
         height: 300px;
     }
+    
+    .navbarlateral{
+        width: 95%;
+        height: 70%;
+        text-align: center;
+    }
+    #container{
+        font-size: 100%;
+        text-align: center;
+    }
+    .fotonoticias{
+        width: 100%;
+        height: 80%;
+    }
 
+    aside{
+        display: none;
+    }
+
+    
 }
