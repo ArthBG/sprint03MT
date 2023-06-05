@@ -172,5 +172,7 @@ margin: 0;
         flex-direction: column;
         margin: 0;
     }
-
+    #textoprincipal {
+        width: 100%;
+    }
 }
