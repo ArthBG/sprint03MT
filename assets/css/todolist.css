@@ -60,20 +60,20 @@ input {
     font-family: Arial;
     font-size: 16px;
     font-weight: bold;
-    padding: 2% 2%;
+    padding: 1% ;
     text-decoration: none;
     text-shadow: 3px 0px 2px #9752cc;
 }
 
-#butao:hover {
+#send:hover {
     background: linear-gradient(to bottom, #bc80ea 5%, #8a2be2 100%);
     background-color: #8a2be2;
 }
 
-#butao:active {
+/* #send:active {
     position: relative;
-    top: 1px;
-}
+    top: 1%;
+} */
 
 article {
     margin-top: 5%;
