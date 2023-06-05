@@ -143,34 +143,34 @@ img {
     h1 {
         font-size: 25px;
     }
-
+   /*  responsividade da foto principal */
     #fotoprincipal {
         margin: auto;
         width: 90%;
         height: 60%;
         margin-bottom: 10%;
     }
-
+   /*  responsividade do article */
     article {
         display: block;
         width: 100%;
         text-align: justify;
         margin: auto;
     }
-
+   /*  responsividade do subtítulo */
     h2 {
         text-align: center;
         margin: auto;
         font-size: 30px;
     }
-
+   /*  responsividade dos textos */
     p {
         padding: 0%;
         font-size: 25px;
         margin: 5%;
         justify-content: center;
     }
-
+   /*  responsividade da section do sobre */
     #resumotema {
         
         margin: auto;
@@ -178,7 +178,7 @@ img {
     margin-right: 0;
     width: 100%;
     }
-
+   /*  responsividade das fotos da parte das últimas notícias  */
     #ultimasnoticiasfotos {
         margin: auto;
         text-align: center;
