@@ -223,5 +223,7 @@ a {
     #articleprincipal {
         flex-direction: column;
     }
-
+    #fotoprincipal {
+        width: 100%;
+    }
 }
