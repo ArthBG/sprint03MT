@@ -76,7 +76,7 @@ input {
     position: relative;
     top: 1%;
 } */
-
+/* personalização do article*/
 article {
     margin-top: 5%;
     background-color: rgb(225, 193, 255);
@@ -98,8 +98,9 @@ article {
     width: 100%;
     margin: 0;
 }
-
-@media (max-width: 768px) {
+/* abertura da tag media para respansivo
+ */
+ @media (max-width: 768px) {
 
     
     
