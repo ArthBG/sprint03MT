@@ -17,6 +17,7 @@ iframe {
 /*Article 1*/
 #noticiaprincipal {
     align-items: center;
+    padding: 0;
 }
 
 /*Article 1 Texto*/
@@ -163,15 +164,9 @@ h2 {
 }
 
 #resumotema {
-    margin: 20px;
-    width: 100%;
+    width: 95%;
     flex-direction: column;
     text-align: center;
-    
-}
-
-p {
-    line-height: 35px;
     
 }
 
