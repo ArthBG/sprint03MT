@@ -87,7 +87,7 @@ article {
     -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
 }
-
+/* para colar o footer em seu devido lugar */
 #footer {
     width: 100%;
     margin-top: 5%;
