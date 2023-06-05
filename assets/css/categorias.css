@@ -73,7 +73,7 @@ a {
 
 @media (max-width: 768px) {
     body {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     iframe {
@@ -81,24 +81,27 @@ a {
     }
 
     main {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
     }
 
     p {
         margin: 0;
+        font-size: 25px;
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 40%;
+        height: 40%;
         margin: 5px;
     }
 
     section {
-        margin: 0;
+        margin: 5%;
         padding: 0;
         margin-bottom: 5px;
+        width: auto;
+        height: 80%;
     }
     main{
         margin: 20px;
@@ -107,7 +110,7 @@ a {
         height: 500px;
     }
 }
-
+/* 
 @media(max-width:425px) {
     main{
         margin: 15px;
@@ -155,4 +158,4 @@ a {
     #footer{
         height: 300px;
     }
-}
+} */
