@@ -16,7 +16,7 @@ body {
     margin: 10px;
 }
 
-h1{
+h1 {
     text-align: center;
     color: #7657b2;
 }
@@ -33,7 +33,6 @@ iframe {
 
 a {
     text-decoration: none;
-    color: ;
 
 }
 
@@ -41,4 +40,27 @@ a:hover {
     background-color: #7657b2;
     color: #e0cfe6;
     border-radius: 3px;
+}
+
+@media(max-width:768px) {
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
+    .btn {
+        border-radius: 10px;
+        background: #7657b2;
+        color: white;
+        border-style: outset;
+        border-color: #7657b2;
+        height: 50px;
+        width: 100px;
+        font: bold15px arial, sans-serif;
+        text-shadow: none;
+        font-size: 30px;
+    }
 }

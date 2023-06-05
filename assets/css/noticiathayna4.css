@@ -1,32 +1,36 @@
-/*Corpo*/
+/*Configurações Gerais*/
+/*corpo*/
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
 }
+/*estilização do header*/
 iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+/*estilização do footer*/
 #footer {
     margin-bottom: -5px;
 }
+
 /*Principal*/
 main {
     display: flex;
 }
+
 /*Título maior*/
 h1 {
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 /*parágrafo*/
 p {
     line-height: 30px;
-text-align: justify;
-width: 95%;
-margin: 5px;
+    text-align: justify;
+    width: 95%;
+    margin: 5px;
 }
 
 /*Article Principal*/
@@ -41,7 +45,7 @@ h3 {
     color: #7657b2;
     text-align: center;
 }
-
+/*estilização das escritas*/
 #escritatitulo {
     font-size: 200%;
     color: #7657b2;
@@ -55,11 +59,11 @@ h3 {
     margin: 20px;
     border: 5px outset #7657b2;
 }
-
+/*estilização da imagem principal*/
 #imgprincipal {
     width: 30%;
 }
-
+/*estilização da div*/
 div {
     width: 50%;
 }
@@ -71,6 +75,7 @@ div {
     display: flex;
     flex-direction: column;
 }
+/*estilização da parte de notícias*/
 #noticia {
     line-height: 40px;
     text-align: justify;
@@ -83,65 +88,190 @@ div {
     width: 30%;
     font-size: 20px;
 }
+/* estilização do aside */
 aside {
     background-color: #E0CFE6;
     height: 380px;
 }
+/* estilização da nav lateral */
 .navbarlateral {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
+
 }
+/* estilização das fotos das noticias */
 .fotonoticias {
     border-radius: 10px;
     width: 65%;
 }
-
+/* estilização da nav lateral */
 #navbarlateral3 {
     display: flex;
     background-color: white;
-    margin: 10px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}a {
+    margin: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+/* estilização da linkagem */
+a {
     text-decoration: none;
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*Comentários*/
+/*estilização dos comentários*/
 #divcomentarios {
     width: 100%;
 }
+/*estilização da section de comentários*/
 .sectioncomentarios {
     background-color: #E0CFE6;
-display: flex;
+    display: flex;
     margin: 10px;
 }
+/*estilização das imagens dos comentários*/
 .imgdepoimentos {
     width: 70px;
     margin: 10px;
     border: 5px outset #7657b2;
     height: 70px;
 }
+/*estilização dos nomes dos comentários*/
 .nomedepoimentos {
     color: #7657b2;
-    text-align: left; 
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 0;
+    margin: 0;
 }
+/*estilização das estrelas de avaliação dos comenmtários*/ 
 #estrelaavaliacao {
     width: 2%;
     border: none;
     margin: 5px;
 }
+/*estilização dos nomes do instagram dos comentários*/
 #nomeeinsta {
     width: 100%;
 }
+/*estilização da parte de cada comentário*/
 #divcomentarios {
     align-items: center;
 }
+/*estilização da margem dos comentários*/
 #div_bottom {
     margin-bottom: 10px;
+}
+
+/* comandos para responsividade */
+@media(max-width: 768px) {
+/* responsividade do corpo do site */
+    body {
+        text-align: center;
+    }
+/* responsividade da div*/
+    div {
+        width: 100%;
+    }
+/* responsividade da imagem principal*/
+    #imgprincipal {
+        width: 35%;
+        height: 10%;
+        margin: auto;
+    }
+/* responsividade dos comentários*/
+    #divcomentarios {
+        width: 100%;
+        height: 100%;
+    }
+    /* responsividade do instagram da parte de comentários*/
+    #nomeeinsta {
+        height: 100%;
+    }
+    /* responsividade dos textos*/
+    p{
+        font-size: 25px;
+    }
+    /* responsividade dos depoimentos*/
+    .nomedepoimentos{
+        font-size: 25px;
+    }
+    /* responsividade do aside*/
+    aside {
+        display: none;
+     }
+ 
+/* responsividade do texto principal*/
+    #textoprincipal {
+
+        text-align: justify;
+        margin: 0%;
+        width: 90%;
+        justify-content: center;
+        margin: auto;
+    }
+/* responsividade dos subtítulos*/
+    h2,
+    h3 {
+        text-align: center;
+        margin-right: -20px;
+    }
+/* responsividade do texto do começo*/
+    #começo {
+        text-align: center;
+    }
+/* responsividade da main*/
+    main {
+        display: block;
+    }
+/* responsividade do article principal*/
+    #articleprincipal {
+        display: block;
+    }
+
+/* responsividade do aside*/
+    aside {
+       display: none;
+    }
+/* responsividade da parte de notícias*/
+    #noticia {
+        width: 100%;
+        font-size: 20px;
+    }
+    
+    
+/* responsividade do article principal*/
+    #articleprincipal {
+        margin: auto;
+    }
+/* responsividade do título*/
+    #escritatitulo {
+        margin-left: 4%;
+    }
+/* responsividade da parte de texto*/
+    #container {
+        margin: auto;
+        width: auto;
+        
+    }
+    /* responsividade da nav lateral*/
+    .navbarlateral {
+        display: block;
+        margin-bottom: 5%;
+        font-size: 50px;
+    }
+    /* responsividade da nav lateral*/
+    #navbarlateral3 {
+        font-size: 50px;
+        display: block;
+        margin-bottom: 5%;
+        
+    }
+    /* responsividade das fotos das notícias*/
+    .fotonoticias {
+        width: 100%;
+        height: 100%;
+        
+    }
 }

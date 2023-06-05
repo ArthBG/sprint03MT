@@ -1,18 +1,19 @@
-
 /*Configurações Gerais*/
 body {
-    font-family: Arial, Helvetica, sans-serif;}
-
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Configurações Gerais*/
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0%;
     padding: 0%;
 
 }
+/* estilização da parte de linkagem */
 a {
     text-decoration: none;
 }
-
+/* estilização do iframe*/
 iframe {
     width: 100%;
 }
@@ -37,7 +38,7 @@ h1 {
     border-radius: 10px;
     border: 5px outset #ffffff;
 }
-
+/* estilização da foto principal*/
 #fotoprincipal {
     background-color: #7657b2;
     border-radius: 10px;
@@ -47,7 +48,7 @@ h1 {
     width: 30%;
 
 }
-
+/* estilização das fotos*/
 #foto {
     text-align: center;
 }
@@ -57,10 +58,12 @@ h2 {
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* estilização da section do sobre*/
 #resumotema {
     margin: 20px;
     width: 50%;
 }
+/* estilização dos textos*/
 p {
     line-height: 35px;
 }
@@ -70,6 +73,7 @@ article {
     display: flex;
     margin: 20px;
 }
+/* estilização das últimas notícias*/
 #ultimasnoticias {
     display: flex;
     flex-direction: column;
@@ -77,36 +81,116 @@ article {
     margin: 20px;
     border-radius: 10px;
 }
+/* estilização dos títulos das últimas notícias*/
+
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-left: 300px;
     margin-right: 300px;
 }
+/* estilização dos textos das últimas notícias*/
+
 #h1texto {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+/* estilização das últimas notícias*/
+
 .sectionultimasnoticias {
     display: flex;
     align-items: center;
     border-radius: 10px;
     background-color: white;
     margin: 20px;
+
 }
+/* estilização das linkagem das imagens*/
+
 img {
     border-radius: 10px;
     margin: 5px;
 }
+/* estilização dos subtítulos das últimas notícias*/
 #h2eltimasnoticias {
     color: #7657b2;
     margin-left: 15px;
 }
+/* estilização das fotos das últimas notícias*/
 #ultimasnoticiasfotos {
     width: 10%;
 
 }
+/* comandos para responsividade */
+@media(max-width: 768px) {
+    /* responsividade da section últimas notícias */
+    .sectionultimasnoticias {
+        display: block;
+        margin: auto;
+        margin-bottom: 10%;
+        width: 80%;
+    }
+    /* responsividade da parte últimas notícias */
+    #ultimasnoticias {
+        margin: auto;
+        display: block;
+        width: auto;
+        width: 90%;
 
+    }
+    /* responsividade da foto da notícia */
+    #fotoenem {
+        width: 90%;
+    }
+    /* responsividade do título */
+    h1 {
+        font-size: 25px;
+    }
+   /*  responsividade da foto principal */
+    #fotoprincipal {
+        margin: auto;
+        width: 90%;
+        height: 60%;
+        margin-bottom: 10%;
+    }
+   /*  responsividade do article */
+    article {
+        display: block;
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+    }
+   /*  responsividade do subtítulo */
+    h2 {
+        text-align: center;
+        margin: auto;
+        font-size: 30px;
+    }
+   /*  responsividade dos textos */
+    p {
+        padding: 0%;
+        font-size: 25px;
+        margin: 5%;
+        justify-content: center;
+    }
+   /*  responsividade da section do sobre */
+    #resumotema {
+        
+        margin: auto;
+        margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    }
+   /*  responsividade das fotos da parte das últimas notícias  */
+    #ultimasnoticiasfotos {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10%;
+        padding: 0;
+        margin: 0;
+    }
+    
 
-
+}

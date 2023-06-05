@@ -3,14 +3,17 @@ body {
     margin: 0;
     padding: 0;
 }
+
 iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 #footer {
     margin-bottom: -5px;
 }
+
 a {
     text-decoration: none;
 }
@@ -54,10 +57,12 @@ h2 {
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 #resumotema {
     margin: 20px;
     width: 50%;
 }
+
 p {
     line-height: 35px;
 }
@@ -67,6 +72,7 @@ article {
     display: flex;
     margin: 20px;
 }
+
 #ultimasnoticias {
     display: flex;
     flex-direction: column;
@@ -74,17 +80,20 @@ article {
     margin: 20px;
     border-radius: 10px;
 }
+
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
     padding-bottom: 10px;
     margin-left: 300px;
     margin-right: 300px;
 }
+
 #h1texto {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 5px;
 }
+
 .sectionultimasnoticias {
     display: flex;
     align-items: center;
@@ -92,14 +101,75 @@ article {
     background-color: white;
     margin: 20px;
 }
+
 img {
     border-radius: 10px;
     margin: 5px;
 }
+
 #h2eltimasnoticias {
     color: #7657b2;
     margin-left: 15px;
 }
+
 #ultimasnoticiasfotos {
     width: 10%;
+}
+
+@media(max-width:768px) {
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
+    body {
+        font-size: 30px;
+    }
+
+    #noticiaprincipal {
+        flex-direction: column;
+    }
+
+    #fotoprincipal {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        padding-top: 2%;
+    }
+
+    #fotogeologica {
+        width: 90%;
+        height: 100%;
+        margin: 0;
+    }
+
+    #ultimasnoticias {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #ultimasnoticias {
+        flex-direction: column;
+    }
+
+    .sectionultimasnoticias {
+        flex-direction: column;
+    }
+
+    #ultimasnoticiasfotos {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    #resumotema{
+        width: 100%;
+    }
+    p{
+        font-size: 30px;
+        width: 100%;
+    }
 }
