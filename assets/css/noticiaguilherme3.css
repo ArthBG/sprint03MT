@@ -159,7 +159,7 @@ a {
 #div_bottom {
     margin-bottom: 10px;
 }
-
+/* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
     #ifr {
         height: 500px;
