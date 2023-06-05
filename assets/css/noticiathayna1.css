@@ -202,7 +202,7 @@ a {
         display: none;
      }
  
-
+/* responsividade do texto principal*/
     #textoprincipal {
         /* display: block; */
         text-align: justify;
@@ -211,61 +211,64 @@ a {
         justify-content: center;
         margin: auto;
     }
-
+/* responsividade dos subtítulos*/
     h2,
     h3 {
         text-align: center;
         margin-right: -20px;
     }
-
+/* responsividade do texto do começo*/
     #começo {
         text-align: center;
     }
-
+/* responsividade da main*/
     main {
         display: block;
     }
-
+/* responsividade do article principal*/
     #articleprincipal {
         display: block;
     }
 
-
+/* responsividade do aside*/
     aside {
        display: none;
     }
-
+/* responsividade da parte de notícias*/
     #noticia {
         width: 100%;
         font-size: 20px;
     }
     
-    
+    /* responsividade do article principal*/
 
     #articleprincipal {
         margin: auto;
     }
-
+/* responsividade do título*/
     #escritatitulo {
         margin-left: 4%;
     }
-
+ /* responsividade da parte de texto*/
     #container {
         margin: auto;
         width: auto;
         
     }
+    /* responsividade da nav lateral*/
     .navbarlateral {
         display: block;
         margin-bottom: 5%;
         font-size: 50px;
     }
+    /* responsividade da nav lateral*/
     #navbarlateral3 {
         font-size: 50px;
         display: block;
         margin-bottom: 5%;
         
     }
+    /* responsividade das fotos das notícias*/
     .fotonoticias {
         width: 100%;
         height: 100%;
