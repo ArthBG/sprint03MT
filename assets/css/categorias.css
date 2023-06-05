@@ -70,6 +70,9 @@ section:hover {
 a {
     text-decoration: none;
 }
+.sec01{
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     body {
@@ -95,13 +98,26 @@ a {
         height: 40%;
         margin: 5px;
     }
-
+    .sec01{
+        width: 90%;
+        height: 18vh;
+    }
+    
+    .sec02{
+        height: 60%;
+        width: 60%;
+    }
+    .sec03{
+        height: 75%;
+        width: 75%;
+        margin-left: -5px;
+    }
     section {
         margin: 5%;
         padding: 0;
         margin-bottom: 5px;
         width: auto;
-        height: 80%;
+        height: auto;
     }
     main{
         margin: 20px;
