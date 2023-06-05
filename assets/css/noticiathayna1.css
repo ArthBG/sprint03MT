@@ -101,7 +101,7 @@ aside {
     border-radius: 10px;
 
 }
-* estilização das fotos das noticias */
+/* estilização das fotos das noticias */
 .fotonoticias {
     border-radius: 10px;
     width: 65%;
@@ -114,52 +114,52 @@ aside {
     border-radius: 5px;
     margin-bottom: 5px;
 }
-
+/* estilização da linkagem */
 a {
     text-decoration: none;
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*Comentários*/
+/*estilização dos comentários*/
 #divcomentarios {
     width: 100%;
 }
-
+/*estilização da section de comentários*/
 .sectioncomentarios {
     background-color: #E0CFE6;
     display: flex;
     margin: 10px;
 }
-
+/*estilização das imagens dos comentários*/
 .imgdepoimentos {
     width: 70px;
     margin: 10px;
     border: 5px outset #7657b2;
     height: 70px;
 }
-
+/*estilização dos nomes dos comentários*/
 .nomedepoimentos {
     color: #7657b2;
     text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
 }
-
+/*estilização das estrelas de avaliação dos comenmtários*/
 #estrelaavaliacao {
     width: 2%;
     border: none;
     margin: 5px;
 }
-
+/*estilização dos nomes do instagram dos comentários*/
 #nomeeinsta {
     width: 100%;
 }
-
+/*estilização da parte de cada comentário*/
 #divcomentarios {
     align-items: center;
 }
-
+/*estilização da margem dos comentários*/
 #div_bottom {
     margin-bottom: 10px;
 }
