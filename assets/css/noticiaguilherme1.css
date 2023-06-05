@@ -187,7 +187,7 @@ a {
 
     #escritatitulo {
         line-height: normal;
-        font-size: 60px;
+        font-size: 40px;
     }
 
     #divprin {
@@ -204,9 +204,15 @@ a {
     }
 
     #noticia {
-        font-size: 40px;
+        font-size: 30px;
     }
-
+    .sectioncomentarios{
+        width: 100%;
+        margin: 5px;
+    }
+    aside{
+        display: none;
+    }
 }
 @media(max-width:368px){
     #escritatitulo{
