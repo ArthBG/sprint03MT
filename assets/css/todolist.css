@@ -11,6 +11,7 @@ body {
     text-align: center;
 }
 
+/* tamanho da letra em label */
 #label1 {
     font-size: 25px;
 }
