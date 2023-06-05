@@ -70,10 +70,13 @@ section:hover {
 a {
     text-decoration: none;
 }
+.sec01{
+    text-decoration: none;
+}
 
 @media (max-width: 768px) {
     body {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     iframe {
@@ -81,24 +84,40 @@ a {
     }
 
     main {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
     }
 
     p {
         margin: 0;
+        font-size: 25px;
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 40%;
+        height: 40%;
         margin: 5px;
     }
-
+    .sec01{
+        width: 90%;
+        height: 18vh;
+    }
+    
+    .sec02{
+        height: 60%;
+        width: 60%;
+    }
+    .sec03{
+        height: 75%;
+        width: 75%;
+        margin-left: -5px;
+    }
     section {
-        margin: 0;
+        margin: 5%;
         padding: 0;
         margin-bottom: 5px;
+        width: auto;
+        height: auto;
     }
     main{
         margin: 20px;
@@ -107,7 +126,7 @@ a {
         height: 500px;
     }
 }
-
+/* 
 @media(max-width:425px) {
     main{
         margin: 15px;
@@ -155,4 +174,4 @@ a {
     #footer{
         height: 300px;
     }
-}
+} */
