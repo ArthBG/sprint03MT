@@ -146,5 +146,61 @@ margin: 0;
     }
     #footer{
         height: 300px;
+    }#articleprincipal {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #fotoprincipal {
+        height: 300px;
+        width: 300px;
+        margin: 0;
+    }
+
+    #articleprincipal {
+        align-items: center;
+        text-align: center;
+    }
+
+    #escritatitulo {
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    #divprin {
+        width: 100%;
+    }
+
+    #imgprincipal {
+        width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #noticia {
+        font-size: 30px;
+    }
+
+    .sectioncomentarios {
+        width: 100%;
+        margin: 5px;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+@media(max-width:368px) {
+    #escritatitulo {
+        font-size: 35px;
+    }
+
+    #noticia {
+        font-size: 25px;
+        margin: 0;
     }
 }
