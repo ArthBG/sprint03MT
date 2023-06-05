@@ -120,13 +120,14 @@ img {
 }
 /* comandos para responsividade */
 @media(max-width: 768px) {
+    /* responsividade da section últimas notícias */
     .sectionultimasnoticias {
         display: block;
         margin: auto;
         margin-bottom: 10%;
         width: 80%;
     }
-
+    /* responsividade da parte últimas notícias */
     #ultimasnoticias {
         margin: auto;
         display: block;
@@ -134,9 +135,11 @@ img {
         width: 90%;
 
     }
+    /* responsividade da foto da notícia */
     #fotoenem {
         width: 90%;
     }
+    /* responsividade do título */
     h1 {
         font-size: 25px;
     }
