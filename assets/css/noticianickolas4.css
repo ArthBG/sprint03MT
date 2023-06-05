@@ -151,6 +151,10 @@ margin: 0;
     #escritatitulo{
         width: 90%;
     }
+    #noticia {
+        flex-direction: column;
+        margin: 0;
+    }
     #articleprincipal {
         flex-direction: column;
     }
@@ -164,4 +168,5 @@ margin: 0;
         font-size: 30px;
         margin: 0;
     }
+
 }
