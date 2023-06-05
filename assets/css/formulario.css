@@ -165,5 +165,14 @@ fieldset.grupo .campo {
     .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea{
         display: inline;
     }
+    #experiencia{
+        margin: 0;
+        width: 90%;
+    }
+    .botao{
+        top: auto;
+    }
+}
+@media (max-width:390px) {
     
 }
