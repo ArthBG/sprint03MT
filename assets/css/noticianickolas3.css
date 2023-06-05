@@ -230,5 +230,10 @@ a {
         font-size: 110%;
         text-align: center;
     }
+    aside {
+        height: 100%;
+        width: 80%;
+        margin: 0%;
+    }
 
 }
