@@ -115,18 +115,14 @@ h2 {
 
 @media (max-width: 768px) {
     #fotopessoal {
-        height: 50%;
-        width: 75%;
+        height: 30%;
+        width: 300%;
         margin: auto;
-    }
-
-    #foto {
-        width: 100%;
     }
 
     #article1 {
         flex-direction: column;
-        width: 90%;
+
     }
 
     #sobremim {
