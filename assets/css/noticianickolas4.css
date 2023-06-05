@@ -205,4 +205,8 @@ margin: 0;
     #fotoprincipal {
         width: 100%;
     }
+    #escritatitulo {
+        font-size: 110%;
+        text-align: center;
+    }
 }
