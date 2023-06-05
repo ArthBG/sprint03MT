@@ -196,4 +196,11 @@ a {
     #textoprincipal {
         width: 100%;
     }
+    aside {
+        width: 90%;
+        padding: 5%;
+        margin-right: 0%;
+        margin-left: 5%;
+    }
+
 }
