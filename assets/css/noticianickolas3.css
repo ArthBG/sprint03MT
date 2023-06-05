@@ -185,4 +185,8 @@ a {
         font-size: 30px;
         margin: 0;
     }
+    #noticia {
+        flex-direction: column;
+        margin: 0;
+    }
 }
