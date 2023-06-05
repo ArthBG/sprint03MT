@@ -105,36 +105,37 @@ h2 {
 
 /*end*/
 
+/*responsividade*/
 @media (max-width: 768px) {
     .section1 {
         width: 100%;
         height: 100%;
         font-size: 100%;
     }
-
+/*configurações section 2*/
     .section2 {
         width: 100%;
         height: 100%;
         margin-left: 0%;
         font-size: 100%;
     }
-
+/*configuralções sobre nós 1*/
     #int1 {
         width: 100%;
         height: 0%;
         display: block;
     }
-
+/*configurações sobre nós 2*/
     #int2 {
         width: 100%;
         height: 0%;
         display: block;
     }
-
+/*configurações iframe*/
     #ifr {
         height: 500px;
     }
-
+/*configurações footer*/
     #footer {
         height: 300px;
     }
