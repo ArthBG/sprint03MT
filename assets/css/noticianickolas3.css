@@ -252,4 +252,8 @@ a {
     #titus {
         width: 100%;
     }
+    #divcomentarios {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
 }
