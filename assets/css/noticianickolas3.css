@@ -15,6 +15,7 @@ iframe {
     margin-bottom: -5px;
 }
 
+
 main {
     display: flex;
 }
@@ -170,5 +171,130 @@ a {
 
     #footer {
         height: 300px;
+    }
+    body {
+        font-size: 30px;
+        margin: 0;
+    }
+
+    #container11 {
+        flex-direction: column;
+        margin: 5%;
+    }
+
+    #noticia {
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    main {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    #textoprincipal {
+        width: 100%;
+    }
+
+    aside {
+        width: 90%;
+        padding: 5%;
+        margin-right: 0%;
+        margin-left: 5%;
+    }
+
+    #escritatitulo {
+        font-size: 40px;
+        text-align: justify;
+    }
+
+    h2 {
+        font-size: 1;
+        margin-top: 5%;
+        font-size: 90%;
+    }
+
+    h1 {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-left: 0%;
+    }
+
+    h3 {
+        font-size: 90%;
+    }
+
+    #articleprincipal {
+        flex-direction: column;
+    }
+
+    #fotoprincipal {
+        width: 100%;
+    }
+
+    #escritatitulo {
+        font-size: 110%;
+        text-align: center;
+    }
+
+    aside {
+        height: 100%;
+        width: 80%;
+        margin: 0%;
+    }
+
+    h6 {
+        margin-left: 5%;
+    }
+
+    #container {
+        width: 100%;
+    }
+
+    .fotonoticias {
+        margin-top: 15%;
+        width: 100%;
+
+    }
+
+    #escritatitulo {
+        margin: 0%;
+    }
+
+    #titus {
+        width: 100%;
+    }
+
+    #container11 {
+        width: 100%;
+    }
+
+    #divcomentarios {
+        margin-top: 15%;
+        margin-bottom: 5%;
+    }
+
+    #noticia {
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+    #divv{
+        text-align: center;
+        width: 100%;
+  }
+}
+@media(max-width:768px) {
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+
+    }
+    #articleprincipal{
+        flex-direction: column;
     }
 }
