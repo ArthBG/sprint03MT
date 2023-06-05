@@ -267,4 +267,7 @@ a {
   #articleprincipal{
     flex-direction: column;
 }
+#container{
+    display: none;
+}
 }
