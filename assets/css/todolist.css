@@ -104,8 +104,18 @@ article {
  */
  @media (max-width: 768px) {
 
+    article{
+        width: 90%;
+     margin:auto ;
+     margin-bottom: 10%;
+    }
     
+    input{
+        width: 70%;
+    }
     
 }
+    
+
 
 
