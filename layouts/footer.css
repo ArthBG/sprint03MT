@@ -46,7 +46,7 @@ p {
 }
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     img{
-        width: 50%;
+        width: 10%;
     }
     div{
         text-align: center;
