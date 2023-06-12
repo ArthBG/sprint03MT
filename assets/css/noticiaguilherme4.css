@@ -169,6 +169,13 @@ a {
         width: 100%;
     }
 
+    /* article com o titulo da noticia e a imagem */
+    #articleprincipal {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
     .nomedepoimentos {
         font-size: 25px;
     }
@@ -178,22 +185,15 @@ a {
         width: 100%;
     }
 
-    #textoprincipal {
-        align-items: center;
-        width: 100%;
-    }
-
-    /* article com o titulo da noticia e a imagem */
-    #articleprincipal {
-        align-items: center;
-        text-align: center;
-        flex-direction: column;
-    }
-
     #fotoprincipal {
         height: 300px;
         width: 300px;
         margin: 0;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
     }
 
     /* Titulo da noticia */

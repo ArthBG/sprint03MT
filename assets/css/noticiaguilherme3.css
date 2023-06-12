@@ -162,18 +162,10 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
-    p {
-        font-size: 25px;
-    }
 
     /* iframe do footer */
     #footer {
         height: 100%;
-        width: 100%;
-    }
-
-    #textoprincipal {
-        align-items: center;
         width: 100%;
     }
 
@@ -184,10 +176,24 @@ a {
         flex-direction: column;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     #fotoprincipal {
         height: 300px;
         width: 300px;
         margin: 0;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
     }
 
     /* Titulo da noticia */
@@ -205,15 +211,6 @@ a {
         width: 100%;
     }
 
-    .nomedepoimentos {
-        font-size: 25px;
-    }
-
-    #textoprincipal {
-        align-items: center;
-        width: 100%;
-    }
-
     /* main com o texto da noticia e os comentarios */
     main {
         flex-direction: column;
@@ -223,6 +220,10 @@ a {
     /* texto da noticia */
     #noticia {
         font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
     }
 
     /* para tirar aside */
