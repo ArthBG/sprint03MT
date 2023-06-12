@@ -3,10 +3,12 @@ body {
     margin: 0%;
     padding: 0%;
 }
+
 article {
     text-align: left;
     display: flex;
 }
+
 a {
     text-decoration: none;
 }
@@ -19,6 +21,7 @@ footer {
     bottom: 0%;
     width: 100%;
 }
+
 section {
     display: flex;
 }
@@ -28,6 +31,7 @@ img {
     width: 10%;
     margin: 5px;
 }
+
 #escrita {
     text-align: left;
     margin: 10px;
@@ -39,49 +43,59 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 20px;
 }
+
 p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
-    img{
+
+
+@media screen and (max-device-width: 768px) and (min-device-height: 320px) {
+    img {
         display: none;
+
     }
-    div{
+
+    div {
         text-align: center;
     }
-    body{
+
+    body {
         font-size: 25px;
     }
-    article{
+
+    article {
         width: 100%;
         align-items: center;
         flex-direction: column;
         display: flex;
 
     }
-    #section1{
+
+    #section1 {
         font-size: 15px;
         margin-right: 7%;
         margin-left: 7%;
         align-items: center;
     }
-    #escrita{
+
+    #escrita {
         text-align: center;
         font-size: 15px;
     }
+
     .dive{
         margin: 0;
     }
-    #i{
+
+    #i {
         margin: 2%;
     }
-    .divf{
+
+    .divf {
         padding: 0;
         margin-left: 0;
         margin-right: 4%;
     }
 }
-
-
