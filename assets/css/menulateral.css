@@ -15,6 +15,48 @@ img{
 
 a{
     text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px ;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a:hover{
+    opacity: 1.7;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+    /* height: 8vh; */
+    font-family: system-ui, -apple-system,sans-serif;
+}
+
+.list-itens{
+    list-style: none;
+    display: flex;
+}
+
+.list-itens li{
+    letter-spacing: 3px;
+  margin-left: 32px;
+}
+.mobile-menu{
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background-color: black;
+    margin: 8px;
+}
+
+@media (max-width: 768px) {
+    .list-itens{
+
+        position: absolute;
+    }
 }
