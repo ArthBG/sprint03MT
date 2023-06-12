@@ -162,6 +162,9 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
+    p {
+        font-size: 25px;
+    }
 
     /* iframe do footer */
     #footer {
