@@ -113,47 +113,48 @@ h2 {
     border-left: 6px solid #52416d;
 }
 
-@media (max-width: 768px) {
+/*responsividade*/
+@media screen and (max-device-width: 768px) and (min-device-height: 480px) {
     #fotopessoal {
         height: 30%;
-        width: 320%;
+        width: 300%;
         margin: auto;
     }
-
+/*configurações article 1*/
     #article1 {
         flex-direction: column;
 
     }
-
+/*configurações sobre mim*/
     #sobremim {
         font-size: 100%;
         text-align: center;
         width: 100%;
     }
-
+/*configurações texto sobre mim*/
     #sobremimtexto {
         text-align: center;
         width: 35%;
         margin: -1, 3%;
         padding: 0%;
     }
-
+/*configurações article 2*/
     #article2 {
         flex-direction: column;
     }
-
+/*configurações foto*/
     #foto {
         text-align: center;
         height: 100%;
     }
-
+/*configurações section 1*/
     .section1 {
         width: 100%;
         height: 100%;
         margin-top: 4%;
         font-size: 100%;
     }
-
+/*configurações section 2*/
     .section2 {
         width: 100%;
         height: 100%;
@@ -161,11 +162,11 @@ h2 {
         margin-left: 0%;
         font-size: 100%;
     }
-
+/*configurações iframe*/
     #ifr {
         height: 500px;
     }
-
+/*configurações footer*/
     #footer {
         height: 300px;
     }

@@ -105,37 +105,43 @@ h2 {
 
 /*end*/
 
-@media (max-width: 768px) {
+/*responsividade*/
+@media screen and (max-device-width: 768px) and (min-device-height: 480px) {
+    article{
+        display: inline;
+        align-items: center;
+    }
     .section1 {
+        margin: 0;
         width: 100%;
         height: 100%;
         font-size: 100%;
-    }
-
+        text-align: center;
+        }
+/*configurações section 2*/
     .section2 {
+        margin: 0;
         width: 100%;
         height: 100%;
         margin-left: 0%;
         font-size: 100%;
     }
-
+/*configuralções sobre nós 1*/
     #int1 {
         width: 100%;
         height: 0%;
-        display: block;
+        display: inline;
+        text-align: center;
+        align-items: center;
     }
-
+/*configurações sobre nós 2*/
     #int2 {
         width: 100%;
         height: 0%;
         display: block;
     }
-
-    #ifr {
-        height: 500px;
-    }
-
-    #footer {
-        height: 300px;
+   .img1{
+        width: 80%;
+        margin-left: 0;
     }
 }
