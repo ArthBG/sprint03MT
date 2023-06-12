@@ -131,8 +131,10 @@ text-decoration: none;
         height: 500px;
     }
     #vest01{
-        width: 50%;
+        width: 110%;
+        margin: 5%;
         height: auto;
+        margin-left: -20px ;
     }
         #fut01{
             width: 35%;
