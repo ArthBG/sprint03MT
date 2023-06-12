@@ -12,13 +12,17 @@ function sendN() {
     let autor = document.getElementById("autor").value;
     let categ = document.getElementById("categories").value;
     let datfix = dat.split("-").reverse().join("/");
-    let dateT = new Date(dat);
+    let datnw = new Date(dat);
     let todayT = new Date();
+    let dayT = todayT.getDate() - 1;
+    let monthT = todayT.getMonth() + 1;
+    let yearT = todayT.getFullYear();
+    let dateT = new Date(`${yearT}-${monthT}-${dayT}`);
     console.log(dateT);
     console.log(todayT);
 
 
-    if(dateT < todayT){
+    if(datnw < dateT){
         alert("Insira uma data válida!");
     }
 
