@@ -199,7 +199,7 @@ a {
     /* Titulo da noticia */
     #escritatitulo {
         line-height: normal;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     /* div com o titulo, quem fez e que dia foi feito */
@@ -233,12 +233,6 @@ a {
 }
 
 @media(max-width:368px) {
-
-    /* Titulo da noticia */
-    #escritatitulo {
-        font-size: 35px;
-    }
-
     /* texto da noticia */
     #noticia {
         font-size: 25px;
