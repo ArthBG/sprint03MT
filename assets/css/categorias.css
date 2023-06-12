@@ -135,7 +135,8 @@ text-decoration: none;
         height: auto;
     }
         #fut01{
-            text-decoration: none;
+            width: 35%;
+        margin: 5%;
         }
 }
 /* 
