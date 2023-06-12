@@ -4,6 +4,7 @@ let adat = [];
 let aautor = [];
 let acateg = [];
 let cssI = 0;
+let editI = -1;
 
 function sendN() {
     let title = document.getElementById("title").value;
@@ -49,7 +50,6 @@ function sendN() {
         document.getElementById("resume").value = "";
         document.getElementById("date").value = "";
         document.getElementById("autor").value = "";
-        document.getElementById("resume").value = "";
         document.getElementById("categories").value = "";
 
     }
@@ -61,12 +61,14 @@ function removeN(cssInone) {
     let section = document.getElementById(sectionId);
     section.style.display = "none";
 }
+
 function editN(cssedit) {
-    divtitle += atitle[cssedit];
-    divresu += aresu[cssedit];
-    divdat += adat[cssedit];
-    divautor += aautor[cssedit];
-    divcateg += acateg[cssedit];
+        document.getElementById("title").value = atitle[cssedit];
+        document.getElementById("resume").value = aresu[cssedit];
+        document.getElementById("date").value = adat[cssedit];
+        document.getElementById("autor").value = aautor[cssedit];
+        document.getElementById("categories").value = acateg[cssedit];
+        editI = cssI
 }
 
 
