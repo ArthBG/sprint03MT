@@ -12,7 +12,7 @@ body {
 }
 
 /* tamanho da letra em label */
-#label1 {
+.label1 {
     font-size: 25px;
 }
 
@@ -32,7 +32,7 @@ input {
     margin: 3%;
     border-radius: 20px;
     width: 30%;
-    height: 50%;
+    height: auto;
     font-size: 20px;
     text-align: center;
 
@@ -41,14 +41,14 @@ input {
 #label2{
     /* display: flex;
     flex-direction: column; */
-    font-size: 20px;
+    font-size: 25px;
     
 }
 /* personalização do botão */
 #send {
     margin-top: 5%;
     margin:auto;
-    font-size: 20px;
+    font-size: 25px;
     width: 30%;
     height: 30%;
     text-align: center;
@@ -83,7 +83,7 @@ article {
     background-color: rgb(225, 193, 255);
     border-radius: 30px;
     width: 50%;
-    margin-left: 25%;
+    margin: auto;
     box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
@@ -100,6 +100,60 @@ article {
     width: 100%;
     margin: 0;
 }
+h1 {
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+}
+.news section {
+    background-color: rgb(225, 193, 255);
+    box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
+    -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
+    -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
+    padding: 1%;
+    color: rgb(0, 0, 0);
+    width: 80%;
+    margin: auto;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.news section #date {
+    color: white;
+    opacity: 1;
+    font-size: 17px;
+}
+
+.news section p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.news section h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+
+    font-size: 20px;
+    margin-bottom:2% ;
+
+}
+
+
+button {
+    background-color: #6a049a;
+    color: #f5f5f5;
+    font-size: 20px;
+    height: auto;
+    width: 30%;
+    margin: 2%;
+    border: solid 4px #6a049a;;
+    border-radius: 10px;
+}
 /* abertura da tag media para respansivo
  */
  @media (max-width: 768px) {
@@ -112,10 +166,7 @@ article {
     
     input{
         width: 70%;
+        height: auto;
     }
     
 }
-    
-
-
-
