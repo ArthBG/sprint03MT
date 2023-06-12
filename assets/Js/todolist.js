@@ -3,7 +3,7 @@ let aresu = [];
 let adat = [];
 let aautor = [];
 let acateg = [];
-let cssI = 0
+let cssI = 0;
 
 function sendN() {
     let title = document.getElementById("title").value;
@@ -12,9 +12,15 @@ function sendN() {
     let autor = document.getElementById("autor").value;
     let categ = document.getElementById("categories").value;
     let datfix = dat.split("-").reverse().join("/");
+    let dateT = new Date(dat);
+    let todayT = new Date();
+    console.log(dateT);
+    console.log(todayT);
 
 
-
+    if(dateT < todayT){
+        alert("Insira uma data válida!");
+    }
 
     if (title && resu && dat && autor && categ) {
         atitle.push(title);
@@ -47,14 +53,13 @@ function sendN() {
 }
 
 function removeN(cssInone) {
-
     let sectionId = "newssec" + cssInone;
     let section = document.getElementById(sectionId);
     section.style.display = "none";
 }
 function editN(cssedit) {
     divtitle += atitle[cssedit];
-    divresu +=aresu[cssedit];
+    divresu += aresu[cssedit];
     divdat += adat[cssedit];
     divautor += aautor[cssedit];
     divcateg += acateg[cssedit];
