@@ -73,7 +73,12 @@ a {
 .sec01{
     text-decoration: none;
 }
-
+#vest01{
+text-decoration: none;
+}
+#fut01{
+    text-decoration: none;
+}
 @media (max-width: 768px) {
     body {
         font-size: 20px;
@@ -125,6 +130,13 @@ a {
     #ifr{
         height: 500px;
     }
+    #vest01{
+        width: 50%;
+        height: auto;
+    }
+        #fut01{
+            text-decoration: none;
+        }
 }
 /* 
 @media(max-width:425px) {
