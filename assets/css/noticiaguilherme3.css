@@ -162,9 +162,15 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
+
     /* iframe do footer */
     #footer {
         height: 100%;
+        width: 100%;
+    }
+
+    #textoprincipal {
+        align-items: center;
         width: 100%;
     }
 

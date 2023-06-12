@@ -180,6 +180,10 @@ a {
         width: 300px;
         margin: 0;
     }
+    #textoprincipal{
+        align-items: center;
+        width: 100%;
+    }
 
     /* Titulo da noticia */
     #escritatitulo {
