@@ -172,17 +172,19 @@ a {
     }
 
     body {
-        font-size: 25px;
+        font-size: 45px;
+        font-family: Arial;
     }
 
     #escritatitulo {
-        font-size: 40px;
+        font-size: 60px;
         text-align: justify;
     }
 
     .sectioncomentarios {
         background-color: #E0CFE6;
         flex-direction: column;
+
     }
 
     main {
