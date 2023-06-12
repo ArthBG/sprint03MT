@@ -176,6 +176,15 @@ a {
         flex-direction: column;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     #fotoprincipal {
         height: 300px;
         width: 300px;

@@ -169,11 +169,6 @@ a {
         width: 100%;
     }
 
-    #textoprincipal {
-        align-items: center;
-        width: 100%;
-    }
-
     /* article com o titulo da noticia e a imagem */
     #articleprincipal {
         align-items: center;
@@ -185,6 +180,15 @@ a {
         height: 300px;
         width: 300px;
         margin: 0;
+    }
+
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
     }
 
     /* Titulo da noticia */

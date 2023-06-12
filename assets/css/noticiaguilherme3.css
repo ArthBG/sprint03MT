@@ -205,6 +205,15 @@ a {
         width: 100%;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     /* main com o texto da noticia e os comentarios */
     main {
         flex-direction: column;

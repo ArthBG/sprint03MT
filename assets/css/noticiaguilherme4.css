@@ -169,6 +169,15 @@ a {
         width: 100%;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     #textoprincipal {
         align-items: center;
         width: 100%;
