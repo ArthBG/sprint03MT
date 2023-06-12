@@ -304,7 +304,7 @@ img {
         width:50%;
     }
     p {
-        font-size: 20px;
+        font-size: 25px;
         text-align: justify;
         margin-left: 10%;
         margin-right: 10%;
@@ -325,7 +325,9 @@ img {
     }
     
     
-    
+    #h2eltimasnoticias{
+        font-size: 20px;
+    }
     
     /* p {
 

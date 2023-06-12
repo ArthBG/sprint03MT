@@ -228,7 +228,7 @@ a {
 
    #noticia{ 
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 30px;
     flex-direction: column;
    }
 
@@ -289,6 +289,12 @@ a {
     width: 7%;
     border: none;
     margin: 5px;
+ }
+ #sectiontext1{
+    font-size: 25px;
+ }
+ #sectiontext3{
+    font-size: 25px;
  }
 
    } 

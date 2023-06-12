@@ -72,6 +72,7 @@ div {
     text-align: justify;
     margin: 10px;
     width: 95%;
+
 }
 
 /*Navbar Lateral*/
@@ -199,7 +200,7 @@ margin: 0;
 
    #noticia{ 
     margin-top: 5%;
-    font-size: 15px;
+    font-size: 25px;
     flex-direction: column;
    }
 
