@@ -103,15 +103,76 @@ img {
 #ultimasnoticiasfotos {
     width: 10%;
 }
-@media(max-width:768px){
-    #ifr{
-        height: 500px;
-    }
-    #footer{
-        height: 300px;
-    }
-}
 
+@media(max-width: 768px) {
+    .sectionultimasnoticias {
+        display: block;
+        margin: auto;
+        margin-bottom: 10%;
+        width: 90%;
+    }
+
+    #ultimasnoticias {
+        margin: auto;
+        display: block;
+        width: auto;
+        width: 90%;
+
+    }
+
+    #fotoenem {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #fotoprincipal {
+        margin: auto;
+        width: 90%;
+        height: 60%;
+        margin-bottom: 10%;
+    }
+
+    article {
+        display: block;
+        width: 100%;
+        text-align: justify;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    p {
+        padding: 0%;
+        font-size: 25px;
+        margin: 7%;
+        justify-content: center;
+    }
+
+    #resumotema {
+
+        margin: auto;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    #ultimasnoticiasfotos {
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10%;
+        padding: 0;
+
+    }
+
+}
 
 
 
