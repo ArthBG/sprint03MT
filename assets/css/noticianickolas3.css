@@ -163,7 +163,7 @@ a {
     margin-bottom: 10px;
 }
 
-@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 480px) {
 
     * {
         margin: 0;
