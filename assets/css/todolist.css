@@ -170,5 +170,10 @@ button{
         width: 70%;
         height: auto;
     }
+    h1{
+        width: 90%;
+        margin: 6%;
+    }
+
     
 }
