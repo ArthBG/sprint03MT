@@ -213,12 +213,6 @@ a {
         font-size: 30px;
     }
 
-    /* abas do comentarios */
-    .sectioncomentarios {
-        width: 100%;
-        margin: 5px;
-    }
-
     /* para tirar aside */
     aside {
         display: none;
