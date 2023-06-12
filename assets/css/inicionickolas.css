@@ -110,6 +110,63 @@ img {
     #footer{
         height: 300px;
     }
+    h1{
+        font-size: 20px;
+    }
+    #resumotema{
+        font-size: 60px;
+    }
+     /* article das noticias */
+     #ultimasnoticias {
+        font-size: 25px;
+    }
+    /* titulos das noticias */
+    #h2eltimasnoticias {
+        font-size: 25px;
+
+    }
+   /* foto do inicio*/
+    #fotoprincipal {
+        width: 90%;
+    }
+    /* foto das noticias */
+    #ultimasnoticiasfotos {
+        width: 30%;
+        height: 30%;
+        margin: 0;
+    }
+    /* a matéria principal */
+    #noticiaprincipal {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    /* titulo das noticias */
+    #titu {
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
+    /* article da foto mais noticia */
+    #resumotema {
+        width: 100%;
+        font-size: 30px;
+        margin: 5%;
+        text-align: justify;
+    }
+    /* paragrafos*/
+    p {
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    #ifr {
+        height: 500px;
+    }
+
+    #footer {
+        height: 300px;
+    }
+
 }
 
 
