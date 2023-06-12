@@ -282,7 +282,8 @@ p01{
         
     }
      /* responsividade dos texto*/
-    p01{
-        font-size: 20px;
+    #p01{
+        font-size: 25px;
     }
+    
 }
