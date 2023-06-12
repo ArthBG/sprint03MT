@@ -119,12 +119,12 @@ h2 {
         width: 300%;
         margin: auto;
     }
-/* configurações article 1*/
+/*configurações article 1*/
     #article1 {
         flex-direction: column;
 
     }
-/*configurações sore mim*/
+/*configurações sobre mim*/
     #sobremim {
         font-size: 100%;
         text-align: center;
@@ -161,7 +161,7 @@ h2 {
         margin-left: 0%;
         font-size: 100%;
     }
-    /*configurações iframe*/
+/*configurações iframe*/
     #ifr {
         height: 500px;
     }

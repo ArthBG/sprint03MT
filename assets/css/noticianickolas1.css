@@ -204,9 +204,13 @@ a {
     }
 
     #fotoprincipal {
-
-        margin: auto;
-
+        margin: 0;
+        width:500px;
+        height: 500px;
+    }
+    .imgdepoimentos{
+        width: 250px;
+        height: 250px;
     }
 
     h6 {
@@ -259,6 +263,9 @@ a {
     #div_bottom {
         margin: 0;
         padding: 0;
+    }
+    p {
+        line-height: 100%;
     }
 }
 
