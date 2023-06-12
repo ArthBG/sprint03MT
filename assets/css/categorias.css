@@ -70,10 +70,18 @@ section:hover {
 a {
     text-decoration: none;
 }
-
+.sec01{
+    text-decoration: none;
+}
+#vest01{
+text-decoration: none;
+}
+#fut01{
+    text-decoration: none;
+}
 @media (max-width: 768px) {
     body {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     iframe {
@@ -81,78 +89,104 @@ a {
     }
 
     main {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
     }
 
     p {
         margin: 0;
+        font-size: 25px;
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 40%;
+        height: 40%;
         margin: 5px;
     }
-
+    .sec01{
+        width: 90%;
+        height: 18vh;
+    }
+    
+    .sec02{
+        height: 60%;
+        width: 60%;
+    }
+    .sec03{
+        height: 70%;
+        width: 70%;
+        margin-left: -5px;
+    }
     section {
-        margin: 0;
+        margin: 5%;
         padding: 0;
         margin-bottom: 5px;
+        width: auto;
+        height: auto;
     }
-    main{
+
+    main {
         margin: 20px;
     }
-    #ifr{
-        height: 500px;
-    }
-}
 
+    /* iframe do footer */
+    #footer {
+        height: 100%;
+        width: 100%;
+    }
+    #vest01{
+        width: 50%;
+        height: auto;
+    }
+        #fut01{
+            width: 35%;
+        margin: 5%;
+        }
+}
+/* 
 @media(max-width:425px) {
-    main{
+    main {
         margin: 15px;
     }
+
     p {
         font-size: 30px;
     }
-    #ifr{
-        height: 500px;
-    }
-    #footer{
-        height: 800px;
-    }
+
 }
+
 @media(max-width:320px) {
-    main{
+    main {
         margin: 15px;
     }
+
     p {
         font-size: 20px;
     }
-    #ifr{
-        height: 500px;
-    }
-
 }
+
 @media(max-width:280px) {
-    main{
+    main {
         margin: 15px;
     }
+
     p {
         font-size: 15px;
     }
-    #ifr{
-        height: 500px;
-    }
+
     img {
         width: 100px;
         height: 100px;
         margin: 5px;
     }
-    body{
+
+    body {
         font-size: 20px;
     }
-    #footer{
-        height: 300px;
+
+    /* iframe do footer */
+    #footer {
+        height: 100%;
+        width: 100%;
     }
-}
+} */
