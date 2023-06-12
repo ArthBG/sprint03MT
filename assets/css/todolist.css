@@ -104,7 +104,9 @@ h1 {
     font-size: 30px;
 }
 h2 {
-    font-size: 25px;
+    font-size: 20px;
+    width: auto;
+    text-align: justify;
 }
 .news section {
     background-color: rgb(225, 193, 255);
