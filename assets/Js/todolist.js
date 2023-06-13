@@ -81,8 +81,7 @@ function removeN(cssInone) {
             let divdat = '<p class="dates">' + adat[cssedit] + '</p>';
             let editbtn = '<button class="editbtn" onclick="editN(' + cssedit + ')">Editar</button>';
             let removebtn = '<button class="editbtn" onclick="removeN(' + cssedit + ')">Remover</button> </section>';
-            let newsContainer = document.getElementsByClassName("news")[0];
-            newsContainer.innerHTML += divtitle + divresu + divcateg + divautor + divdat + editbtn + removebtn;
+  
     
     }
 
