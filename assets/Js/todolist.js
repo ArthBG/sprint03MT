@@ -74,7 +74,16 @@ function removeN(cssInone) {
             document.getElementById("autor").value = aautor[cssedit];
             document.getElementById("categories").value = acateg[cssedit];
             editI = cssedit;
-        
+            let divtitle = '<section id="newssec' + cssedit + '"><h1>' + atitle[cssedit] + '</h1>';
+            let divresu = '<h2 class="resums">' + aresu[cssedit] + '</h2>';
+            let divcateg = '<p class="categs">' + 'Categoria: ' + acateg[cssedit] + '</p>';
+            let divautor = '<p class="autors">' + 'Escrito por: ' + aautor[cssedit] + '</p>';
+            let divdat = '<p class="dates">' + adat[cssedit] + '</p>';
+            let editbtn = '<button class="editbtn" onclick="editN(' + cssedit + ')">Editar</button>';
+            let removebtn = '<button class="editbtn" onclick="removeN(' + cssedit + ')">Remover</button> </section>';
+            let newsContainer = document.getElementsByClassName("news")[0];
+            newsContainer.innerHTML += divtitle + divresu + divcateg + divautor + divdat + editbtn + removebtn;
+    
     }
 
 
