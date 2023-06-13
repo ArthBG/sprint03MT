@@ -5,7 +5,7 @@ let aautor = [];
 let acateg = [];
 let cssI = 0;
 let editI = -1;
-
+// Função para adicionar e exibir o conteúdo
 function sendN() {
     let title = document.getElementById("title").value;
     let resu = document.getElementById("resume").value;
@@ -25,7 +25,12 @@ function sendN() {
 
     if(datnw < dateT){
         alert("Insira uma data válida!");
+        return;
     }
+    /* if(!title && !resu&& !dat && !autor && !categ || !title || !resu || !dat || !autor || !categ){
+        alert("Preencha os campos corretamente");
+        return;
+    } */
 
     if (title && resu && dat && autor && categ) {
         atitle.push(title);
@@ -55,21 +60,23 @@ function sendN() {
     }
     cssI++;
 }
-
+// Função para remover a seção relacionada
 function removeN(cssInone) {
     let sectionId = "newssec" + cssInone;
     let section = document.getElementById(sectionId);
     section.style.display = "none";
 }
+// Função para editar a seção relacionada
+    function editN(cssedit) {
+            document.getElementById("title").value = atitle[cssedit];
+            document.getElementById("resume").value = aresu[cssedit];
+            document.getElementById("date").value = adat[cssedit];
+            document.getElementById("autor").value = aautor[cssedit];
+            document.getElementById("categories").value = acateg[cssedit];
+            editI = cssedit;
+        
+    }
 
-function editN(cssedit) {
-        document.getElementById("title").value = atitle[cssedit];
-        document.getElementById("resume").value = aresu[cssedit];
-        document.getElementById("date").value = adat[cssedit];
-        document.getElementById("autor").value = aautor[cssedit];
-        document.getElementById("categories").value = acateg[cssedit];
-        editI = cssI
-}
 
 
 
