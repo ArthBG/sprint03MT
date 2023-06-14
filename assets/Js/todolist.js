@@ -4,7 +4,7 @@ let adat = [];
 let aautor = [];
 let acateg = [];
 let cssI = 0;
-let editI = -1;
+let editI;
 // Função para adicionar e exibir o conteúdo
 function sendN() {
     let title = document.getElementById("title").value;
@@ -22,12 +22,16 @@ function sendN() {
     console.log(dateT);
     console.log(todayT);
 
+    if(title == "" || resu == "" || dat == "" || autor == "" || categ == ""){
+        document.getElementById("alertP").innerHTML = "Preencha os campos corretamente!";
+        return;
+    }
 
     if(datnw < dateT){
         alert("Insira uma data válida!");
         return;
     }
-    /* if(!title && !resu&& !dat && !autor && !categ || !title || !resu || !dat || !autor || !categ){
+    /* if(!title || !resu&& !dat && !autor && !categ || !title || !resu || !dat || !autor || !categ){
         alert("Preencha os campos corretamente");
         return;
     } */
@@ -58,8 +62,10 @@ function sendN() {
         document.getElementById("categories").value = "";
 
     }
+    document.getElementById("alertP").innerHTML = "";
     cssI++;
 }
+
 // Função para remover a seção relacionada
 function removeN(cssInone) {
     let sectionId = "newssec" + cssInone;
@@ -74,15 +80,7 @@ function removeN(cssInone) {
             document.getElementById("autor").value = aautor[cssedit];
             document.getElementById("categories").value = acateg[cssedit];
             editI = cssedit;
-            let divtitle = '<section id="newssec' + cssedit + '"><h1>' + atitle[cssedit] + '</h1>';
-            let divresu = '<h2 class="resums">' + aresu[cssedit] + '</h2>';
-            let divcateg = '<p class="categs">' + 'Categoria: ' + acateg[cssedit] + '</p>';
-            let divautor = '<p class="autors">' + 'Escrito por: ' + aautor[cssedit] + '</p>';
-            let divdat = '<p class="dates">' + adat[cssedit] + '</p>';
-            let editbtn = '<button class="editbtn" onclick="editN(' + cssedit + ')">Editar</button>';
-            let removebtn = '<button class="editbtn" onclick="removeN(' + cssedit + ')">Remover</button> </section>';
   
-    
     }
 
 
