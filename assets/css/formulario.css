@@ -49,17 +49,11 @@ body {
 /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
 input,
 select,
-textarea,
-button {
+textarea{
     font-family: sans-serif;
     font-size: 1em;
     color: #59429d;
     border-radius: 5px;
-}
-
-button {
-    margin-top: 140px;
-    margin-bottom: 50px;
 }
 
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
@@ -71,12 +65,6 @@ button {
 /* Elementos de classe "grupo" no estado da pseudoclasse "after" */
 .grupo:after {
     clear: both;
-}
-
-/* Elementos de classe "campo" */
-.campo {
-    margin-bottom: 1em;
-
 }
 
 /* Elementos de classe "campo" de tag <label> */
@@ -117,19 +105,13 @@ fieldset.grupo .campo {
 
 /* Elemento de classe "botao" */
 .botao {
+    margin-top: 2%;
     font-size: 1.2em;
     background: #7657b2;
-    border: 0;
-    margin-bottom: 1em;
     color: #ffffff;
-    padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+    
 }
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
@@ -137,15 +119,6 @@ fieldset.grupo .campo {
     background: #CCBBFF;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
-}
-
-/* Elementos de classe botão e de tag <select> */
-.botao,
-select {
-    cursor: pointer;
-
-
-
 }
 
 #formtotal {
@@ -157,9 +130,9 @@ select {
     margin-bottom: 80px;
 }
 
-@media(max-width:768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px){
     body {
-        font-size: 30px;
+        font-size: 20px;
     }
 
     #formtotal {
@@ -170,58 +143,37 @@ select {
     }
 
     .grupo {
-        align-items: center;
-        text-align: center;
+        margin: auto;
+        padding: 0;
+        width: auto;
+        height: auto;
     }
-
-    fieldset.grupo .campo {
-        float: none;
-        margin-right: 0;
+    .campo{
+        margin: auto;
+        width: 100%;
     }
-
-    .campo input[type="text"],
-    .campo input[type="email"],
-    .campo select,
-    .campo textarea {
-        display: inline;
+    #nome{
+        width: auto;
+        margin: auto;
     }
-
-    #experiencia {
+    #sobrenome{
+        width: auto;
+        margin: auto;
+    }
+    #email{
+        width: auto;
+        margin: auto;
+    }
+    #exp{
+        width: auto;
+        margin: auto;
+    }
+    input{
+        width: 100%;
+    }
+    strong{
         width: 90%;
-        margin: 0;
-        padding: 0;
     }
-
-    .botao {
-        top: auto;
-    }
-
-    #titulo {
-        margin: 0;
-    }
-
-    #subtitulo {
-        margin: 0;
-    }
-
-    #email {
-        width: 100%;
-        padding: 0;
-    }
-
-    #nome {
-        width: 100%;
-        padding: 0;
-        margin: auto;
-    }
-
-    #sobrenome {
-        width: 100%;
-        padding: 0;
-        margin: auto;
-
-    }
-
     #ifr {
         height: 500px;
     }
@@ -230,24 +182,4 @@ select {
         margin-bottom: -5px;
     }
 
-    body {
-        font-size: 40px;
-    }
-
-    div {
-        align-items: center;
-
-    }
-}
-
-
-@media (max-width:390px) {
-    h1{
-        font-size: 60px;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        }
 }
