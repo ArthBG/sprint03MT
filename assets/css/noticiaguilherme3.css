@@ -162,6 +162,7 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
+
     /* iframe do footer */
     #footer {
         height: 100%;
@@ -175,16 +176,30 @@ a {
         flex-direction: column;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     #fotoprincipal {
         height: 300px;
         width: 300px;
         margin: 0;
     }
 
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     /* Titulo da noticia */
     #escritatitulo {
         line-height: normal;
-        font-size: 40px;
+        font-size: 35px;
     }
 
     /* div com o titulo, quem fez e que dia foi feito */
@@ -207,10 +222,8 @@ a {
         font-size: 30px;
     }
 
-    /* abas do comentarios */
-    .sectioncomentarios {
-        width: 100%;
-        margin: 5px;
+    p {
+        font-size: 25px;
     }
 
     /* para tirar aside */
@@ -223,12 +236,6 @@ a {
 }
 
 @media(max-width:368px) {
-
-    /* Titulo da noticia */
-    #escritatitulo {
-        font-size: 35px;
-    }
-
     /* texto da noticia */
     #noticia {
         font-size: 25px;
