@@ -166,7 +166,7 @@ button:hover{
 }
 /* abertura da tag media para respansivo
  */
- @media (max-width: 768px) {
+ @media screen and (max-device-width: 768px) and (min-device-height: 400px){
 
     article{
         width: 90%;
@@ -184,6 +184,7 @@ button:hover{
     }
     button{
         width: auto;
+        height: auto;
     }
 
     
