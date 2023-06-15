@@ -186,6 +186,9 @@ button:hover{
         width: auto;
         height: auto;
     }
+    #footer{
+        margin-bottom: -5px;
+    }
 
     
 }
