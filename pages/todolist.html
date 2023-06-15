@@ -14,36 +14,37 @@
 </head>
 
 <body>
-  <!--   header via iframe -->
-    <iframe id="header" src="../layouts/header.html" scrolling="no" frameborder="0"></iframe>
+    <iframe id="ifr" src="../layouts/header.html" frameborder="0" width="100%" scrolling = "no"></iframe>
+
     <article>
         <!--titulo da categoria-->
         <h1>Painel Administrativo</h1>
 <!--abertura da div principal-->
         <div id="todolist">
-            <label id="label1"><strong>Título:</strong></label><br>
-            <input id="title" type="text" required><br>
+            <label class="label1"><strong>Título:</strong></label><br>
+            <input id="title" type="text"><br>
 
-            <label id="label1"><strong>Resumo:</strong></label><br>
-            <input id="resume" type="text" required><br>
+            <label class="label1"><strong>Resumo:</strong></label><br>
+            <input id="resume" type="text"><br>
 
-            <label id="label1"><strong>Data de publicação:</strong></label><br>
-            <input id="date" type="date" required><br>
+            <label class="label1"><strong>Data de publicação:</strong></label><br>
+            <input id="date" type="date"><br>
 
-            <label id="label1"><strong>Autor:</strong></label><br>
-            <input id="autor" type="text" required><br>
+            <label class="label1"><strong>Autor:</strong></label><br>
+            <input id="autor" type="text"><br>
             <div id="categorias">
-                <label for="" id="label1"><strong>Categorias:</strong><br>
-                    <input id="categories" type="text" required>
+                <label class="label1"><strong>Categorias:</strong><br>
+                    <input id="categories" type="text">
             </div>
            <!--  abertura de tag botão -->
             <button type="submit" id="send" onclick="sendN()">enviar</button>
+            <p id="alertP"></p>
         </div>
     </article>
+    <div class="news"></div>
 
   <!--   footer via iframe  -->
-    <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
-
+  <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no"></iframe>
 </body>
 
 </html>

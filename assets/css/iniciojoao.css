@@ -236,6 +236,15 @@ img {
     .sectionultimasnoticias{
         width: 90%;
     }
+    h1{
+        font-size: 35px;
+        text-align: justify;
+    }
+    h2{
+        font-size: 30px;
+        margin: 0;
+        
+    }
     #fotoprincipal {
         margin-top: 10%;
         border-radius: 10px;
@@ -279,7 +288,7 @@ img {
     #ultimasnoticias {
         font-size: 25px;
         margin: auto;
-        margin-bottom: 10%;
+
    
 
     }
@@ -306,12 +315,6 @@ img {
     p {
         font-size: 20px;
         text-align: justify;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-
-    h2{
-        text-align: center;
     }
     #ultimasnoticias2 {
         font-size: 25px;
@@ -323,16 +326,9 @@ img {
         font-size: 15px;
         
     }
-    
-    
-    
-    
-    /* p {
 
-        text-align: justify;
-        margin-left: 10%;
-        margin-right: 10%;
-    }  */
+    
+
     /* #ifr {
         height: 500px;
     } */
@@ -340,5 +336,4 @@ img {
     /* #footer {
         height: 300px;
     } */
-
 }

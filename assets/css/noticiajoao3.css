@@ -245,10 +245,12 @@ margin: 0;
     font-size: 90%;
   }
 
-  #estrelaavaliacao{
-    width: 7%;
-    border: none;
-    margin: 5px;
- }
+  #estrelaavaliacao {
+    width: 10%;
+}
+ #footer{
+    margin-bottom: -5px;
+}
+
 
    }

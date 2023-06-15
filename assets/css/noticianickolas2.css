@@ -143,11 +143,104 @@ margin: 0;
 #div_bottom {
     margin-bottom: 10px;
 }
-@media(max-width:768px){
-    #ifr{
-        height: 500px;
+
+@media screen and (max-device-width: 768px) and (min-device-height: 480px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 25px;
+    }
+
+    #escritatitulo {
+        font-size: 40px;
+        text-align: justify;
+    }
+
+    .sectioncomentarios {
+        background-color: #E0CFE6;
+        flex-direction: column;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #articleprincipal {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #textoprincipal {
+        margin: 5%;
+    }
+
+    #fotoprincipal {
+
+        margin: auto;
+
+    }
+
+    h6 {
+        font-size: 20px;
+
+    }
+
+    #divcomentarios {
+        margin: 1%;
+        margin-right: 4%;
+    }
+
+    #noticia {
+        margin: auto;
+        width: 95%;
+    }
+
+
+    #container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #textoprincipal {
+        width: 96%;
+        margin-right: 2%;
+        margin-left: 2%;
+    }
+
+    #divcomentarios {
+        margin-top: 5%;
+    }
+
+    aside {
+      display: none;
+    }
+
+    .fotonoticias {
+        width: 100%;
+        height: 65%;
+        margin-top: 10%;
+    }
+
+    #estrelaavaliacao {
+        width: 10%;
+    }
+
+    #div_bottom {
+        margin: 0;
+        padding: 0;
     }
     #footer{
-        height: 300px;
+        margin-bottom: -5px;
     }
 }
+

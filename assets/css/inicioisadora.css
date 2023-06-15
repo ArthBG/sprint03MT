@@ -119,6 +119,10 @@ img {
         font-size: 35px;
         margin-bottom: 7%;
     }
+    h2{
+        font-size: 30px;
+        text-align: justify;
+    }
     #ultimasnoticias{
         font-size: 20px;
     }
@@ -133,6 +137,13 @@ img {
         font-size: 25px;
         text-align: justify;
         margin-top: 7%;
+    }
+    #footer{
+        margin-bottom: -5px;
+    }
+    p{
+        font-size: 20px;
+        text-align: justify;
     }
 }
 /*Final css*/

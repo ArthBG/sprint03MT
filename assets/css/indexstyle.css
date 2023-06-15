@@ -240,9 +240,8 @@ html {
 
 .a1text {
     background: var(--#ff0099);
-    padding: 32px 40px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 }
 
 .titlea1 {
@@ -331,9 +330,8 @@ html {
 
 .a2text {
     background: var(--#cc00ff);
-    padding: 10px 20px;
     border-radius: 0 10px 10px 0;
-    margin-left: 5px;
+    margin: 5%;
 
 }
 
@@ -424,9 +422,8 @@ html {
 
 .a3text {
     background: var(--#ca84fc);
-    padding: 5px 15px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 
 }
 
@@ -517,9 +514,8 @@ html {
 
 .a4text {
     background: var(--#650c86);
-    padding: 5px 15px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 
 }
 
@@ -609,10 +605,8 @@ html {
 
 .a5text {
     background: var(--#800080);
-    padding: 10px 20px;
     border-radius: 0 10px 10px 0;
-    margin-left: 5px;
-    margin-top: 20px;
+    margin: 5%;
 
 }
 
@@ -704,9 +698,8 @@ html {
 
 .a6text {
     background: var(--#e70843);
-    padding: 32px 40px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 
 }
 
@@ -808,11 +801,10 @@ html {
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
-        font-size: 30px;
+        font-size: 15px;
 
     }
     #ifr{
-        
         height: 500px;
     }
  
@@ -988,7 +980,24 @@ html {
         margin-left: 4%;
         padding: 0;
     }
-
+    .titlea1{
+        font-size: 20px;
+    }
+    .titlea2{
+        font-size: 20px;
+    }
+    .titlea3{
+        font-size: 20px;
+    }
+    .titlea4{
+        font-size: 20px;
+    }
+    .titlea5{
+        font-size: 20px;
+    }
+    .titlea6{
+        font-size: 20px;
+    }
     #footer{
         margin-bottom: -5px;
     }

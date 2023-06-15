@@ -199,18 +199,16 @@ margin: 0;
 
    #noticia{ 
     margin-top: 5%;
-    font-size: 15px;
+    font-size: 20px;
+
     flex-direction: column;
    }
 
    #sectiontext3{
     margin-top: 5%;
     flex-direction: column;
-    font-size: 15px;
+  }
 
-   }
-
-   
    #divcomentarios{
     margin-top: 15%;
     margin-bottom: 5%;
@@ -256,14 +254,16 @@ margin: 0;
     font-size: 90%;
   }
 
-  #estrelaavaliacao{
-    width: 7%;
-    border: none;
-    margin: 5px;
- }
+  #estrelaavaliacao {
+    width: 10%;
+}
 
  #fotoprincipal{
     margin: 0;
 
  }
+ #footer{
+    margin-bottom: -5px;
 }
+}
+

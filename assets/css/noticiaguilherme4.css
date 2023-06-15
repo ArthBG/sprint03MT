@@ -163,14 +163,10 @@ a {
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
 
-    /* iframe do header */
-    #ifr {
-        height: 500px;
-    }
-
     /* iframe do footer */
     #footer {
-        height: 300px;
+        height: 100%;
+        width: 100%;
     }
 
     /* article com o titulo da noticia e a imagem */
@@ -180,10 +176,24 @@ a {
         flex-direction: column;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     #fotoprincipal {
         height: 300px;
         width: 300px;
         margin: 0;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
     }
 
     /* Titulo da noticia */
@@ -212,15 +222,19 @@ a {
         font-size: 30px;
     }
 
-    /* abas do comentarios */
-    .sectioncomentarios {
-        width: 100%;
-        margin: 5px;
+    p {
+        font-size: 25px;
     }
 
     /* para tirar aside */
     aside {
         display: none;
+    }
+    #estrelaavaliacao {
+        width: 10%;
+    }
+    #footer{
+        margin-bottom: -5px;
     }
 }
 

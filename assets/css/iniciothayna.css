@@ -145,7 +145,7 @@ img {
     }
     /* responsividade do título */
     h1 {
-        font-size: 25px;
+        font-size: 35px;
     }
    /*  responsividade da foto principal */
     #fotoprincipal {
@@ -163,16 +163,12 @@ img {
     }
    /*  responsividade do subtítulo */
     h2 {
-        text-align: center;
-        margin: auto;
         font-size: 30px;
     }
    /*  responsividade dos textos */
     p {
-        padding: 0%;
-        font-size: 25px;
-        margin: 5%;
-        justify-content: center;
+        font-size: 20px;
+        text-align: justify;
     }
    /*  responsividade da section do sobre */
     #resumotema {
@@ -191,6 +187,8 @@ img {
         padding: 0;
         margin: 0;
     }
-    
+    #footer{
+        margin-bottom: -5px;
+    }
 
 }

@@ -271,10 +271,16 @@ a {
         text-align: center;
         width: 100%;
     }
+    #estrelaavaliacao {
+        width: 10%;
+    }
 
     #escritatitulo {
         margin-left: 5%;
   }
+  #footer{
+    margin-bottom: -5px;
+}
 }
 @media(max-width:768px) {
     #ifr {
