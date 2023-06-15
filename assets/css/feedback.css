@@ -91,6 +91,7 @@ input, select, textarea, button {
 
 /* Elemento de classe "botao" */
 .botao {
+   
     font-size: 1.2em;
     background: #7657b2;
     color: #ffffff;
@@ -166,8 +167,8 @@ input, select, textarea, button {
     }
 
     .botao{
-        margin: auto;
-        padding: 0;
+        margin-top: 2%;
+      
     }
     #mn{
         margin: auto;
