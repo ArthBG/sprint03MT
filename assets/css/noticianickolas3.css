@@ -237,6 +237,10 @@ a {
         margin-right: 2%;
         margin-left: 2%;
   }
+  #footer{
+    margin-bottom: -5px;
+}
+}
 @media(max-width:768px) {
 
     #articleprincipal {
@@ -277,7 +281,7 @@ a {
         margin: 0;
         padding: 0;
     }
-}
+
     body {
         font-size: 30px;
         margin: 0;

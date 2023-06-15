@@ -180,6 +180,9 @@ a {
         font-size: 60px;
         text-align: justify;
     }
+    #footer{
+        margin-bottom: -5px;
+    }
 
     .sectioncomentarios {
         background-color: #E0CFE6;
