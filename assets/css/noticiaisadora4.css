@@ -25,10 +25,13 @@ h1 {
 }
 
 p {
-    line-height: 30px;
+  
+font-size: 17px;
+
     text-align: justify;
     width: 95%;
     margin: 5px;
+
 }
 
 /*Article Principal*/
