@@ -165,8 +165,8 @@ img {
         height: 500px;
     }
 
-    #footer {
-        height: 300px;
+    #footer{
+        margin-bottom: -5px;
     }
 
 }
