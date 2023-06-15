@@ -4,7 +4,7 @@ let adat = [];
 let aautor = [];
 let acateg = [];
 let cssI = 0;
-let editI;
+let editI = -1;
 // Função para adicionar e exibir o conteúdo
 function sendN() {
     let title = document.getElementById("title").value;
@@ -36,22 +36,23 @@ function sendN() {
         return;
     } */
 
-    if (title && resu && dat && autor && categ) {
+    else {
         atitle.push(title);
         aresu.push(resu);
         adat.push(datfix);
         aautor.push(autor);
         acateg.push(categ);
 
-        let divtitle = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>';
-        let divresu = '<h2 class="resums">' + aresu[cssI] + '</h2>';
-        let divcateg = '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>';
-        let divautor = '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>';
-        let divdat = '<p class="dates">' + adat[cssI] + '</p>';
-        let editbtn = '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>';
-        let removebtn = '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
+        let newdiv = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>' +
+        '<h2 class="resums">' + aresu[cssI] + '</h2>' +
+        '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>' +
+        '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>' +
+        '<p class="dates">' + adat[cssI] + '</p>' +
+        '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
+        '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
+
         let newsContainer = document.getElementsByClassName("news")[0];
-        newsContainer.innerHTML += divtitle + divresu + divcateg + divautor + divdat + editbtn + removebtn;
+        newsContainer.innerHTML += newdiv;
 
 
 
@@ -80,7 +81,7 @@ function removeN(cssInone) {
             document.getElementById("autor").value = aautor[cssedit];
             document.getElementById("categories").value = acateg[cssedit];
             editI = cssedit;
-  
+
     }
 
 
