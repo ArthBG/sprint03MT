@@ -805,7 +805,6 @@ html {
 
     }
     #ifr{
-        
         height: 500px;
     }
  
@@ -981,7 +980,24 @@ html {
         margin-left: 4%;
         padding: 0;
     }
-
+    .titlea1{
+        font-size: 25px;
+    }
+    .titlea2{
+        font-size: 25px;
+    }
+    .titlea3{
+        font-size: 25px;
+    }
+    .titlea4{
+        font-size: 25px;
+    }
+    .titlea5{
+        font-size: 25px;
+    }
+    .titlea6{
+        font-size: 25px;
+    }
     #footer{
         margin-bottom: -5px;
     }
