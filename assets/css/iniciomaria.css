@@ -145,7 +145,7 @@ img {
     }
     /* titulo das noticias */
     #titu {
-        font-size: 40px;
+        font-size: 35px;
         margin-bottom: 2%;
     }
     /* article da foto mais noticia */
@@ -158,6 +158,10 @@ img {
     /* paragrafos*/
     p {
         font-size: 20px;
+        text-align: justify;
+    }
+    h2{
+        font-size: 30px;
         text-align: justify;
     }
 
