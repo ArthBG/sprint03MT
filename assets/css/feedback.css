@@ -171,8 +171,7 @@ main {
         height: 500px;
     }
     #footer{
-        padding-top: 33%;
-        height: 300px;
+        margin-bottom: -5px;
     }
     #experiencia{
         margin: 0;
