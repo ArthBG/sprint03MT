@@ -226,9 +226,8 @@ select {
         height: 500px;
     }
 
-    #footer {
-        padding-top: 33%;
-        height: 300px;
+    #footer{
+        margin-bottom: -5px;
     }
 
     body {
