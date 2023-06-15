@@ -240,9 +240,8 @@ html {
 
 .a1text {
     background: var(--#ff0099);
-    padding: 32px 40px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 }
 
 .titlea1 {
@@ -331,9 +330,8 @@ html {
 
 .a2text {
     background: var(--#cc00ff);
-    padding: 10px 20px;
     border-radius: 0 10px 10px 0;
-    margin-left: 5px;
+    margin: 5%;
 
 }
 
@@ -424,9 +422,8 @@ html {
 
 .a3text {
     background: var(--#ca84fc);
-    padding: 5px 15px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 
 }
 
@@ -517,9 +514,8 @@ html {
 
 .a4text {
     background: var(--#650c86);
-    padding: 5px 15px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 
 }
 
@@ -609,10 +605,8 @@ html {
 
 .a5text {
     background: var(--#800080);
-    padding: 10px 20px;
     border-radius: 0 10px 10px 0;
-    margin-left: 5px;
-    margin-top: 20px;
+    margin: 5%;
 
 }
 
@@ -704,9 +698,8 @@ html {
 
 .a6text {
     background: var(--#e70843);
-    padding: 32px 40px;
     border-radius: 0 10px 10px 0;
-    margin-left: 20px;
+    margin: 5%;
 
 }
 
