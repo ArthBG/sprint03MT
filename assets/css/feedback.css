@@ -19,7 +19,12 @@ iframe {
     color: #7657b2;
 
 } 
-
+#forms{
+    margin: auto;
+}
+form{
+    margin: auto;
+}
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
@@ -28,11 +33,6 @@ iframe {
 
 #check{
     display: inline-block;
-}
-
-/* Elementos de tag <fieldset>*/
-fieldset {
-    border: 0;
 }
 
 /* Elemento de tag <body> */
@@ -78,19 +78,6 @@ input, select, textarea, button {
     display: block;
 }
 
-/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
-fieldset.grupo .campo {
-    float:  left;
-    margin-right: 1em;
-}
-
-/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-    padding: 0.2em;
-    border: 1px solid #7657b2;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    display: block;
-}
 
 /* Elementos de classe "campo" de tag <select> e <option>*/
 .campo select option {
@@ -107,7 +94,7 @@ fieldset.grupo .campo {
     font-size: 1.2em;
     background: #7657b2;
     color: #ffffff;
-    padding: 0.2em 0.6em;
+    width: auto;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
    
@@ -127,14 +114,19 @@ fieldset.grupo .campo {
 
 
 #mn {
-    margin-left: 33%;
-    margin-top: 2%;
+    margin-left: 35%;
 }
+
 @media screen and (max-device-width: 768px) and (min-device-height: 400px){
     body {
         font-size: 20px;
     }
-
+    #titulo{
+        text-align: center;
+    }
+    #subtitulo{
+        text-align: center;
+    }
     #formtotal {
         margin: 0;
         flex-direction: column;
@@ -172,16 +164,14 @@ fieldset.grupo .campo {
     input{
         width: 100%;
     }
-    strong{
-        width: 90%;
-    }
+
     .botao{
-        margin-top: 5%;
-        margin-left: 19%;
+        margin: auto;
         padding: 0;
     }
     #mn{
         margin: auto;
+        text-align: center;
     }
     #ifr{
         height: 500px;
