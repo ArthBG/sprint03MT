@@ -217,6 +217,9 @@ a {
     aside {
         display: none;
     }
+    #footer{
+        margin-bottom: -5px;
+    }
 }
 
 @media(max-width:368px) {
