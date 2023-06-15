@@ -290,5 +290,7 @@ a {
     border: none;
     margin: 5px;
  }
-
+ #footer{
+    margin-bottom: -5px;
+}
    } 

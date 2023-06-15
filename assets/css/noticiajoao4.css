@@ -249,6 +249,9 @@ margin: 0;
   h1{
     text-align: center;
   }
+  #footer{
+    margin-bottom: -5px;
+}
 
   h6{
     font-size: 90%;
