@@ -122,6 +122,6 @@ li {
     height: 500px;
 }
 #footer{
-    height: 300px;
+    margin-bottom: -5px;
 }
 }
