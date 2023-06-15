@@ -277,6 +277,9 @@ a {
         text-align: center;
         width: 100%;
   }
+  #footer{
+    margin-bottom: -5px;
+}
 }
 @media(max-width:768px) {
     #ifr {
