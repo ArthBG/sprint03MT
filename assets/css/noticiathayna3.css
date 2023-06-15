@@ -284,6 +284,9 @@ p01{
         height: 100%;
         
     }
+    #estrelaavaliacao {
+        width: 10%;
+    }
      /* responsividade dos texto*/
     p01{
         font-size: 20px;

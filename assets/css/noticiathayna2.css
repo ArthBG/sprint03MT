@@ -274,6 +274,9 @@ a {
         height: 100%;
         
     }
+    #estrelaavaliacao {
+        width: 10%;
+    }
     #footer{
         margin-bottom: -5px;
     }

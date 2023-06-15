@@ -230,6 +230,9 @@ a {
     aside {
         display: none;
     }
+    #estrelaavaliacao {
+        width: 10%;
+    }
     #footer{
         margin-bottom: -5px;
     }

@@ -264,7 +264,9 @@ a {
     #escritatitulo{
         margin-left: 5%;
     }
-
+    #estrelaavaliacao {
+        width: 10%;
+    }
     #divv{
         text-align: center;
         width: 100%;
