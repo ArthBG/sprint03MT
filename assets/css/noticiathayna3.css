@@ -179,6 +179,9 @@ p01{
     div {
         width: 100%;
     }
+    #footer{
+        margin-bottom: -5px;
+    }
     /* responsividade da imagem principal*/
     #imgprincipal {
         width: 35%;
