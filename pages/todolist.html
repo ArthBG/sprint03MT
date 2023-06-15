@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!--  meta para uso do respansivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--  link para css -->
+    <link rel="stylesheet" href="../assets/css/todolist.css">
+    <title>Painel Administrativo</title>
+   <!--  link para script -->
+    <script src="../assets/Js/todolist.js"></script>
+</head>
+
+<body>
+    <iframe id="ifr" src="../layouts/header.html" frameborder="0" width="100%" scrolling = "no"></iframe>
+
+    <article>
+        <!--titulo da categoria-->
+        <h1>Painel Administrativo</h1>
+<!--abertura da div principal-->
+        <div id="todolist">
+            <label class="label1"><strong>Título:</strong></label><br>
+            <input id="title" type="text"><br>
+
+            <label class="label1"><strong>Resumo:</strong></label><br>
+            <input id="resume" type="text"><br>
+
+            <label class="label1"><strong>Data de publicação:</strong></label><br>
+            <input id="date" type="date"><br>
+
+            <label class="label1"><strong>Autor:</strong></label><br>
+            <input id="autor" type="text"><br>
+            <div id="categorias">
+                <label class="label1"><strong>Categorias:</strong><br>
+                    <input id="categories" type="text">
+            </div>
+           <!--  abertura de tag botão -->
+            <button type="submit" id="send" onclick="sendN()">enviar</button>
+            <p id="alertP"></p>
+        </div>
+    </article>
+    <div class="news"></div>
+
+  <!--   footer via iframe  -->
+  <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no"></iframe>
+</body>
+
+</html>

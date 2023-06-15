@@ -1,5 +1,5 @@
-/*Configurações Gerais*/
-body {
+ /*Configurações Gerais*/
+ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -291,4 +291,8 @@ a {
     margin: 5px;
  }
 
+ #footer{
+    margin-bottom: -5px;
+}
    } 
+

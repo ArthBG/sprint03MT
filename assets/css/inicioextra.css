@@ -66,6 +66,8 @@ li {
     color: white;
     text-align: left;
     line-height: 30px;
+    margin: 10px;
+    width: 100%;
 }
 p {
     color: black;
@@ -76,4 +78,50 @@ div {
 ul {
     width: 60%;
     margin: auto;
+}
+
+@media (max-width: 768px) {
+h2 {
+    font-size: 25px;
+    margin: 2%;
+}
+h3 {
+    font-size: 25px;
+    text-align: justify;
+}
+article {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+}
+section {
+    margin: auto;
+    background-color: #7657b2;
+    width: 90%;
+    margin: 20px;
+    text-align: center;
+}
+img {
+    width: 90%;
+    margin: auto;
+}
+li {
+    font-size: 25px;
+
+}
+#redessociais {
+    width: 20%;
+    margin: 1%;
+}
+#contato {
+    color: white;
+    font-size: 35px;
+}
+#ifr{
+    height: 500px;
+}
+#footer{
+    margin-bottom: -5px;
+}
 }

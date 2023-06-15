@@ -4,26 +4,31 @@ body {
     margin: 0;
     padding: 0;
 }
+
 iframe {
     width: 100%;
     margin: 0;
     padding: 0;
 }
+
 #footer {
     margin-bottom: -5px;
 }
+
 main {
     display: flex;
 }
+
 h1 {
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 p {
     line-height: 30px;
-text-align: justify;
-width: 95%;
-margin: 5px;
+    text-align: justify;
+    width: 95%;
+    margin: 5px;
 }
 
 /*Article Principal*/
@@ -68,6 +73,7 @@ div {
     display: flex;
     flex-direction: column;
 }
+
 #noticia {
     line-height: 40px;
     text-align: justify;
@@ -79,27 +85,33 @@ div {
 #container {
     width: 30%;
 }
+
 aside {
     background-color: #E0CFE6;
     height: 380px;
 }
+
 .navbarlateral {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
 }
+
 .fotonoticias {
     border-radius: 10px;
     width: 100%;
 }
+
 #navbarlateral3 {
     display: flex;
     background-color: white;
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-}a {
+}
+
+a {
     text-decoration: none;
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -109,34 +121,130 @@ aside {
 #divcomentarios {
     width: 100%;
 }
+
 .sectioncomentarios {
     background-color: #E0CFE6;
-display: flex;
+    display: flex;
     margin: 10px;
 }
+
 .imgdepoimentos {
     width: 70px;
     margin: 10px;
     border: 5px outset #7657b2;
     height: 70px;
 }
+
 .nomedepoimentos {
     color: #7657b2;
-    text-align: left; 
+    text-align: left;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin: 0;
+    margin: 0;
 }
+
 #estrelaavaliacao {
     width: 2%;
     border: none;
     margin: 5px;
 }
+
 #nomeeinsta {
     width: 100%;
 }
+
 #divcomentarios {
     align-items: center;
 }
+
 #div_bottom {
     margin-bottom: 10px;
+}
+
+/* media para quando chegar a telas de celulares */
+@media(max-width:768px) {
+
+    /* iframe do footer */
+    #footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    /* article com o titulo da noticia e a imagem */
+    #articleprincipal {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
+    #fotoprincipal {
+        height: 300px;
+        width: 300px;
+        margin: 0;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Titulo da noticia */
+    #escritatitulo {
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    /* div com o titulo, quem fez e que dia foi feito */
+    #divprin {
+        width: 100%;
+    }
+
+    #imgprincipal {
+        width: 100%;
+    }
+
+    /* main com o texto da noticia e os comentarios */
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* texto da noticia */
+    #noticia {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    /* para tirar aside */
+    aside {
+        display: none;
+    }
+    #footer{
+        margin-bottom: -5px;
+    }
+}
+
+@media(max-width:368px) {
+
+    /* Titulo da noticia */
+    #escritatitulo {
+        font-size: 35px;
+    }
+
+    /* texto da noticia */
+    #noticia {
+        font-size: 25px;
+        margin: 0;
+    }
 }

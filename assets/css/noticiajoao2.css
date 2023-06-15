@@ -200,13 +200,15 @@ margin: 0;
    #noticia{ 
     margin-top: 5%;
     font-size: 20px;
+
     flex-direction: column;
    }
 
    #sectiontext3{
     margin-top: 5%;
     flex-direction: column;
-   }
+  }
+
    #divcomentarios{
     margin-top: 15%;
     margin-bottom: 5%;
@@ -258,4 +260,12 @@ margin: 0;
     margin: 5px;
  }
 
-   }
+ #fotoprincipal{
+    margin: 0;
+
+ }
+ #footer{
+    margin-bottom: -5px;
+}
+}
+

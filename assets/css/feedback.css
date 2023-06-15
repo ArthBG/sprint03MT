@@ -17,14 +17,13 @@ iframe {
 #titulo {
     font-family: sans-serif;
     color: #7657b2;
-    margin-left: 3%;
+
 } 
 
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
     color: #7657b2;
-    margin-left: 10%;
 } 
 
 #check{
@@ -107,15 +106,11 @@ fieldset.grupo .campo {
 .botao {
     font-size: 1.2em;
     background: #7657b2;
-    border: 0;
     color: #ffffff;
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+   
 }
 
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
@@ -128,12 +123,70 @@ fieldset.grupo .campo {
 }
 
 /* Elementos de classe botão e de tag <select> */
-.botao, select{
-    cursor: pointer;
-}
 
 
-main {
+
+#mn {
     margin-left: 33%;
     margin-top: 2%;
+}
+@media screen and (max-device-width: 768px) and (min-device-height: 400px){
+    body {
+        font-size: 20px;
+    }
+
+    #formtotal {
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .grupo {
+        margin: auto;
+        padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .campo{
+        margin: auto;
+        text-align: center;
+        width: 100%;
+    }
+    #nome{
+        width: auto;
+        margin: auto;
+    }
+    #sobrenome{
+        width: auto;
+        margin: auto;
+    }
+    #email{
+        width: auto;
+        margin: auto;
+    }
+    #exp{
+        width: auto;
+        margin: auto;
+    }
+    input{
+        width: 100%;
+    }
+    strong{
+        width: 90%;
+    }
+    .botao{
+        margin-top: 5%;
+        margin-left: 19%;
+        padding: 0;
+    }
+    #mn{
+        margin: auto;
+    }
+    #ifr{
+        height: 500px;
+    }
+    #footer{
+        margin-bottom: -5px;
+    }
 }
