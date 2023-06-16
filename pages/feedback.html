@@ -1,23 +1,19 @@
 <!doctype html>
 <html>
-
 <head>
     <!-- Metadados -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/feedback.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/feedback.css" media="screen">
     <link rel="icon" href="../assets/images/logo.png.png">
     <link rel="stylesheet" href="/layouts/headernova.css">
 
-
-
     <!-- Título da página (aparece na aba) -->
-    <title>Feedback</title>
+    <title>Cadastro</title>
 </head>
-
 <body>
+
   <!--Header-->
   <header>
     <!--Logo Equipe-->
@@ -47,88 +43,64 @@
 
 </header>
 <!--header site-->
-    <main>
+
+<div id="formtotal">
         <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
         <div>
-            <h1 id="titulo">Digite seu Feedback</h1>
-            <p id="subtitulo">Escreva sua opinião sobre o site e (ou) as páginas.</p>
+            <h1 id="titulo">Faça seu Cadastro</h1>
+            <p id="subtitulo">Complete suas informações</p>
             <br>
         </div>
-
         <!-- Início do formulário -->
-        <div id="forms">
-            <form action="../pages/posformulario.html">
-
-                <fieldset class="grupo">
-                    <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
-                    <div class="campo">
-                        <label for="nome"><strong>Nome</strong></label>
-                        <input type="text" name="nome" id="nome" required>
-                    </div>
-
-                    <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
-                    <div class="campo">
-                        <label for="sobrenome"><strong>Sobrenome</strong></label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
-                    </div>
-                </fieldset>
-
-                <!-- Campo de email com-->
+        <form action="../pages/posformulario.html">
+    
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                 <div class="campo">
-                    <label for="email"><strong>Email</strong></label>
-                    <input type="email" name="email" id="email" required>
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
                 </div>
-
-                <!-- campo de pergunts dos temas -->
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
                 <div class="campo">
-                    <label><strong>Qual o tema?</strong></label>
-                    <label>
-                        <input type="radio" name="devweb" value="frontend" checked>Biologia
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="backend">Futebol
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Geologia
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Inovação
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Nutrição
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Vestibular
-                    </label>
-                    <!--fim label-->
-
-
-
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
                 </div>
+          
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <!-- campo de pergunts dos temas -->
+            <div class="campo">
+                <label><strong>Qual seu gênero?</strong></label>
+                <label>
+                    Masculino <input type="radio" name="devweb" value="frontend">
+                </label>
+                <label>
+                    Feminino <input type="radio" name="devweb" value="backend">
+                </label>
+                <label>
+                    Outro <input type="radio" name="devweb" value="fullstack">
+                </label>
+                <label>
+                    Prefiro não informar
+                    <input type="radio" name="devweb" value="fullstack">
+                </label>
+            </div>
+            <!-- campo de temas com temas diferentes -->
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <input type="text" id="exp">
+            </div>
 
-                <!-- campo de temas com 7 temas diferentes -->
+            <a href="../pages/posformulario.html" id="btn">Concluído</a>
+            <!-- Botão para enviar o formulário -->
+        </form>
 
+    </div>
+</div>
 
-
-                <!-- Caixa de texto -->
-                <div class="campo">
-                    <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                    <textarea rows="6" style="width: 100%" id="experiencia" name="experiencia" required></textarea>
-                </div>
-
-                <!-- Botão para enviar o formulário -->
-                <button class="botao" type="submit" href="../pages/formulario.html">Concluído</button>
-
-
-
-            </form>
-            <!--fim form-->
-        </div>
-    </main>
     <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
-
 </body>
-
 </html>
-
-<!--final-->

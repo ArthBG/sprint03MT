@@ -16,7 +16,7 @@ header {
 
 /*Foto Logo*/
 
- #fotologo {
+ img {
     width: 10%;
     margin: 10px;
 } 
@@ -33,7 +33,7 @@ header {
 
     }
   
-    #fotologo {
+    img {
         margin: auto;  
         width: 150px;
         height: 150px;
@@ -49,6 +49,5 @@ header {
     .dropdown-content a {
         font-size: 30px;
     }
-
 
 }
