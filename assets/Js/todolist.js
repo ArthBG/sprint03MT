@@ -14,9 +14,12 @@ function sendN() {
     let categ = document.getElementById("categories").value;
     let datfix = dat.split("-").reverse().join("/");
     let dateT = new Date(dat);
-    let todayT = new Date();
+    let dia = dateT.getDay() - 1;
+    let mes = dateT.getMonth() + 1;
+    let ano = dateT.getFullYear();;
+    let hoje = new Date(`${ano}-${mes}-${dia}`);
     console.log(dateT);
-    console.log(todayT);
+    console.log(hoje);
 
     if(title == "" || resu == "" || dat == "" || autor == "" || categ == ""){
         document.getElementById("alertP").innerHTML = "Preencha os campos corretamente!";
@@ -24,7 +27,7 @@ function sendN() {
     }
 
 
-    if(dateT < todayT){
+    if(dateT < hoje){
         document.getElementById("alertP2").innerHTML = "Insira uma data válida!";
         return;
     }
@@ -36,7 +39,7 @@ function sendN() {
         aautor.push(autor);
         acateg.push(categ);
 
-let newdiv = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>' +
+newdiv = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>' +
 '<h2 class="resums">' + aresu[cssI] + '</h2>'+
 '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>'+
 '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>'+
