@@ -53,12 +53,8 @@ function sendN() {
         '<p class="dates">' + adat[cssI] + '</p>' +
         '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
         '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
-        
         let newsContainer = document.getElementsByClassName("news")[0];
         newsContainer.innerHTML += newdiv;
-        
-        
-        
         document.getElementById("title").value = "";
         document.getElementById("resume").value = "";
         document.getElementById("date").value = "";
@@ -74,12 +70,6 @@ function sendN() {
     aautor[editI] = autor;
     acateg[editI] = categ;
     editI = -1;
-
-    console.log(atitle);
-    console.log(aresu);
-    console.log(adat);
-    console.log(aautor);
-    console.log(acateg);
 }
     document.getElementById("alertP").innerHTML = "";
     console.log(atitle);
