@@ -38,7 +38,7 @@ main {
 
 /*Sections*/
 .imag1 {
-    width: 200px;
+    width: 150px;
     margin: 30px;
     height: 150px;
 }
@@ -129,18 +129,5 @@ text-decoration: none;
         margin-left: -20px ;
 }
 }
-@media(max-width:340px){
-    p{
-        font-size: 20px;
-    }
-}
-@media(max-width:280px){
-    p{
-        font-size: 15px;
-    }
-    .imag1{
-        width: 120px;
-        margin: 15px;
-        height: 75px;
-    }
-}
+
+
