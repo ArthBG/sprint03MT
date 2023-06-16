@@ -11,12 +11,22 @@ function sendN() {
     let dat = document.getElementById("date").value;
     let autor = document.getElementById("autor").value;
     let categ = document.getElementById("categories").value;
+    // Conversão da data
     let datfix = dat.split("-").reverse().join("/");
     let dateT = new Date(dat);
     let todayT = new Date();
     console.log(dateT);
     console.log(todayT);
+    // fim da conversão da data
 
+<<<<<<< HEAD
+=======
+    if(editI < 0){
+    if(title == "" || resu == "" || dat == "" || autor == "" || categ == ""){
+        document.getElementById("alertP").innerHTML = "Preencha os campos corretamente!";
+        return;
+    }
+>>>>>>> 0e7339b3031a096b96d7c4b1d256ff0432e7cf8d
 
     if(dateT < todayT){
         alert("Insira uma data válida!");
@@ -29,6 +39,7 @@ function sendN() {
         aautor.push(autor);
         acateg.push(categ);
 
+<<<<<<< HEAD
         let divtitle = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>';
         let divresu = '<h2 class="resums">' + aresu[cssI] + '</h2>';
         let divcateg = '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>';
@@ -41,15 +52,50 @@ function sendN() {
 
 
 
+=======
+        let newdiv = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>' +
+        '<h2 class="resums">' + aresu[cssI] + '</h2>' +
+        '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>' +
+        '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>' +
+        '<p class="dates">' + adat[cssI] + '</p>' +
+        '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
+        '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
+        
+        let newsContainer = document.getElementsByClassName("news")[0];
+        newsContainer.innerHTML += newdiv;
+        
+        
+        
+>>>>>>> 0e7339b3031a096b96d7c4b1d256ff0432e7cf8d
         document.getElementById("title").value = "";
         document.getElementById("resume").value = "";
         document.getElementById("date").value = "";
         document.getElementById("autor").value = "";
         document.getElementById("resume").value = "";
         document.getElementById("categories").value = "";
-
+        
     }
     cssI++;
+} else {
+    atitle[editI] = title;
+    aresu[editI] = resu;
+    adat[editI] = dat;
+    aautor[editI] = autor;
+    acateg[editI] = categ;
+    editI = -1;
+
+    console.log(atitle);
+    console.log(aresu);
+    console.log(adat);
+    console.log(aautor);
+    console.log(acateg);
+}
+    document.getElementById("alertP").innerHTML = "";
+    console.log(atitle);
+    console.log(aresu);
+    console.log(adat);
+    console.log(aautor);
+    console.log(acateg);
 }
 
 function removeN(cssInone) {
@@ -57,6 +103,7 @@ function removeN(cssInone) {
     let section = document.getElementById(sectionId);
     section.style.display = "none";
 }
+<<<<<<< HEAD
 function editN(cssedit) {
     divtitle += atitle[cssedit];
     divresu += aresu[cssedit];
@@ -64,6 +111,24 @@ function editN(cssedit) {
     divautor += aautor[cssedit];
     divcateg += acateg[cssedit];
 }
+=======
+// Função para editar a seção relacionada
+    function editN(cssedit) {
+            document.getElementById("title").value = atitle[cssedit];
+            document.getElementById("resume").value = aresu[cssedit];
+            document.getElementById("date").value = adat[cssedit];
+            document.getElementById("autor").value = aautor[cssedit];
+            document.getElementById("categories").value = acateg[cssedit];
+            editI = cssedit;
+            
+            /* atitle.pop();
+            aresu.pop();
+            adat.pop();
+            aautor.pop();
+            acateg.pop(); */
+    }
+
+>>>>>>> 0e7339b3031a096b96d7c4b1d256ff0432e7cf8d
 
 
 
