@@ -246,7 +246,7 @@ a {
         width: 200px;
         margin: 0;
     }
-
+}
 @media(max-width:368px) {
 
     /* Titulo da noticia */
