@@ -41,7 +41,7 @@ function sendN() {
         aautor.push(autor);
         acateg.push(categ);
         for (let cssI = 0; cssI < atitle.length; cssI++) {
-            newdiv += '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>' +
+            newdiv += '<section id="newssec' + cssI + '"><h1 class = "titlen">' + atitle[cssI] + '</h1>' +
                 '<h2 class="resums">' + aresu[cssI] + '</h2>' +
                 '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>' +
                 '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>' +
