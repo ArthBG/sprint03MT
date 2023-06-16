@@ -162,6 +162,11 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
+    #estrelaavaliacao {
+        width: 10%;
+        border: none;
+        margin: 5px;
+    }
 
     /* iframe do footer */
     #footer {
