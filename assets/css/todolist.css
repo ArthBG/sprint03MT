@@ -2,13 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;
     background-color: rgb(240, 225, 255);
-
 }
 /* id da div principal */
 #todolist {
     text-align: center;
+    margin: auto;
 }
 
 /* tamanho da letra em label */
@@ -17,20 +16,28 @@ body {
 }
 
 /* personalização do titulo */
-h1 {
+#painel {
     
     text-shadow: 6px -2px 5px rgba(0, 0, 0, 0.56);
     background-color: #8a2be2;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 20px;
     color: white;
-    width: 50%;
+    width: 80%;
     margin: auto;
+    text-align: center;
     margin-top: 10%;
 
 }
-.titlen{
+.news section h1{
+    text-shadow: 6px -2px 5px rgba(0, 0, 0, 0.56);
+    background-color: #8a2be2;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    width: 90%;
     margin: auto;
+    margin-bottom: 3%;
 }
 /* personalização do input */
 input {
@@ -83,12 +90,14 @@ input {
     top: 1%;
 } */
 /* personalização do article*/
-article {
-    margin-top: 55%;
+#arttodo {
+
     background-color: rgb(225, 193, 255);
     border-radius: 30px;
     width: 50%;
     margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
     box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
@@ -96,7 +105,7 @@ article {
 /* para colar o footer em seu devido lugar */
 #footer {
     width: 100%;
-    margin-top: 5%;
+    bottom: 0;
     margin-bottom: -5px;
 }
 /* para colar o header em seu devido lugar
@@ -115,48 +124,66 @@ h2 {
     box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -webkit-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
     -moz-box-shadow: 15px 13px 55px -4px rgba(38, 8, 8, 0.75);
-    padding: 1%;
     color: rgb(0, 0, 0);
     width: 80%;
     margin: auto;
     height: auto;
+    text-align: center;
     border-radius: 20px;
     margin-top: 10%;
     margin-bottom: 5%;
 }
-.news section #date {
-    color: white;
-    opacity: 1;
-    font-size: 17px;
-}
 
-.news section p {
+.news section .categs{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-right: 1%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.news section .autors{
     color: rgb(0, 0, 0);
     font-size: 20px;
     margin-top: 3%;
     margin-bottom: 3%;
 }
+.news section .dates{
+    color: rgb(136, 131, 131);
+    font-size: 20px;
+   text-align: center;
+}
 
 .news section h2 {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    width: 100%;
-
     font-size: 20px;
-    margin-bottom:2% ;
-
+    margin-bottom:2%;
+    margin-right: 2%;
+    margin-left: 2%;
+    text-align: justify;
 }
 
 
-button{
-    background-color: #6a049a;
-    color: #f5f5f5;
-    font-size: 20px;
-    height: auto;
+
+.editbtn{ 
+    margin:auto;
+    margin: 1%;
+    font-size: 15px;
     width: 30%;
-    margin: 2%;
-    border: solid 4px #6a049a;;
-    border-radius: 10px;
+    height: auto;
+    padding: 1%;
+    text-align: center;
+    box-shadow: inset 0px 0px 0px -9px #efdcfb;
+    background: linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+    background-color: #dfbdfa;
+    border-radius: 12px;
+    border: 2px solid #c584f3;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 3px 0px 2px #9752cc;
+    transition: all 0.5s ease-in-out;
+}
+.editbtn:hover{
+    transform: scale(1.1);
 }
 #alertP{
     color: red;
@@ -170,7 +197,7 @@ button{
  */
  @media (max-width: 768px) {
 
-    article{
+    #arttodo{
     width: 90%;
      margin:auto ;
      margin-bottom: 10%;
@@ -180,12 +207,21 @@ button{
         width: 70%;
         height: auto;
     }
-    h1 {
+    #painel {
         width: auto;
     
     }
+    .news section h2{
+        text-align: justify;
+        font-size: 20px;
+    }
     .editbtn{
         width: auto;
+    }
+    #footer {
+        width: 100%;
+        bottom: 0;
+        margin-bottom: -5px;
     }
     
 }
