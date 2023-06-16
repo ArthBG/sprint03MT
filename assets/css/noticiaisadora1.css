@@ -193,10 +193,7 @@ a {
         margin-right: 0%;
     }
 
-    #escritatitulo {
-        font-size: 40px;
-        text-align: justify;
-    }
+    
 
     h2 {
         font-size: 1;
@@ -224,7 +221,7 @@ a {
     }
 
     #escritatitulo {
-        font-size: 110%;
+        font-size: 100%;
         text-align: center;
     }
 
@@ -275,14 +272,42 @@ a {
     #escritatitulo {
         margin-left: 5%;
   }
+
+  #footer{
+    margin-bottom: -5px;
 }
-@media(max-width:768px) {
-    #ifr {
-        height: 500px;
-    }
 
-    #footer {
-        height: 300px;
 
-    }
+
+
+
+#divv{
+    text-align: justify;
+    
+}
+#escritatitulo{
+    margin-left: 15%;
+}
+#noticia{
+    font-size: 20px;
+}
+h2{
+    margin-left: 20%;
+}
+#divcomentarios{
+    font-size: 20px;
+}
+aside{
+    display: none;
+}
+#articleprincipal{
+    text-align: justify;
+}
+#textoprincipal{
+    font-size: 20px;
+}
+#escritatitulo {
+    font-size: 35px;
+    text-align: justify;
+}
 }
