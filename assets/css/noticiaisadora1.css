@@ -27,7 +27,7 @@ h1 {
 p {
     line-height: 30px;
     text-align: justify;
-    width: 95%;
+    width: 80%;
     margin: 5px;
 }
 
@@ -198,7 +198,8 @@ a {
     h2 {
         font-size: 1;
         margin-top: 5%;
-        font-size: 90%;
+        font-size: 20px;
+
     }
 
     h1 {
@@ -209,7 +210,7 @@ a {
     }
 
     h3 {
-        font-size: 90%;
+        font-size: 20px;
     }
 
     #articleprincipal {
@@ -218,11 +219,14 @@ a {
 
     #fotoprincipal {
         width: 100%;
+        margin: auto;
     }
 
     #escritatitulo {
-        font-size: 100%;
-        text-align: center;
+        font-size: 30px;
+        text-align: justify;
+        margin-left: 0;
+        margin-bottom: -10px;
     }
 
     aside {
@@ -265,7 +269,7 @@ a {
     }
 
     #divv {
-        text-align: center;
+        text-align: justify;
         width: 100%;
     }
 
@@ -286,13 +290,14 @@ a {
     
 }
 #escritatitulo{
-    margin-left: 15%;
+    margin-left: 9%;
 }
 #noticia{
     font-size: 20px;
 }
 h2{
-    margin-left: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 #divcomentarios{
     font-size: 20px;
