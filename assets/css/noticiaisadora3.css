@@ -270,16 +270,40 @@ a {
         margin-top: 15%;
         margin-bottom: 5%;
     }
-    #estrelaavaliacao {
-        width: 10%;
-    }
+
     #noticia {
         margin-left: 2%;
         margin-top: 5%;
     }
-}
-#footer{
-    margin-bottom: -5px;
+    #divv{
+        text-align: justify;
+        
+    }
+    #escritatitulo{
+        margin-left: 19%;
+    }
+    #noticia{
+        font-size: 20px;
+    }
+    h2{
+        margin-left: 8%;
+    }
+    #divcomentarios{
+        font-size: 20px;
+    }
+    aside{
+        display: none;
+    }
+    #articleprincipal{
+        text-align: justify;
+    }
+    #textoprincipal{
+        font-size: 20px;
+    }
+    #escritatitulo {
+        font-size: 35px;
+        text-align: justify;
+    }
 }
 @media(max-width:769px) {
     #ifr {

@@ -1,4 +1,4 @@
-/*Configurações Gerais*/
+*Configurações Gerais*/
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +16,7 @@ header {
 
 /*Foto Logo*/
 
- img {
+#fotologo {
     width: 10%;
     margin: 10px;
 } 

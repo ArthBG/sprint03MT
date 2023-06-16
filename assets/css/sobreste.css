@@ -16,7 +16,7 @@ iframe {
 }
 
 p {
-    margin: 2%;
+    margin: 20px;
     text-align: justify;
     line-height: 30px;
 }
@@ -127,7 +127,7 @@ h2 {
     }
 /*configurações sobre mim*/
     #sobremim {
-
+        font-size: 100%;
         text-align: center;
         width: 100%;
     }
@@ -167,7 +167,7 @@ h2 {
         height: 500px;
     }
 /*configurações footer*/
-#footer{
-    margin-bottom: -5px;
-}
+    #footer {
+        height: 300px;
+    }
 }
