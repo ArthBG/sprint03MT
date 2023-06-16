@@ -76,6 +76,7 @@ article {
     background-color: #7657b2;
     margin: 20px;
     border-radius: 10px;
+    
 }
 .h1ultimasnoticias {
     border-bottom: 1px solid white;
@@ -94,6 +95,7 @@ article {
     border-radius: 10px;
     background-color: white;
     margin: 20px;
+    height: 20%;
 }
 img {
     border-radius: 10px;
@@ -104,8 +106,13 @@ img {
     margin-left: 15px;
 }
 #ultimasnoticiasfotos {
-    width: 10%;
+    width: 15%;
 
+}
+#ultimasnoticiasfotos01 {
+    width: 15%;
+    height: 20%;
+   
 }
 
 @media (max-width: 768px){

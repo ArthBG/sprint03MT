@@ -88,7 +88,7 @@ div {
 
 aside {
     background-color: #E0CFE6;
-    height: 380px;
+    height: 60%;
 }
 
 .navbarlateral {
@@ -162,6 +162,12 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
+    #estrelaavaliacao {
+        width: 10%;
+        border: none;
+        margin: 5px;
+    }
+
     /* iframe do footer */
     #footer {
         height: 100%;
@@ -175,16 +181,36 @@ a {
         flex-direction: column;
     }
 
+    .nomedepoimentos {
+        font-size: 25px;
+    }
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     #fotoprincipal {
         height: 300px;
         width: 300px;
         margin: 0;
     }
 
+
+    #textoprincipal {
+        align-items: center;
+        width: 100%;
+    }
+
     /* Titulo da noticia */
     #escritatitulo {
         line-height: normal;
-        font-size: 40px;
+        font-size: 35px;
+    }
+
+    h3,
+    h3 {
+        font-size: 20px;
     }
 
     /* div com o titulo, quem fez e que dia foi feito */
@@ -204,21 +230,28 @@ a {
 
     /* texto da noticia */
     #noticia {
-        font-size: 30px;
+        font-size: 20px;
+        margin: auto;
+        text-align: justify;
     }
 
-    /* abas do comentarios */
-    .sectioncomentarios {
-        width: 100%;
-        margin: 5px;
-    }
+    p {
+        font-size: 25px;
 
+    }
     /* para tirar aside */
     aside {
         display: none;
     }
 }
 
+@media(max-width:280px) {
+    #fotoprincipal {
+        height: 200px;
+        width: 200px;
+        margin: 0;
+    }
+}
 @media(max-width:368px) {
 
     /* Titulo da noticia */

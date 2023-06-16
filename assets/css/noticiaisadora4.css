@@ -20,14 +20,16 @@ main {
 }
 
 h1 {
+    font-size: 30px;
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 p {
     line-height: 30px;
     text-align: justify;
-    width: 95%;
+    width: 80%;
     margin: 5px;
 }
 
@@ -45,10 +47,11 @@ h3 {
 }
 
 #escritatitulo {
-    font-size: 200%;
+    font-size: 35px;
     color: #7657b2;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
 }
 
 /*Article Principal Imagem*/
@@ -84,14 +87,11 @@ div {
 /*Navbar Lateral*/
 #container {
     width: 30%;
-} 
-
-
-
+}
 
 aside {
     background-color: #E0CFE6;
-    height: 380px;
+    height: 75%;
 }
 
 .navbarlateral {
@@ -99,11 +99,16 @@ aside {
     background-color: white;
     margin: 10px;
     border-radius: 10px;
+    width: 95%;
+    font-size: 30px;
+    height: 28%;
+    text-align: center;
 }
 
 .fotonoticias {
     border-radius: 10px;
     width: 100%;
+    height: 100%;
 }
 
 #navbarlateral3 {
@@ -112,6 +117,10 @@ aside {
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 95%;
+    height: 28%;
+    text-align: center;
+    font-size: 30px;
 }
 
 a {
@@ -162,12 +171,18 @@ a {
 #div_bottom {
     margin-bottom: 10px;
 }
+h2{
+    text-align: center;
+}
 
 
 @media (max-width: 768px) {
     body {
         font-size: 30px;
         margin: 0;
+    }
+    #titus{
+        width:100% ;
     }
 
     #container11 {
@@ -194,18 +209,16 @@ a {
         width: 90%;
         padding: 5%;
         margin-right: 0%;
-        margin-left: 5%;
     }
 
-    #escritatitulo {
-        font-size: 40px;
-        text-align: justify;
-    }
+    
 
     h2 {
-        font-size: 1;
+       text-align: center;
         margin-top: 5%;
-        font-size: 90%;
+        font-size: 20px;
+margin-bottom: -20px;
+
     }
 
     h1 {
@@ -216,7 +229,8 @@ a {
     }
 
     h3 {
-        font-size: 90%;
+        font-size: 20px;
+        text-align: center;
     }
 
     #articleprincipal {
@@ -225,17 +239,21 @@ a {
 
     #fotoprincipal {
         width: 100%;
+        margin: auto;
     }
 
     #escritatitulo {
-        font-size: 110%;
-        text-align: center;
+        font-size: 35px;
+       margin-top: 5%;
+        margin-left: 12%;
+        margin-bottom: -10px;
     }
 
     aside {
         height: 100%;
         width: 80%;
-        margin: 0%;
+        margin-right: 0%;
+        margin-left: 5%;
     }
 
     h6 {
@@ -251,14 +269,14 @@ a {
         width: 100%;
 
     }
-
-    #escritatitulo {
-        margin: 0%;
+    #estrelaavaliacao {
+        width: 7%;
+        border: none;
+        margin: 5px;
     }
 
-    #titus {
-        width: 100%;
-    }
+   
+    
 
     #container11 {
         width: 100%;
@@ -273,27 +291,27 @@ a {
         margin-left: 2%;
         margin-top: 5%;
     }
-    #divv{
-        text-align: center;
+
+    #divv {
         width: 100%;
-  }
+    }
+
+    
 
   #footer{
     margin-bottom: -5px;
 }
-#divv{
-    text-align: justify;
-    
-}
-#escritatitulo{
-    margin-left: 20%;
-}
+
+
+
+
+
+
+
 #noticia{
     font-size: 20px;
 }
-h2{
-    margin-left: 32%;
-}
+
 #divcomentarios{
     font-size: 20px;
 }
@@ -306,8 +324,6 @@ aside{
 #textoprincipal{
     font-size: 20px;
 }
-#escritatitulo {
-    font-size: 35px;
-    text-align: justify;
-}
+
+
 }
