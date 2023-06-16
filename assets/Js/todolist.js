@@ -11,15 +11,12 @@ function sendN() {
     let dat = document.getElementById("date").value;
     let autor = document.getElementById("autor").value;
     let categ = document.getElementById("categories").value;
-    // Conversão da data
     let datfix = dat.split("-").reverse().join("/");
     let dateT = new Date(dat);
     let todayT = new Date();
     console.log(dateT);
     console.log(todayT);
-    // fim da conversão da data
 
-    if(editI < 0){
     if(title == "" || resu == "" || dat == "" || autor == "" || categ == ""){
         document.getElementById("alertP").innerHTML = "Preencha os campos corretamente!";
         return;
@@ -36,19 +33,19 @@ function sendN() {
         adat.push(datfix);
         aautor.push(autor);
         acateg.push(categ);
-for (i=0 ; i<atitle.length ; i++){
-        let newdiv = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>' +
-        '<h2 class="resums">' + aresu[cssI] + '</h2>' +
-        '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>' +
-        '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>' +
-        '<p class="dates">' + adat[cssI] + '</p>' +
-        '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
-        '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
-        let newsContainer = document.getElementsByClassName("news")[0];
-        newsContainer.innerHTML += newdiv;
 
-        
-        
+        let divtitle = '<section id="newssec' + cssI + '"><h1>' + atitle[cssI] + '</h1>';
+        let divresu = '<h2 class="resums">' + aresu[cssI] + '</h2>';
+        let divcateg = '<p class="categs">' + 'Categoria: ' + acateg[cssI] + '</p>';
+        let divautor = '<p class="autors">' + 'Escrito por: ' + aautor[cssI] + '</p>';
+        let divdat = '<p class="dates">' + adat[cssI] + '</p>';
+        let editbtn = '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>';
+        let removebtn = '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
+        let newsContainer = document.getElementsByClassName("news")[0];
+        newsContainer.innerHTML += divtitle + divresu + divcateg + divautor + divdat + editbtn + removebtn;
+
+
+
 
         document.getElementById("title").value = "";
         document.getElementById("resume").value = "";
@@ -56,10 +53,11 @@ for (i=0 ; i<atitle.length ; i++){
         document.getElementById("autor").value = "";
         document.getElementById("resume").value = "";
         document.getElementById("categories").value = "";
+
         
-    }
     cssI++;
 } else {
+
     atitle[editI] = title;
     aresu[editI] = resu;
     adat[editI] = dat;
@@ -67,14 +65,18 @@ for (i=0 ; i<atitle.length ; i++){
     acateg[editI] = categ;
     editI = -1;
 }
+
     document.getElementById("alertP").innerHTML = "";
+
+    cssI++;
+
     console.log(atitle);
     console.log(aresu);
     console.log(adat);
     console.log(aautor);
     console.log(acateg);
 }
-}
+
 function removeN(cssInone) {
     let sectionId = "newssec" + cssInone;
     let section = document.getElementById(sectionId);
@@ -97,12 +99,7 @@ function editN(cssedit) {
             document.getElementById("autor").value = aautor[cssedit];
             document.getElementById("categories").value = acateg[cssedit];
             editI = cssedit;
-            
-            /* atitle.pop();
-            aresu.pop();
-            adat.pop();
-            aautor.pop();
-            acateg.pop(); */
+
     }
 
 
