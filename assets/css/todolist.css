@@ -166,7 +166,7 @@ button{
  @media (max-width: 768px) {
 
     article{
-        width: 90%;
+    width: 90%;
      margin:auto ;
      margin-bottom: 10%;
     }
@@ -178,6 +178,9 @@ button{
     h1 {
         width: auto;
     
+    }
+    .editbtn{
+        width: auto;
     }
     
 }
