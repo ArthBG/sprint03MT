@@ -238,3 +238,11 @@ a {
         display: none;
     }
 }
+
+@media(max-width:280px) {
+    #fotoprincipal {
+        height: 200px;
+        width: 200px;
+        margin: 0;
+    }
+}
