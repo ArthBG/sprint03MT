@@ -91,7 +91,7 @@ div {
 
 aside {
     background-color: #E0CFE6;
-    height: 380px;
+    height: 75%;
 }
 
 .navbarlateral {
@@ -99,6 +99,8 @@ aside {
     background-color: white;
     margin: 10px;
     border-radius: 10px;
+    width: 95%;
+    height: 28%;
 }
 
 .fotonoticias {
@@ -112,6 +114,8 @@ aside {
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 95%;
+    height: 28%;
 }
 
 a {
