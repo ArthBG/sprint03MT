@@ -40,7 +40,7 @@ main {
 .img1 {
     width: 240px;
     margin: 30px;
-    height: 150px;
+    height: 300px;
 }
 
 section {
@@ -98,6 +98,13 @@ text-decoration: none;
         font-size: 25px;
     }
 
+
+    img {
+        width: 40%;
+        height: 40%;
+        margin: 5px;
+    }
+    
     img {
         width: 40%;
         height: 40%;
@@ -139,12 +146,20 @@ text-decoration: none;
         margin: 5%;
         height: auto;
         margin-left: -20px ;
+}
+}
+@media(max-width:340px){
+    p{
+        font-size: 20px;
     }
-        #fut01{
-            width: 35%;
-        margin: 5%;
-        }
-        #vest{
-            margin-left: -15px;
-        }
+}
+@media(max-width:280px){
+    p{
+        font-size: 15px;
     }
+    .imag1{
+        width: 120px;
+        margin: 15px;
+        height: 75px;
+    }
+}
