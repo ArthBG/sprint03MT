@@ -18,18 +18,19 @@
 
 <body>
     <iframe id="ifr" src="../layouts/header.html" scrolling="no" frameborder="0"></iframe>
-    
+    <main>
         <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
-        <div id="mn">
+        <div>
             <h1 id="titulo">Digite seu Feedback</h1>
             <p id="subtitulo">Escreva sua opinião sobre o site e (ou) as páginas.</p>
             <br>
-            
-            <!-- Início do formulário -->
-            <div id="forms">
-                <form action="../pages/posformulario.html">
+        </div>
 
-                
+        <!-- Início do formulário -->
+        <div id="forms">
+            <form action="../pages/posformulario.html">
+
+                <fieldset class="grupo">
                     <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                     <div class="campo">
                         <label for="nome"><strong>Nome</strong></label>
@@ -41,9 +42,9 @@
                         <label for="sobrenome"><strong>Sobrenome</strong></label>
                         <input type="text" name="sobrenome" id="sobrenome" required>
                     </div>
-                    
-                    
-                    <!-- Campo de email com-->
+                </fieldset>
+
+                <!-- Campo de email com-->
                 <div class="campo">
                     <label for="email"><strong>Email</strong></label>
                     <input type="email" name="email" id="email" required>
@@ -53,22 +54,22 @@
                 <div class="campo">
                     <label><strong>Qual o tema?</strong></label>
                     <label>
-                        Biologia <input type="radio" name="devweb" value="frontend" >
+                        <input type="radio" name="devweb" value="frontend" checked>Biologia
                     </label>
                     <label>
-                        Futebol <input type="radio" name="devweb" value="backend">
+                        <input type="radio" name="devweb" value="backend">Futebol
                     </label>
                     <label>
-                        Geologia <input type="radio" name="devweb" value="fullstack">
+                        <input type="radio" name="devweb" value="fullstack">Geologia
                     </label>
                     <label>
-                        Inovação <input type="radio" name="devweb" value="fullstack">
+                        <input type="radio" name="devweb" value="fullstack">Inovação
                     </label>
                     <label>
-                        Nutrição <input type="radio" name="devweb" value="fullstack">
+                        <input type="radio" name="devweb" value="fullstack">Nutrição
                     </label>
                     <label>
-                        Vestibular <input type="radio" name="devweb" value="fullstack">
+                        <input type="radio" name="devweb" value="fullstack">Vestibular
                     </label>
                     <!--fim label-->
 
@@ -78,24 +79,23 @@
 
                 <!-- campo de temas com 7 temas diferentes -->
 
-                
+
 
                 <!-- Caixa de texto -->
                 <div class="campo">
                     <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                    <input type="text" id="exp">
+                    <textarea rows="6" style="width: 100%" id="experiencia" name="experiencia" required></textarea>
                 </div>
 
-                
-                
-                
+                <!-- Botão para enviar o formulário -->
+                <button class="botao" type="submit" href="../pages/formulario.html">Concluído</button>
+
+
+
             </form>
             <!--fim form-->
         </div>
-            <!-- Botão para enviar o formulário -->
-         <a href="../pages/formulario.html" class="botao">Concluído</a>
-    
-    </div>
+    </main>
     <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
 
 </body>

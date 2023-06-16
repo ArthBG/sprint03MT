@@ -37,7 +37,7 @@ main {
 }
 
 /*Sections*/
-img {
+.img1 {
     width: 240px;
     margin: 30px;
     height: 150px;
@@ -130,8 +130,9 @@ text-decoration: none;
     }
 
     /* iframe do footer */
-    #footer{
-        margin-bottom: -5px;
+    #footer {
+        height: 100%;
+        width: 100%;
     }
     #vest01{
         width: 50%;

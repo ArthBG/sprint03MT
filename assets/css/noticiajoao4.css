@@ -203,11 +203,8 @@ margin: 0;
 
    #noticia{ 
     margin-top: 5%;
-
-
     flex-direction: column;
     font-size: 15px;
-
    }
 
    #sectiontext3{
@@ -253,16 +250,12 @@ margin: 0;
     text-align: center;
   }
 
-
-  #footer{
-    margin-bottom: -5px;
-}
-
-
   h6{
     font-size: 90%;
   }
-  #estrelaavaliacao {
-    width: 10%;
-}
+  #estrelaavaliacao{
+    width: 7%;
+    border: none;
+    margin: 5px;
+ }
    }

@@ -264,13 +264,12 @@ a {
     #escritatitulo{
         margin-left: 5%;
     }
-    #estrelaavaliacao {
-        width: 10%;
-    }
+
     #divv{
         text-align: center;
         width: 100%;
   }
+
   #footer{
     margin-bottom: -5px;
 }#divv{
@@ -302,15 +301,5 @@ aside{
     font-size: 35px;
     text-align: justify;
 }
-}
 
-@media(max-width:768px) {
-    #ifr {
-        height: 500px;
-    }
-
-    #footer {
-        height: 300px;
-
-    }
 }
