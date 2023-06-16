@@ -145,7 +145,7 @@ input, select, textarea, button {
     }
     #btn{
         margin-top: 2%;
-      
+        margin: auto;
     }
 
     #footer{
