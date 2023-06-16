@@ -4,7 +4,7 @@ let adat = [];
 let aautor = [];
 let acateg = [];
 let cssI = 0;
-
+let editI = -1;
 function sendN() {
     let title = document.getElementById("title").value;
     let resu = document.getElementById("resume").value;
@@ -24,10 +24,11 @@ function sendN() {
 
 
     if(dateT < todayT){
-        alert("Insira uma data válida!");
+        document.getElementById("alertP2").innerHTML = "Insira uma data válida!";
+        return
     }
 
-    if (title && resu && dat && autor && categ) {
+    if (editI < 0){
         atitle.push(title);
         aresu.push(resu);
         adat.push(datfix);

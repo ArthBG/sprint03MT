@@ -1,4 +1,3 @@
-
 /* Todos os elementos da página */
 * {
     margin: 0;
@@ -7,35 +6,29 @@
 iframe {
     width: 100%;
 }
-
 #footer {
     margin-top: 30px;
     margin-bottom: -5px;
 }
-
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
     color: #7657b2;
-    margin-left: 3%;
 } 
-
+#forms{
+    margin: auto;
+}
+form{
+    margin: auto;
+}
 /* Elementos com o ID "subtitulo" */
 #subtitulo {
     font-family: sans-serif;
     color: #7657b2;
-    margin-left: 10%;
 } 
-
 #check{
     display: inline-block;
 }
-
-/* Elementos de tag <fieldset>*/
-fieldset {
-    border: 0;
-}
-
 /* Elemento de tag <body> */
 body{
     background-color: #E0CFE6;
@@ -44,7 +37,6 @@ body{
     color: #59429d;
     justify-content: center;
 }
-
 /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
 input, select, textarea, button {
     font-family: sans-serif;
@@ -52,153 +44,111 @@ input, select, textarea, button {
     color: #59429d;
     border-radius: 5px;
 }
-
 /* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
 .grupo:before, .grupo:after {
     display: table;
 }
-
 /* Elementos de classe "grupo" no estado da pseudoclasse "after" */
 .grupo:after {
     clear: both;
 }
-
 /* Elementos de classe "campo" */
 .campo {
     margin-bottom: 1em;
 }
-
 #experiencia {
     margin-bottom: 30px;
 }
-
 /* Elementos de classe "campo" de tag <label> */
 .campo label {
     margin-bottom: 0.2em;
     color: #7657b2;
     display: block;
 }
-
-/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
-fieldset.grupo .campo {
-    float:  left;
-    margin-right: 1em;
-}
-
-/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
-    padding: 0.2em;
-    border: 1px solid #7657b2;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    display: block;
-}
-
 /* Elementos de classe "campo" de tag <select> e <option>*/
 .campo select option {
     padding-right: 1em;
 }
-
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
 .campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #E0E0F8;
 }
 
 /* Elemento de classe "botao" */
-.botao {
+#btn {
+   text-decoration: none;
     font-size: 1.2em;
-    background: #7657b2;
-    border: 0;
+    background-color: #7657b2;
     color: #ffffff;
-    padding: 0.2em 0.6em;
+    width: auto;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
+   
 }
-
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
-.botao:hover {
+#btn:hover {
     background: #CCBBFF;
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
     text-align: center;
     margin-top: auto;
 }
-
 /* Elementos de classe botão e de tag <select> */
-.botao, select{
-    cursor: pointer;
+#formtotal {
+    margin-left: 40%;
 }
-
-
-main {
-    margin-left: 33%;
-    margin-top: 2%;
-}
-@media(max-width:768px){
-    .grupo{
-        align-items: center;
-        text-align: center;
-    }
-    fieldset.grupo .campo{
-        float:none;
-        margin-right: 0;
+@media screen and (max-device-width: 768px) and (min-device-height: 400px){
+    body {
+        font-size: 20px;
     }
     #titulo{
-        margin: 0;
+        text-align: center;
     }
     #subtitulo{
-        margin: 0;
+        text-align: center;
     }
-    #email{
-        width: 100%;
+    #formtotal {
+        margin: 0;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .grupo {
+        margin: auto;
         padding: 0;
+        width: auto;
+        height: auto;
+    }
+    .campo{
+        margin: auto;
+        text-align: center;
+        width: 100%;
     }
     #nome{
-        width: 100%;
-        padding: 0;
+        width: auto;
         margin: auto;
     }
     #sobrenome{
-        width: 100%;
-        padding: 0;
+        width: auto;
         margin: auto;
+    }
+    #email{
+        width: auto;
+        margin: auto;
+    }
+    #exp{
+        width: auto;
+        margin: auto;
+    }
+    input{
+        width: 100%;
+    }
+    #btn{
+        margin-top: 2%;
+        margin: auto;
+    }
 
-    }
-    #ifr{
-        height: 500px;
-    }
     #footer{
-        padding-top: 33%;
-        height: 300px;
-    }
-    #experiencia{
-        margin: 0;
-        padding: 0;
-        width: 33%;
-    }
-    body{
-        font-size: 40px;
-    }
-    
-    main{
-        margin: 0;
-        text-align: center;
-    }
-    div{
-        align-items: center;
-
-    }
-}
-@media (max-width:375px){
-    h1{
-    font-size: 60px;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+        margin-bottom: -5px;
     }
 }

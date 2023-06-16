@@ -1,105 +1,106 @@
 <!doctype html>
 <html>
-
 <head>
     <!-- Metadados -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- CSS -->
-    <link rel="stylesheet" href="../assets/css/feedback.css">
+    <link rel="stylesheet" type="text/css" href="../assets/css/feedback.css" media="screen">
     <link rel="icon" href="../assets/images/logo.png.png">
-
-
+    <link rel="stylesheet" href="/layouts/headernova.css">
 
     <!-- Título da página (aparece na aba) -->
-    <title>Feedback</title>
+    <title>Cadastro</title>
 </head>
-
 <body>
-    <iframe id="ifr" src="../layouts/header.html" scrolling="no" frameborder="0"></iframe>
-    <main>
+
+  <!--Header-->
+  <header>
+    <!--Logo Equipe-->
+    <a href="../index.html" target="_blank">
+        <img id="fotologo" src="../assets/images/logowhite.png.png" alt="Logo da equipe">
+    </a>
+
+
+    <div class="dropdown">
+        <button class="dropbtn">Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+        <div class="dropdown-content">
+            <a href="/index.html">Inicio</a>
+            <a href="/pages/categorias.html">Categorias</a>
+            <a href="/pages/sobrenos.html">Equipe</a>
+            <a href="/pages/inicioextra.html">Hefester</a>
+            <a href="/pages/formulario.html">Contato</a>
+            <a href="/pages/feedback.html">Feedback</a>
+            <a href="/pages/todolist.html">Painel</a>
+        </div>
+    </div>
+
+</header>
+<!--header site-->
+
+<div id="formtotal">
         <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
         <div>
-            <h1 id="titulo">Digite seu Feedback</h1>
-            <p id="subtitulo">Escreva sua opinião sobre o site e (ou) as páginas.</p>
+            <h1 id="titulo">Faça seu Cadastro</h1>
+            <p id="subtitulo">Complete suas informações</p>
             <br>
         </div>
-
         <!-- Início do formulário -->
-        <div id="forms">
-            <form action="../pages/posformulario.html">
-
-                <fieldset class="grupo">
-                    <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
-                    <div class="campo">
-                        <label for="nome"><strong>Nome</strong></label>
-                        <input type="text" name="nome" id="nome" required>
-                    </div>
-
-                    <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
-                    <div class="campo">
-                        <label for="sobrenome"><strong>Sobrenome</strong></label>
-                        <input type="text" name="sobrenome" id="sobrenome" required>
-                    </div>
-                </fieldset>
-
-                <!-- Campo de email com-->
+        <form action="../pages/posformulario.html">
+    
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                 <div class="campo">
-                    <label for="email"><strong>Email</strong></label>
-                    <input type="email" name="email" id="email" required>
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
                 </div>
-
-                <!-- campo de pergunts dos temas -->
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
                 <div class="campo">
-                    <label><strong>Qual o tema?</strong></label>
-                    <label>
-                        <input type="radio" name="devweb" value="frontend" checked>Biologia
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="backend">Futebol
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Geologia
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Inovação
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Nutrição
-                    </label>
-                    <label>
-                        <input type="radio" name="devweb" value="fullstack">Vestibular
-                    </label>
-                    <!--fim label-->
-
-
-
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
                 </div>
+          
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <!-- campo de pergunts dos temas -->
+            <div class="campo">
+                <label><strong>Qual seu gênero?</strong></label>
+                <label>
+                    Masculino <input type="radio" name="devweb" value="frontend">
+                </label>
+                <label>
+                    Feminino <input type="radio" name="devweb" value="backend">
+                </label>
+                <label>
+                    Outro <input type="radio" name="devweb" value="fullstack">
+                </label>
+                <label>
+                    Prefiro não informar
+                    <input type="radio" name="devweb" value="fullstack">
+                </label>
+            </div>
+            <!-- campo de temas com temas diferentes -->
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
+                <input type="text" id="exp">
+            </div>
 
-                <!-- campo de temas com 7 temas diferentes -->
+            <a href="../pages/posformulario.html" id="btn">Concluído</a>
+            <!-- Botão para enviar o formulário -->
+        </form>
 
+    </div>
+</div>
 
-
-                <!-- Caixa de texto -->
-                <div class="campo">
-                    <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                    <textarea rows="6" style="width: 100%" id="experiencia" name="experiencia" required></textarea>
-                </div>
-
-                <!-- Botão para enviar o formulário -->
-                <button class="botao" type="submit" href="../pages/formulario.html">Concluído</button>
-
-
-
-            </form>
-            <!--fim form-->
-        </div>
-    </main>
     <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
-
 </body>
-
 </html>
-
-<!--final-->

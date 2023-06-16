@@ -24,7 +24,7 @@ h1 {
     border-radius: 20px;
     color: white;
     width: 50%;
-    margin-left: 25%;
+    margin: auto;
 
 }
 /* personalização do input */
@@ -100,9 +100,6 @@ article {
     width: 100%;
     margin: 0;
 }
-h1 {
-    font-size: 30px;
-}
 h2 {
     font-size: 20px;
     width: auto;
@@ -156,12 +153,20 @@ button{
     border: solid 4px #6a049a;;
     border-radius: 10px;
 }
+#alertP{
+    color: red;
+    font-size: 20px;
+}
+#alertP2{
+    color: red;
+    font-size: 20px;
+}
 /* abertura da tag media para respansivo
  */
  @media (max-width: 768px) {
 
     article{
-        width: 90%;
+    width: 90%;
      margin:auto ;
      margin-bottom: 10%;
     }
@@ -169,6 +174,13 @@ button{
     input{
         width: 70%;
         height: auto;
+    }
+    h1 {
+        width: auto;
+    
+    }
+    .editbtn{
+        width: auto;
     }
     
 }
