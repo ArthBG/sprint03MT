@@ -267,6 +267,10 @@ a {
         padding: 0;
     }
 
+    #ifr {
+        height: 500px;
+    }
+
     #footer{
         margin-bottom: -5px;
     }

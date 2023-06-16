@@ -25,13 +25,10 @@ h1 {
 }
 
 p {
-  
-font-size: 17px;
-
+    line-height: 30px;
     text-align: justify;
     width: 95%;
     margin: 5px;
-
 }
 
 /*Article Principal*/
@@ -271,9 +268,7 @@ a {
         margin-top: 15%;
         margin-bottom: 5%;
     }
-    #estrelaavaliacao {
-        width: 10%;
-    }
+
     #noticia {
         margin-left: 2%;
         margin-top: 5%;
@@ -282,9 +277,6 @@ a {
         text-align: center;
         width: 100%;
   }
-  #footer{
-    margin-bottom: -5px;
-}
 }
 @media(max-width:768px) {
     #ifr {

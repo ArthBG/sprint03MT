@@ -152,9 +152,6 @@ margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    #footer{
-        margin-bottom: -5px;
-    }
 
     body {
         font-size: 25px;
@@ -228,7 +225,6 @@ margin: 0;
     aside {
       display: none;
   }
-}
 @media(max-width:768px){
     
     #divpr{

@@ -15,10 +15,6 @@ body {
 .label1 {
     font-size: 25px;
 }
-#alertP{
-    text-align: center;
-    font-size: 20px;
-}
 
 /* personalização do titulo */
 h1 {
@@ -155,18 +151,14 @@ button{
     color: #f5f5f5;
     font-size: 20px;
     height: auto;
-    width: 15%;
+    width: 30%;
     margin: 2%;
     border: solid 4px #6a049a;;
     border-radius: 10px;
 }
-button:hover{
-     transition: 0.5s ease-in-out;
-     transform: scale(1.1);
-}
 /* abertura da tag media para respansivo
  */
- @media screen and (max-device-width: 768px) and (min-device-height: 400px){
+ @media (max-width: 768px) {
 
     article{
         width: 90%;
@@ -178,17 +170,5 @@ button:hover{
         width: 70%;
         height: auto;
     }
-    h1{
-        width: 90%;
-        margin: 6%;
-    }
-    button{
-        width: auto;
-        height: auto;
-    }
-    #footer{
-        margin-bottom: -5px;
-    }
-
     
 }
