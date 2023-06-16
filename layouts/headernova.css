@@ -5,14 +5,15 @@
 
 
 .dropbtn {
-    /* margin-top: 20%; */
+    /* margin-top: 20%;  */
     background-color: #7657b2;
     color: white;
-    padding: 16px;
+     padding: 25px; 
     font-size: 30px;
     border: none;
     height: 100%;
     width: 100%;
+  /* margin-right: 80%; */
 }
 
 .dropdown {

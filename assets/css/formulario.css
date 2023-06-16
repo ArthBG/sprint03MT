@@ -9,7 +9,10 @@ iframe {
     margin: 0%;
     padding: 0%;
 }
-
+header{
+    width: 100%;
+    height: 50%;
+}
 #footer {
     margin-bottom: -5px;
 }
@@ -222,9 +225,6 @@ select {
 
     }
 
-    #ifr {
-        height: 500px;
-    }
 
     #footer {
         padding-top: 33%;
@@ -239,16 +239,4 @@ select {
         align-items: center;
 
     }
-}
-
-
-@media (max-width:390px) {
-    h1{
-        font-size: 60px;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-        }
 }
