@@ -277,6 +277,35 @@ a {
         margin-left: 2%;
         margin-top: 5%;
     }
+    #divv{
+        text-align: justify;
+        
+    }
+    #escritatitulo{
+        margin-left: 19%;
+    }
+    #noticia{
+        font-size: 20px;
+    }
+    h2{
+        margin-left: 8%;
+    }
+    #divcomentarios{
+        font-size: 20px;
+    }
+    aside{
+        display: none;
+    }
+    #articleprincipal{
+        text-align: justify;
+    }
+    #textoprincipal{
+        font-size: 20px;
+    }
+    #escritatitulo {
+        font-size: 35px;
+        text-align: justify;
+    }
 }
 #footer{
     margin-bottom: -5px;

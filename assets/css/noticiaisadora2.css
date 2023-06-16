@@ -273,6 +273,34 @@ a {
   }
   #footer{
     margin-bottom: -5px;
+}#divv{
+    text-align: justify;
+    
+}
+#escritatitulo{
+    margin-left: 25%;
+}
+#noticia{
+    font-size: 20px;
+}
+h2{
+    margin-left: 30%;
+}
+#divcomentarios{
+    font-size: 20px;
+}
+aside{
+    display: none;
+}
+#articleprincipal{
+    text-align: justify;
+}
+#textoprincipal{
+    font-size: 20px;
+}
+#escritatitulo {
+    font-size: 35px;
+    text-align: justify;
 }
 }
 
