@@ -16,7 +16,7 @@ iframe {
 }
 
 p {
-    margin: 2%;
+    margin: 20px;
     text-align: justify;
     line-height: 30px;
 }
@@ -168,7 +168,7 @@ h2 {
         height: 500px;
     }
 /*configurações footer*/
-#footer{
-    margin-bottom: -5px;
-}
+    #footer {
+        height: 300px;
+    }
 }

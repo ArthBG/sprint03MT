@@ -162,7 +162,6 @@ a {
 
 /* media para quando chegar a telas de celulares */
 @media(max-width:768px) {
-
     /* iframe do footer */
     #footer {
         height: 100%;
@@ -176,24 +175,10 @@ a {
         flex-direction: column;
     }
 
-    .nomedepoimentos {
-        font-size: 25px;
-    }
-
-    #textoprincipal {
-        align-items: center;
-        width: 100%;
-    }
-
     #fotoprincipal {
         height: 300px;
         width: 300px;
         margin: 0;
-    }
-
-    #textoprincipal {
-        align-items: center;
-        width: 100%;
     }
 
     /* Titulo da noticia */
@@ -229,8 +214,10 @@ a {
         text-align: justify;
     }
 
-    p {
-        font-size: 25px;
+    /* abas do comentarios */
+    .sectioncomentarios {
+        width: 100%;
+        margin: 5px;
     }
 
     /* para tirar aside */
