@@ -199,7 +199,13 @@ a {
     /* Titulo da noticia */
     #escritatitulo {
         line-height: normal;
-        font-size: 30px;
+        font-size: 35px;
+        text-align: justify;
+    }
+
+    h3,
+    h3 {
+        font-size: 20px;
     }
 
     /* div com o titulo, quem fez e que dia foi feito */
@@ -219,7 +225,9 @@ a {
 
     /* texto da noticia */
     #noticia {
-        font-size: 30px;
+        font-size: 20px;
+        margin: auto;
+        text-align: justify;
     }
 
     p {
@@ -229,20 +237,5 @@ a {
     /* para tirar aside */
     aside {
         display: none;
-    }
-    #estrelaavaliacao {
-        width: 10%;
-    }
-    #footer{
-        margin-bottom: -5px;
-    }
-}
-
-@media(max-width:368px) {
-
-    /* texto da noticia */
-    #noticia {
-        font-size: 25px;
-        margin: 0;
     }
 }
