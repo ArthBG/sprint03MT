@@ -20,8 +20,10 @@ main {
 }
 
 h1 {
+    font-size: 30px;
     margin: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
 }
 
 p {
@@ -45,10 +47,11 @@ h3 {
 }
 
 #escritatitulo {
-    font-size: 200%;
+    font-size: 35px;
     color: #7657b2;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:auto;
 }
 
 /*Article Principal Imagem*/
@@ -158,6 +161,9 @@ a {
 
 #div_bottom {
     margin-bottom: 10px;
+}
+h2{
+    text-align: center;
 }
 
 
