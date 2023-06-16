@@ -175,9 +175,11 @@ a {
     body {
         font-size: 25px;
     }
-
+    h2{
+        font-size: 20px;
+    }
     #escritatitulo {
-        font-size: 40px;
+        font-size: 35px;
         text-align: justify;
     }
 
@@ -239,14 +241,16 @@ a {
     #divcomentarios {
         margin-top: 5%;
     }
-
-    aside {
+    aside{
+        display: none;
+    }
+   /*  aside {
         position: relative;
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
         margin-top: 4%;
-    }
+    } */
 
     .fotonoticias {
         width: 100%;
@@ -261,10 +265,6 @@ a {
     #div_bottom {
         margin: 0;
         padding: 0;
-    }
-
-    #ifr {
-        height: 500px;
     }
 
     #footer{
