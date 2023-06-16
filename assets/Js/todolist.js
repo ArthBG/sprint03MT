@@ -12,6 +12,7 @@ function sendN() {
     let dat = document.getElementById("date").value;
     let autor = document.getElementById("autor").value;
     let categ = document.getElementById("categories").value;
+    // Conversão da data
     let datfix = dat.split("-").reverse().join("/");
     let datnw = new Date(dat);
     let todayT = new Date();
@@ -21,7 +22,9 @@ function sendN() {
     let dateT = new Date(`${yearT}-${monthT}-${dayT}`);
     console.log(dateT);
     console.log(todayT);
+    // fim da conversão da data
 
+    if(editI < 0){
     if(title == "" || resu == "" || dat == "" || autor == "" || categ == ""){
         document.getElementById("alertP").innerHTML = "Preencha os campos corretamente!";
         return;
@@ -50,21 +53,40 @@ function sendN() {
         '<p class="dates">' + adat[cssI] + '</p>' +
         '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
         '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
-
+        
         let newsContainer = document.getElementsByClassName("news")[0];
         newsContainer.innerHTML += newdiv;
-
-
-
+        
+        
+        
         document.getElementById("title").value = "";
         document.getElementById("resume").value = "";
         document.getElementById("date").value = "";
         document.getElementById("autor").value = "";
         document.getElementById("categories").value = "";
-
+        
     }
-    document.getElementById("alertP").innerHTML = "";
     cssI++;
+} else {
+    atitle[editI] = title;
+    aresu[editI] = resu;
+    adat[editI] = dat;
+    aautor[editI] = autor;
+    acateg[editI] = categ;
+    editI = -1;
+
+    console.log(atitle);
+    console.log(aresu);
+    console.log(adat);
+    console.log(aautor);
+    console.log(acateg);
+}
+    document.getElementById("alertP").innerHTML = "";
+    console.log(atitle);
+    console.log(aresu);
+    console.log(adat);
+    console.log(aautor);
+    console.log(acateg);
 }
 
 // Função para remover a seção relacionada
@@ -81,7 +103,12 @@ function removeN(cssInone) {
             document.getElementById("autor").value = aautor[cssedit];
             document.getElementById("categories").value = acateg[cssedit];
             editI = cssedit;
-
+            
+            /* atitle.pop();
+            aresu.pop();
+            adat.pop();
+            aautor.pop();
+            acateg.pop(); */
     }
 
 
