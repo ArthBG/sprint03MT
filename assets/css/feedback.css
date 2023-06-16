@@ -1,4 +1,8 @@
 /* Todos os elementos da página */
+body{
+    width: 100%;
+    height: 100%;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,12 +12,14 @@ iframe {
 }
 #footer {
     margin-top: 30px;
-    margin-bottom: -5px;
+    margin-bottom: -30px;
+    bottom: 0;
 }
 /* Elementos com o ID "titulo" */
 #titulo {
     font-family: sans-serif;
     color: #7657b2;
+    margin-top: 5%;
 } 
 #forms{
     margin: auto;
@@ -83,6 +89,7 @@ input, select, textarea, button {
     width: auto;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    margin-bottom: 30%;
    
 }
 /* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
