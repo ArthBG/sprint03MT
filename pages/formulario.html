@@ -5,7 +5,7 @@
     <!-- Metadados -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../assets/css/feedback.css">
+
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/formulario.css" media="screen">
     <link rel="icon" href="../assets/images/logo.png.png">
@@ -18,33 +18,7 @@
 </head>
 
 <body>
-    <header>
-        <!--Logo Equipe-->
-        <a href="../index.html" target="_blank">
-            <img src="../assets/images/logowhite.png.png" alt="Logo da equipe">
-        </a>
-
-
-        <div class="dropdown">
-            <button class="dropbtn">Menu
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg>
-            </button>
-            <div class="dropdown-content">
-                <a href="/index.html">Inicio</a>
-                <a href="/pages/categorias.html">Categorias</a>
-                <a href="/pages/sobrenos.html">Equipe</a>
-                <a href="/pages/inicioextra.html">Hefester</a>
-                <a href="/pages/formulario.html">Contato</a>
-                <a href="/pages/feedback.html">Feedback</a>
-                <a href="/pages/todolist.html">Painel</a>
-            </div>
-        </div>
-
-    </header>
+    <iframe id="ifr" src="../layouts/header.html" scrolling="no" frameborder="0"></iframe>
     <div id="formtotal">
         <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
         <div>
@@ -80,17 +54,16 @@
             <div class="campo">
                 <label><strong>Qual seu gênero?</strong></label>
                 <label>
-                    Masculino <input type="radio" name="devweb" value="frontend">
+                    <input type="radio" name="devweb" value="frontend" checked>Masculino
                 </label>
                 <label>
-                    Feminino <input type="radio" name="devweb" value="backend">
+                    <input type="radio" name="devweb" value="backend">Feminino
                 </label>
                 <label>
-                    Outro <input type="radio" name="devweb" value="fullstack">
+                    <input type="radio" name="devweb" value="fullstack">Outro
                 </label>
                 <label>
-                    Prefiro não informar
-                    <input type="radio" name="devweb" value="fullstack">
+                    <input type="radio" name="devweb" value="fullstack">Prefiro não informar
                 </label>
 
             </div>
@@ -100,15 +73,15 @@
             <!-- Caixa de texto -->
             <div class="campo">
                 <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                <input type="text" id="exp">
+                <textarea rows="6" id="experiencia" name="experiencia" required></textarea>
             </div>
-            
+
             <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit">Concluído</button>
+
+
         </form>
-        <a href="../pages/posformulario.html" class="botao">Concluído</a>
     </div>
-
-
     <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
 </body>
 

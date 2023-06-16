@@ -114,10 +114,6 @@ li {
     width: 20%;
     margin: 1%;
 }
-p{
-    font-size: 20px;
-    text-align: justify;
-}
 #contato {
     color: white;
     font-size: 35px;
@@ -126,6 +122,6 @@ p{
     height: 500px;
 }
 #footer{
-    margin-bottom: -5px;
+    height: 300px;
 }
 }

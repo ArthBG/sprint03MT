@@ -130,8 +130,9 @@ text-decoration: none;
     }
 
     /* iframe do footer */
-    #footer{
-        margin-bottom: -5px;
+    #footer {
+        height: 100%;
+        width: 100%;
     }
     #vest01{
         width: 50%;

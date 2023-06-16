@@ -38,7 +38,7 @@ p {
 }
 
 /*Article Principal Titulos*/
-
+h2,
 h3 {
     color: #7657b2;
     text-align: center;
@@ -96,8 +96,6 @@ aside {
     background-color: white;
     margin: 10px;
     border-radius: 10px;
-    height: 80px;
-
 }
 
 .fotonoticias {
@@ -111,7 +109,6 @@ aside {
     margin: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    height: 80px;
 }
 
 a {
@@ -163,112 +160,96 @@ a {
     margin-bottom: 10px;
 }
 
-@media screen and (max-device-width: 768px) and (min-device-height: 480px) {
+/* media para quando chegar a telas de celulares */
+@media(max-width:768px) {
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+    /* iframe do footer */
+    #footer {
+        height: 100%;
+        width: 100%;
     }
 
-    body {
-        font-size: 45px;
-        font-family: Arial;
-    }
-
-    #escritatitulo {
-        font-size: 60px;
-        text-align: justify;
-    }
-    #footer{
-        margin-bottom: -5px;
-    }
-
-    .sectioncomentarios {
-        background-color: #E0CFE6;
-        flex-direction: column;
-
-    }
-
-    main {
-        display: flex;
-        flex-direction: column;
-
-    }
-
+    /* article com o titulo da noticia e a imagem */
     #articleprincipal {
-        display: flex;
+        align-items: center;
+        text-align: center;
         flex-direction: column;
+    }
 
+    .nomedepoimentos {
+        font-size: 25px;
     }
 
     #textoprincipal {
-        margin: 5%;
+        align-items: center;
+        width: 100%;
     }
 
     #fotoprincipal {
+        height: 300px;
+        width: 300px;
         margin: 0;
-        width:500px;
-        height: 500px;
-    }
-    .imgdepoimentos{
-        width: 250px;
-        height: 250px;
-    }
-
-    h6 {
-        font-size: 20px;
-
-    }
-
-    #divcomentarios {
-        margin: 1%;
-        margin-right: 4%;
-    }
-
-    #noticia {
-        margin: auto;
-        width: 95%;
-    }
-
-
-    #container {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-
     }
 
     #textoprincipal {
-        width: 96%;
-        margin-right: 2%;
-        margin-left: 2%;
-    }
-
-    #divcomentarios {
-        margin-top: 5%;
-    }
-
-    aside {
-      display: none;
-    }
-
-    .fotonoticias {
+        align-items: center;
         width: 100%;
-        height: 65%;
-        margin-top: 10%;
+    }
+
+    /* Titulo da noticia */
+    #escritatitulo {
+        line-height: normal;
+        font-size: 40px;
+    }
+
+    /* div com o titulo, quem fez e que dia foi feito */
+    #divprin {
+        width: 100%;
+    }
+
+    #imgprincipal {
+        width: 100%;
+    }
+
+    /* main com o texto da noticia e os comentarios */
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* texto da noticia */
+    #noticia {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 25px;
+    }
+
+    /* para tirar aside */
+    aside {
+        display: none;
     }
 
     #estrelaavaliacao {
         width: 10%;
     }
 
-    #div_bottom {
-        margin: 0;
-        padding: 0;
-    }
-    p {
-        line-height: 100%;
+    #footer {
+        margin-bottom: -5px;
     }
 }
 
+@media(max-width:368px) {
+
+    /* Titulo da noticia */
+    #escritatitulo {
+        font-size: 35px;
+    }
+
+    /* texto da noticia */
+    #noticia {
+        font-size: 25px;
+        margin: 0;
+    }
+}

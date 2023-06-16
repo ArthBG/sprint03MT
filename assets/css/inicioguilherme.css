@@ -117,12 +117,11 @@ img {
 }
 
 @media(max-width:768px) {
-
-    /* iframe do footer */
-    #footer {
-        height: 100%;
-        width: 100%;
-    }
+   /* iframe do footer */
+   #footer {
+    height: 100%;
+    width: 100%;
+}
 
     body {
         font-size: 30px;
@@ -164,23 +163,11 @@ img {
         height: 100%;
         margin: 0;
     }
-
-    #resumotema {
+    #resumotema{
         width: 100%;
     }
-    h1{
-        font-size: 35px;
-        text-align: justify;
-    }
-    h2{
+    p{
         font-size: 30px;
-        text-align: justify;
-    }
-    p {
-        font-size: 20px;
-        text-align: justify;
-    }
-    #footer{
-        margin-bottom: -5px;
+        width: 100%;
     }
 }

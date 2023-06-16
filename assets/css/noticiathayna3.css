@@ -179,9 +179,6 @@ p01{
     div {
         width: 100%;
     }
-    #footer{
-        margin-bottom: -5px;
-    }
     /* responsividade da imagem principal*/
     #imgprincipal {
         width: 35%;
@@ -283,9 +280,6 @@ p01{
         width: 100%;
         height: 100%;
         
-    }
-    #estrelaavaliacao {
-        width: 10%;
     }
      /* responsividade dos texto*/
     p01{
