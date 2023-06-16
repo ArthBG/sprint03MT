@@ -11,15 +11,12 @@ function sendN() {
     let dat = document.getElementById("date").value;
     let autor = document.getElementById("autor").value;
     let categ = document.getElementById("categories").value;
-    // Conversão da data
     let datfix = dat.split("-").reverse().join("/");
     let dateT = new Date(dat);
     let todayT = new Date();
     console.log(dateT);
     console.log(todayT);
-    // fim da conversão da data
 
-    if(editI < 0){
     if(title == "" || resu == "" || dat == "" || autor == "" || categ == ""){
         document.getElementById("alertP").innerHTML = "Preencha os campos corretamente!";
         return;
@@ -44,11 +41,17 @@ for (i=0 ; i<atitle.length ; i++){
         '<p class="dates">' + adat[cssI] + '</p>' +
         '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
         '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
+
         let newsContainer = document.getElementsByClassName("news")[0];
         newsContainer.innerHTML += newdiv;
 
         
-        
+
+        let newsContainer = document.getElementsByClassName("news")[0];
+        newsContainer.innerHTML += newdiv;
+
+
+
 
         document.getElementById("title").value = "";
         document.getElementById("resume").value = "";
@@ -56,6 +59,7 @@ for (i=0 ; i<atitle.length ; i++){
         document.getElementById("autor").value = "";
         document.getElementById("resume").value = "";
         document.getElementById("categories").value = "";
+
         
     }
     cssI++;
@@ -67,13 +71,9 @@ for (i=0 ; i<atitle.length ; i++){
     acateg[editI] = categ;
     editI = -1;
 }
+
     document.getElementById("alertP").innerHTML = "";
-    console.log(atitle);
-    console.log(aresu);
-    console.log(adat);
-    console.log(aautor);
-    console.log(acateg);
-}
+    cssI++;
 }
 function removeN(cssInone) {
     let sectionId = "newssec" + cssInone;
@@ -97,12 +97,7 @@ function editN(cssedit) {
             document.getElementById("autor").value = aautor[cssedit];
             document.getElementById("categories").value = acateg[cssedit];
             editI = cssedit;
-            
-            /* atitle.pop();
-            aresu.pop();
-            adat.pop();
-            aautor.pop();
-            acateg.pop(); */
+
     }
 
 
