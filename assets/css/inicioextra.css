@@ -19,6 +19,7 @@ h1 {
     color: #7657b2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+    margin-top: 5%;
 }
 h2 {
     color: #7657b2;
@@ -26,10 +27,12 @@ h2 {
     text-align: center;
     background-color: white;
     border-radius: 10px;
+    margin-top: 3%;
 }
 h3 {
     margin: 10px;
     text-align: center;
+    margin-top: 3%;
 }
 #contato {
     color: white;
