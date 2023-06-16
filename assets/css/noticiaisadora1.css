@@ -196,10 +196,11 @@ a {
     
 
     h2 {
-        font-size: 1;
+        font-size: 0;
         margin-top: 5%;
         font-size: 20px;
-
+margin-bottom: -20px;
+font-size: 15px;
     }
 
     h1 {
@@ -210,7 +211,7 @@ a {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     #articleprincipal {
@@ -225,7 +226,7 @@ a {
     #escritatitulo {
         font-size: 30px;
         text-align: justify;
-        margin-left: 0;
+        margin-left: 19%;
         margin-bottom: -10px;
     }
 
@@ -250,9 +251,8 @@ a {
 
     }
 
-    #escritatitulo {
-        margin: 0%;
-    }
+   
+    
 
     #container11 {
         width: 100%;
@@ -273,9 +273,7 @@ a {
         width: 100%;
     }
 
-    #escritatitulo {
-        margin-left: 5%;
-  }
+    
 
   #footer{
     margin-bottom: -5px;
@@ -285,18 +283,16 @@ a {
 
 
 
-#divv{
-    text-align: justify;
-    
-}
+
 #escritatitulo{
-    margin-left: 9%;
+    margin-left: 10%;
+    font-size: 35px;
 }
 #noticia{
     font-size: 20px;
 }
 h2{
-    margin-left: 7%;
+    margin-left: 21%;
     margin-right: 7%;
 }
 #divcomentarios{
@@ -311,8 +307,6 @@ aside{
 #textoprincipal{
     font-size: 20px;
 }
-#escritatitulo {
-    font-size: 35px;
-    text-align: justify;
-}
+
+
 }
