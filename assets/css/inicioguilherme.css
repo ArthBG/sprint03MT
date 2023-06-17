@@ -116,7 +116,7 @@ img {
     width: 10%;
 }
 
-@media(max-width:768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
    /* iframe do footer */
    #footer {
     height: 100%;

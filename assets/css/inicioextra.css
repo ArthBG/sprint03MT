@@ -83,7 +83,7 @@ ul {
     margin: auto;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px){
 h2 {
     font-size: 25px;
     margin: 2%;

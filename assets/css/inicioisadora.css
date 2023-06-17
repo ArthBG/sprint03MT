@@ -115,7 +115,7 @@ img {
    
 }
 
-@media (max-width: 768px){
+@media screen and (max-device-width: 768px) and (min-device-height: 400px){
     #noticiaprincipal{
         flex-direction: column;
     }

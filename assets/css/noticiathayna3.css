@@ -170,7 +170,7 @@ p01{
 
 
 /* comandos para responsividade */
-@media(max-width: 768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
 /* responsividade do corpo do site */
     body {
         text-align: center;

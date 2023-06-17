@@ -195,7 +195,7 @@ h2 {
 }
 /* abertura da tag media para respansivo
  */
- @media (max-width: 768px) {
+ @media screen and (max-device-width: 768px) and (min-device-height: 400px){
 
     #arttodo{
     width: 90%;

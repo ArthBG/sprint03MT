@@ -114,7 +114,7 @@ h2 {
 }
 
 /*responsividade*/
-@media screen and (max-device-width: 768px) and (min-device-height: 480px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     /*configurações foto*/
     #fotopessoal {
         height: 30%;

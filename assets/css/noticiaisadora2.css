@@ -179,7 +179,7 @@ a {
 }
 
 
-@media (max-width: 768px) {
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
         font-size: 30px;
         margin: 0;
