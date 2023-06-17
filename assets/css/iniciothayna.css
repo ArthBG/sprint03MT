@@ -106,6 +106,12 @@ article {
     margin: 20px;
 
 }
+#footer{
+    width: 100%;
+    bottom: 0;
+    margin: -5px;
+    margin: 0;
+}
 /* estilização das linkagem das imagens*/
 
 img {
@@ -122,75 +128,49 @@ img {
     width: 10%;
 
 }
-/* comandos para responsividade */
-@media(max-width: 768px) {
-    /* responsividade da section últimas notícias */
-    .sectionultimasnoticias {
-        display: block;
-        margin: auto;
-        margin-bottom: 10%;
-        width: 80%;
-    }
-    /* responsividade da parte últimas notícias */
+/*Responsividade*/
+@media screen and (max-device-width: 768px) and (min-device-height: 400px) {
+    /* article das noticias */
     #ultimasnoticias {
-        margin: auto;
-        display: block;
-        width: auto;
-        width: 90%;
+        font-size: 25px;
+    }
+    /* titulos das noticias */
+    #h2eltimasnoticias {
+        font-size: 25px;
 
     }
-    /* responsividade da foto da notícia */
-    #fotoenem {
-        width: 90%;
-    }
-    /* responsividade do título */
-    h1 {
-        font-size: 25px;
-    }
-   /*  responsividade da foto principal */
+   /* foto do inicio*/
     #fotoprincipal {
-        margin: auto;
         width: 90%;
-        height: 60%;
-        margin-bottom: 10%;
     }
-   /*  responsividade do article */
-    article {
-        display: block;
-        width: 100%;
-        text-align: justify;
-        margin: auto;
-    }
-   /*  responsividade do subtítulo */
-    h2 {
-        text-align: center;
-        margin: auto;
-        font-size: 30px;
-    }
-   /*  responsividade dos textos */
-    p {
-        padding: 0%;
-        font-size: 25px;
-        margin: 5%;
-        justify-content: center;
-    }
-   /*  responsividade da section do sobre */
-    #resumotema {
-        
-        margin: auto;
-        margin-left: 0;
-    margin-right: 0;
-    width: 100%;
-    }
-   /*  responsividade das fotos da parte das últimas notícias  */
+    /* foto das noticias */
     #ultimasnoticiasfotos {
-        margin: auto;
-        text-align: center;
-        width: 100%;
-        margin-bottom: 10%;
-        padding: 0;
+        width: 30%;
+        height: 30%;
         margin: 0;
     }
-    
+    /* a matéria principal */
+    #noticiaprincipal {
+        display: flex;
+        flex-direction: column;
+        margin: 5%;
+    }
+    /* titulo das noticias */
+    #titu {
+        font-size: 40px;
+        margin-bottom: 2%;
+    }
+    /* article da foto mais noticia */
+    #resumotema {
+        width: 100%;
+        font-size: 30px;
+        margin: 5%;
+        text-align: justify;
+    }
+    /* paragrafos*/
+    p {
+        font-size: 20px;
+        text-align: justify;
+    }
 
 }
