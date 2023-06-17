@@ -46,8 +46,8 @@ function sendN() {
                 '<p class="categs"><strong>' + 'Categoria: </strong>' + acateg[cssI] + '</p>' +
                 '<p class="autors"><strong>' + 'Escrito por: </strong>' + aautor[cssI] + '</p>' +
                 '<p class="dates">' + adat[cssI] + '</p>' +
-                '<button class="editbtn" onclick="editN(' + cssI + ')">Editar</button>' +
-                '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover</button> </section>';
+                '<button class="editbtn" onclick="editN(' + cssI + ')">Editar 🖍</button>' +
+                '<button class="editbtn" onclick="removeN(' + cssI + ')">Remover ✖</button> </section>';
         }
         let newsContainer = document.getElementsByClassName("news")[0];
         newsContainer.innerHTML = newdiv;
@@ -77,8 +77,8 @@ function sendN() {
             '<p class="categs"><strong>' + 'Categoria:  </strong>' + acateg[editI] + '</p>' +
             '<p class="autors"><strong>' + 'Escrito por:  </strong>' + aautor[editI] + '</p>' +
             '<p class="dates">' + adat[editI].split("-").reverse().join("/") + '</p>' +
-            '<button class="editbtn" onclick="editN(' + editI + ')">Editar</button>' +
-            '<button class="editbtn" onclick="removeN(' + editI + ')">Remover</button></section>';
+            '<button class="editbtn" onclick="editN(' + editI + ')">Editar 🖍</button>' +
+            '<button class="editbtn" onclick="removeN(' + editI + ')">Remover ✖</button></section>';
 
         document.getElementById("title").value = "";
         document.getElementById("resume").value = "";
