@@ -102,10 +102,13 @@ aside {
     background-color: #E0CFE6;
     width: 30%;
     right: 0;
-    top: 95%;
+    top: 79%;
     position: absolute;
 }
+h6 {
+    font-size: 16px;
 
+ }
 .navbarlateral {
     display: flex;
     background-color: white;
@@ -245,10 +248,7 @@ a {
     }
 
     aside {
-        position: relative;
-        width: 90%;
-        margin: auto;
-        margin-top: 4%;
+      display: none;
     }
 
     .fotonoticias {
@@ -266,11 +266,4 @@ a {
         padding: 0;
     }
 
-    #ifr {
-        height: 500px;
-    }
-
-    #footer {
-        height: 300px;
-    }
 }
