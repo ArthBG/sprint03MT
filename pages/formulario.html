@@ -1,114 +1,105 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
     <!-- Metadados -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="../assets/css/formulario.css" media="screen">
     <link rel="icon" href="../assets/images/logo.png.png">
     <link rel="stylesheet" href="/layouts/headernova.css">
 
-
-
     <!-- Título da página (aparece na aba) -->
     <title>Cadastro</title>
 </head>
-
 <body>
-    <header>
-        <!--Logo Equipe-->
-        <a href="../index.html" target="_blank">
-            <img id="fotologo" src="../assets/images/logowhite.png.png" alt="Logo da equipe">
-        </a>
+
+  <!--Header-->
+  <header>
+    <!--Logo Equipe-->
+    <a href="../index.html" target="_blank">
+        <img id="fotologo" src="../assets/images/logowhite.png.png" alt="Logo da equipe">
+    </a>
 
 
-        <div class="dropdown">
-            <button class="dropbtn">Menu
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
-                    viewBox="0 0 16 16">
-                    <path fill-rule="evenodd"
-                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-                </svg>
-            </button>
-            <div class="dropdown-content">
-                <a href="/index.html">Inicio</a>
-                <a href="/pages/categorias.html">Categorias</a>
-                <a href="/pages/sobrenos.html">Equipe</a>
-                <a href="/pages/inicioextra.html">Hefester</a>
-                <a href="/pages/formulario.html">Contato</a>
-                <a href="/pages/feedback.html">Feedback</a>
-                <a href="/pages/todolist.html">Painel</a>
-            </div>
+    <div class="dropdown">
+        <button class="dropbtn">Menu
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </button>
+        <div class="dropdown-content">
+            <a href="/index.html">Inicio</a>
+            <a href="/pages/categorias.html">Categorias</a>
+            <a href="/pages/sobrenos.html">Equipe</a>
+            <a href="/pages/inicioextra.html">Hefester</a>
+            <a href="/pages/formulario.html">Contato</a>
+            <a href="/pages/feedback.html">Feedback</a>
+            <a href="/pages/todolist.html">Painel</a>
         </div>
+    </div>
 
-    </header>
-    <div id="formtotal">
+</header>
+<!--header site-->
+
+<div id="formtotal">
         <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
         <div>
-            <h1 id="titulo">Faça seu Cadastro</h1>
+            <h1 id="titulo">Entre em Contato</h1>
             <p id="subtitulo">Complete suas informações</p>
             <br>
         </div>
-
         <!-- Início do formulário -->
         <form action="../pages/posformulario.html">
-
-            <fieldset class="grupo">
+    
                 <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
                 <div class="campo">
                     <label for="nome"><strong>Nome</strong></label>
                     <input type="text" name="nome" id="nome" required>
                 </div>
-
                 <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
                 <div class="campo">
                     <label for="sobrenome"><strong>Sobrenome</strong></label>
                     <input type="text" name="sobrenome" id="sobrenome" required>
                 </div>
-            </fieldset>
-
-            <!-- Campo de email com-->
-            <div class="campo">
-                <label for="email"><strong>Email</strong></label>
-                <input type="email" name="email" id="email" required>
-            </div>
-
             <!-- campo de pergunts dos temas -->
             <div class="campo">
-                <label><strong>Qual seu gênero?</strong></label>
+                <label><strong>Selecione a Categoria</strong></label>
                 <label>
-                    <input type="radio" name="devweb" value="frontend" checked>Masculino
+                    Geologia <input type="radio" name="devweb" value="frontend">
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="backend">Feminino
+                    Biologia <input type="radio" name="devweb" value="backend">
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="fullstack">Outro
+                    Inovação <input type="radio" name="devweb" value="fullstack">
                 </label>
                 <label>
-                    <input type="radio" name="devweb" value="fullstack">Prefiro não informar
+                    Vestibular <input type="radio" name="devweb" value="fullstack">
                 </label>
-
+                <label>
+                    Nutrição <input type="radio" name="devweb" value="fullstack">
+                </label>
+                <label>
+                    Futebol <input type="radio" name="devweb" value="fullstack">
+                </label>
             </div>
-
             <!-- campo de temas com temas diferentes -->
-
             <!-- Caixa de texto -->
             <div class="campo">
-                <label for="experiencia"><strong>Conte um pouco mais da sua experiência: </strong></label>
-                <textarea rows="6" id="experiencia" name="experiencia" required></textarea>
+                <label for="experiencia"><strong>Digite suas indagações aqui: </strong></label>
+                <input type="text" id="exp">
             </div>
 
+            <a href="../pages/posformulario.html" id="btn">Concluído</a>
             <!-- Botão para enviar o formulário -->
-            <button class="botao" type="submit">Concluído</button>
-
-
         </form>
+
     </div>
+</div>
+
     <iframe id="footer" src="../layouts/footer.html" scrolling="no" frameborder="0"></iframe>
 </body>
-
 </html>
