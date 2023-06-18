@@ -819,19 +819,26 @@ html {
         margin: auto;
         margin-top: 70%;
         margin-left: 28%;
-        margin-right: 29%;
         display: flex;
     }
     .nav-auto {
-        width: auto;
-        margin: auto;
-        margin-top: 70%;
-        margin-left: 28%;
-        margin-right: 25%;
-        display: flex;
+    display: none;
+    }
+    #radio1{
+        border: 2px solid #000;
+        background-color: #000;
+    }
+    #radio2{
+        border: 2px solid #000;
+    }
+    #radio3{
+        border: 2px solid #000;
+    }
+    #radio4{
+        border: 2px solid #000;
     }
     .m-btn{
-        border: 2px  #000;
+        border: 2px solid #000;
     }
     .sectionbn{
         height: fit-content;
