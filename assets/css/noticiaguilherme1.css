@@ -71,7 +71,7 @@ h3 {
     width: 50%;
 }
 
-div {
+.div4{
     width: 50%;
 }
 
@@ -99,7 +99,7 @@ aside {
     background-color: #E0CFE6;
     width: 30%;
     right: 0;
-    top: 90%;
+    top: 80%;
     position: absolute;
 }
 h6 {
@@ -118,7 +118,7 @@ h6 {
     width: 100%;
 }
 
-#navbarlateral3 {
+.navbarlateral3 {
     display: flex;
     background-color: white;
     margin: 10px;
