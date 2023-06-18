@@ -809,6 +809,7 @@ html {
 
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
+
     body {
         font-size: 15px;
 
@@ -818,13 +819,15 @@ html {
         width: auto;
         margin: auto;
         margin-top: 70%;
-        margin-left: 25%;
+        margin-left: 29%;
         margin-right: 28%;
         display: flex;
     }
+
     .nav-auto {
     display: none;
-    }
+    
+}
     #radio1{
         border: 2px solid #000;
         background-color: #000;
