@@ -109,8 +109,8 @@ article {
 #footer{
     width: 100%;
     bottom: 0;
-    margin: -5px;
-    margin: 0;
+    margin-top: 30%;
+    margin-bottom: -5px;
 }
 /* estilização das linkagem das imagens*/
 
@@ -139,14 +139,20 @@ img {
         font-size: 25px;
 
     }
+    .sectionultimasnoticias {
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+    
+    }
    /* foto do inicio*/
     #fotoprincipal {
         width: 90%;
     }
     /* foto das noticias */
     #ultimasnoticiasfotos {
-        width: 30%;
-        height: 30%;
+        width: 95%;
+        height: 95%;
         margin: 0;
     }
     /* a matéria principal */
