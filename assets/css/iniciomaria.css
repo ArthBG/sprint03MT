@@ -120,12 +120,15 @@ img {
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     /* article das noticias */
     #ultimasnoticias {
-        font-size: 25px;
+        font-size: 20px;
     }
     /* titulos das noticias */
     #h2eltimasnoticias {
-        font-size: 25px;
+        font-size: 20px;
 
+    }
+    h2{
+        font-size: 30px;
     }
    /* foto do inicio*/
     #fotoprincipal {
@@ -145,7 +148,7 @@ img {
     }
     /* titulo das noticias */
     #titu {
-        font-size: 40px;
+        font-size: 30px;
         margin-bottom: 2%;
     }
     /* article da foto mais noticia */
