@@ -81,7 +81,7 @@ text-decoration: none;
 }
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     iframe {
@@ -95,6 +95,7 @@ text-decoration: none;
 
     p {
         margin: 0;
+        width: fit-content;
         font-size: 25px;
     }
 
