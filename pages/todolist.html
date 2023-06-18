@@ -58,12 +58,20 @@
             <label class="label1"><strong>Data de publicação:</strong></label><br>
             <input id="date" type="date"><br>
 
-            <label class="label1"><strong>Autor:</strong></label><br>
-            <input id="autor" type="text"><br>
             <div id="categorias">
                 <label class="label1"><strong>Categorias:</strong><br>
-                    <input id="categories" type="text">
+                    <select id="categories" type="text">
+                        <option value="Geologia">Geologia</option>
+                        <option value="Biologia">Biologia</option>
+                        <option value="Inovação">Inovação</option>
+                        <option value="Vestibular">Vestibular</option>
+                        <option value="Nutrição">Nutrição</option>
+                        <option value="Futebol">Futebol</option>
+                    </select>
             </div>
+            
+            <label class="label1"><strong>Autor:</strong></label><br>
+            <input id="autor" type="text"><br>
            <!--  abertura de tag botão -->
             <button type="submit" id="send" onclick="sendN()">enviar</button>
             <p id="alertP"></p>

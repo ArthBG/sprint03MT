@@ -41,9 +41,9 @@ body {
     margin-bottom: 3%;
 }
 /* personalização do input */
-input {
+input , select {
     margin: 3%;
-    border-radius: 20px;
+    border-radius: 5px;
     width: 30%;
     height: auto;
     font-size: 20px;
