@@ -103,12 +103,10 @@ text-decoration: none;
         font-size: 20px;
     }
 
-    img {
+    .imag1{
         width: 40%;
         height: 40%;
-        margin: 5px;
     }
-
     section {
         margin: 0;
         padding: 0;
@@ -127,12 +125,6 @@ text-decoration: none;
         margin: -5px;
         width: 100%;
     }
-    #vest01{
-        width: 50%;
-        margin: 5%;
-        height: auto;
-        margin-left: -20px ;
-}
 }
 
 
