@@ -874,32 +874,38 @@ html {
 
     .a1text {
         display: flex;
- 
+        padding: 5%;
+        margin: 0;
         flex-direction: column;
     }
     .a2text {
         display: flex;
+        margin: 0;
         padding: 5%;
         flex-direction: column;
     }
     .a3text {
         display: flex;
+        margin: 0;
         padding: 5%;
         flex-direction: column;
     }
     .a4text {
         display: flex;
+        margin: 0;
         padding: 5%;
         flex-direction: column;
     }
     .a5text {
         display: flex;
+        margin: 0;
         padding: 5%;
         flex-direction: column;
     }
     .a6text {
         display: flex;
         padding: 5%;
+        margin: 0;
         flex-direction: column;
     }
 
