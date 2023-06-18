@@ -250,5 +250,9 @@ margin: 0;
     border: none;
     margin: 5px;
  }
-
+ .sectioncomentarios {
+    background-color: #E0CFE6;
+    flex-direction: column;
+    border-radius: 15px;
+}
    }

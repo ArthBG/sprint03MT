@@ -266,4 +266,10 @@ margin: 0;
     margin: 0;
 
  }
+ .sectioncomentarios {
+    background-color: #E0CFE6;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
 }

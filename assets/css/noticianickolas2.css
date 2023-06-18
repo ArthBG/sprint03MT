@@ -191,8 +191,8 @@ a {
     .sectioncomentarios {
         background-color: #E0CFE6;
         flex-direction: column;
+        border-radius: 15px;
     }
-
     main {
         display: flex;
         flex-direction: column;

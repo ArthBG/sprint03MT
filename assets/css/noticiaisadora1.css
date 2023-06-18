@@ -209,7 +209,12 @@ h2{
     }
 
     
-
+    .sectioncomentarios {
+        background-color: #E0CFE6;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    
     h2 {
        text-align: center;
         margin-top: 5%;

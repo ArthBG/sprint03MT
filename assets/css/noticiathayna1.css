@@ -239,7 +239,11 @@ a {
         width: 100%;
         font-size: 20px;
     }
-    
+    .sectioncomentarios {
+        background-color: #E0CFE6;
+        flex-direction: column;
+        border-radius: 15px;
+    }
     /* responsividade do article principal*/
 
     #articleprincipal {

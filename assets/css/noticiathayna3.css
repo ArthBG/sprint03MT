@@ -285,4 +285,9 @@ p01{
     p01{
         font-size: 20px;
     }
+    .sectioncomentarios {
+        background-color: #E0CFE6;
+        flex-direction: column;
+        border-radius: 15px;
+    }
 }
