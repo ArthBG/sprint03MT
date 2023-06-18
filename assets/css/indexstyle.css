@@ -874,6 +874,32 @@ html {
 
     .a1text {
         display: flex;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .a2text {
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .a3text {
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .a4text {
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .a5text {
+        display: flex;
+        padding: 5%;
+        flex-direction: column;
+    }
+    .a6text {
+        display: flex;
+        padding: 5%;
         flex-direction: column;
     }
 
@@ -903,38 +929,42 @@ html {
         margin: 0;
     }
    
-    .a1text {
-        width: auto;
-    }
+
     .text1{
         text-align: start;
         align-items: center;
-        margin: 5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
     }
     .text2{
         text-align: start;
         align-items: center;
-        margin: 5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
     }
     .text3{
         text-align: start;
         align-items: center;
-        margin: 5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
     }
     .text4{
         text-align: start;
         align-items: center;
-        margin: 5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
     }
     .text5{
         text-align: start;
         align-items: center;
-        margin: 5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
     }
     .text6{
         text-align: start;
         align-items: center;
-        margin: 5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
     }
     .a1 {
         display: inline;
@@ -972,6 +1002,7 @@ html {
         height: 100%;
         margin-right: 2%;
         margin-left: 5%;
+        margin-top: 10%;
         width: 95%;
     }
 
