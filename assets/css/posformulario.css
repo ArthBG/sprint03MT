@@ -28,6 +28,7 @@ iframe {
 }
 
 #footer {
+    width: 100%;
     bottom: 0;
     margin-bottom: -5px;
 }
@@ -43,9 +44,7 @@ a:hover {
     border-radius: 3px;
 }
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
-    #ifr {
-        height: 500px;
-    }
+
 
     #footer {
         width: 100%;
