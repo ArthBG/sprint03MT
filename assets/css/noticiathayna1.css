@@ -64,7 +64,7 @@ h3 {
     width: 30%;
 }
 /*estilização da div*/
-div {
+.div5 {
     width: 50%;
 }
 
@@ -107,7 +107,7 @@ aside {
     width: 65%;
 }
 /* estilização da nav lateral */
-#navbarlateral3 {
+.navbarlateral3 {
     display: flex;
     background-color: white;
     margin: 5px;
