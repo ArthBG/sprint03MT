@@ -874,7 +874,7 @@ html {
 
     .a1text {
         display: flex;
-        padding: 5%;
+ 
         flex-direction: column;
     }
     .a2text {
