@@ -209,7 +209,7 @@ h2 {
         margin-left: 5%;
         margin-right: 5%;
     }
-    input{
+    input , select{
         width: 70%;
         height: auto;
     }
