@@ -244,13 +244,6 @@ a {
     aside{
         display: none;
     }
-   /*  aside {
-        position: relative;
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 4%;
-    } */
     h6 {
         font-size: 20px;
     
@@ -268,10 +261,6 @@ a {
     #div_bottom {
         margin: 0;
         padding: 0;
-    }
-
-    #ifr {
-        height: 500px;
     }
 
     #footer{
