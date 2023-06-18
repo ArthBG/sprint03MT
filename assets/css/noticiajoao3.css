@@ -58,8 +58,23 @@ h3 {
     width: 50%;
 }
 
-div {
+.div2 {
     width: 50%;
+}
+
+aside {
+    background-color: #E0CFE6;
+    width: 21%;
+    /* right: 0; */
+    top: 43%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+.div3{
+    width: 50%;
+    margin-bottom: 10px;
+    
 }
 
 /*Noticia Principal*/
@@ -80,10 +95,7 @@ div {
 #container {
     width: 30%;
 }
-aside {
-    background-color: #E0CFE6;
-    height: 380px;
-}
+
 .navbarlateral {
     display: flex;
     background-color: white;
