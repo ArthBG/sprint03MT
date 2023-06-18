@@ -12,6 +12,7 @@ body {
 header {
     background-color: #7657b2;
     display: flex;
+    height: 100%;
 }
 
 /*Foto Logo*/

@@ -10,6 +10,7 @@
 
 }
 
+
 iframe {
     width: 100%;
     margin: 0;
@@ -73,10 +74,19 @@ h3 {
     width: 50%;
 }
 
-div {
+.div2 {
     width: 50%;
 }
+.div3{
+    width: 50%;
+    margin-bottom: 10px;
+    
+}
 
+.fotonoticias {
+    border-radius: 10px;
+    width: 100%;
+}
 /*Noticia Principal*/
 #textoprincipal {
     background-color: white;
@@ -101,7 +111,7 @@ aside {
     background-color: #E0CFE6;
     width: 30%;
     right: 0;
-    top: 50%;
+    top: 75%;
     margin-top: 20%;
     position: absolute;
 }
@@ -113,10 +123,6 @@ aside {
     border-radius: 10px;
 }
 
-.fotonoticias {
-    border-radius: 10px;
-    width: 100%;
-}
 
 #navbarlateral3 {
     display: flex;
@@ -272,7 +278,7 @@ a {
   }
 
   h6{
-    font-size: 90%;
+    font-size: 95%;
   }
 
   #sectiontext2{
