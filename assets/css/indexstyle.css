@@ -808,14 +808,48 @@ html {
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
-        font-size: 30px;
+        font-size: 15px;
 
     }
-    #ifr{
-        
-        height: 500px;
+    .nav-m {
+    
+        width: auto;
+        margin: auto;
+        margin-top: 70%;
+        margin-left: 28%;
+        margin-right: 29%;
+        display: flex;
     }
- 
+    .nav-auto {
+        width: auto;
+        margin: auto;
+        margin-top: 70%;
+        margin-left: 28%;
+        margin-right: 25%;
+        display: flex;
+    }
+    .m-btn{
+        border: 2px  #000;
+    }
+    .sectionbn{
+        height: fit-content;
+        padding: 0;
+        margin-bottom: 30%;
+        margin-top: 15%;
+      
+    }
+    .a0{
+        margin-right: 4%;
+        margin-left: 4%;
+        padding: 0;
+    }
+
+    .slide{
+        height: 50%;
+    }
+    .slider{
+        height: fit-content;
+    }
     .main1 {
         display: flex;
         margin: 0;
@@ -873,6 +907,32 @@ html {
     .text1{
         text-align: start;
         align-items: center;
+        margin: 5%;
+    }
+    .text2{
+        text-align: start;
+        align-items: center;
+        margin: 5%;
+    }
+    .text3{
+        text-align: start;
+        align-items: center;
+        margin: 5%;
+    }
+    .text4{
+        text-align: start;
+        align-items: center;
+        margin: 5%;
+    }
+    .text5{
+        text-align: start;
+        align-items: center;
+        margin: 5%;
+    }
+    .text6{
+        text-align: start;
+        align-items: center;
+        margin: 5%;
     }
     .a1 {
         display: inline;
@@ -967,29 +1027,9 @@ html {
         margin: auto;
         position: relative;
     }
-    .nav-m {
-        width: auto;
-        margin-left: 30%;
-        display: flex;
-    }
-    .nav-auto {
-        width: auto;
-        margin-left: 30%;
-        display: flex;
-    }
-    .sectionbn{
-
-        padding: 0;
-        margin: 0;
-      
-    }
-    .a0{
-        margin-right: 4%;
-        margin-left: 4%;
-        padding: 0;
-    }
 
     #footer{
+        width: 100%;
         margin-bottom: -5px;
     }
 }
