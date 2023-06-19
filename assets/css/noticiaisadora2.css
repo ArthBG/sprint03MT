@@ -170,12 +170,15 @@ a {
     align-items: center;
 }
 #ha02{
-    margin-left: 30%;
+ font-size: 15px;
 }
 #div_bottom {
    height: 100%;
    width: 120%;
    margin-left: 10% ;
+}
+h6{
+    font-size: 15px;
 }
 
 
@@ -250,7 +253,6 @@ font-size: 20px;
         font-size: 30px;
        margin-top: 5%;
         margin-left: 12%;
-        margin-bottom: -10px;
     }
 
     aside {

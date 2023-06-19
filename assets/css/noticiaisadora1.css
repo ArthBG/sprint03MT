@@ -173,7 +173,9 @@ a {
 h2{
     text-align: center;
 }
-
+h6{
+    font-size: 15px;
+}
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px){
     body {
