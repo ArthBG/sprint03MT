@@ -47,7 +47,8 @@ h3 {
 }
 /*estilização das escritas*/
 #escritatitulo {
-    font-size: 200%;
+    font-size: 25px;
+    margin: 0;
     color: #7657b2;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -183,10 +184,14 @@ a {
 /* responsividade dos comentários*/
     #divcomentarios {
         width: 100%;
-        height: 100%;
-    }
+         }
     /* responsividade do instagram da parte de comentários*/
     #nomeeinsta {
+        height: 100%;
+    }
+    #estrelaavaliacao{
+        width: 10%;
+        margin: 0;
         height: 100%;
     }
      /* responsividade dos textos*/
@@ -204,26 +209,16 @@ a {
  
 /* responsividade do texto principal*/
     #textoprincipal {
-        /* display: block; */
-        text-align: justify;
-        margin: 0%;
-        width: 90%;
-        justify-content: center;
-        margin: auto;
+        width: 95%;
     }
 /* responsividade dos subtítulos*/
-    h2,
-    h3 {
-        text-align: center;
-        margin-right: -20px;
-    }
-/* responsividade do texto do começo*/
-    #começo {
-        text-align: center;
-    }
+    h2,h3 {
+ text-align: start;   }
+
 /* responsividade da main*/
     main {
         display: block;
+        width: 90%;
     }
 /* responsividade do article principal*/
     #articleprincipal {
@@ -236,18 +231,25 @@ a {
     }
 /* responsividade da parte de notícias*/
     #noticia {
-        width: 100%;
+        width: 90%;
+        margin-left: 7%;
         font-size: 20px;
     }
     
-    
+    /*estilização da section de comentários*/
+.sectioncomentarios {
+    background-color: #E0CFE6;
+    display: flex;
+    width: 100%;
+}
 /* responsividade do article principal*/
     #articleprincipal {
         margin: auto;
     }
 /* responsividade do título*/
     #escritatitulo {
-        margin-left: 4%;
+        text-align: start;
+        margin: 0;
     }
  /* responsividade da parte de texto*/
     #container {
@@ -278,5 +280,10 @@ a {
         background-color: #E0CFE6;
         flex-direction: column;
         border-radius: 15px;
+    }
+    #esp{
+        text-align: start;
+        margin-left: 5%;
+        width: fit-content;
     }
 }
