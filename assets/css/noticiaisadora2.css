@@ -181,7 +181,7 @@ a {
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
-        font-size: 30px;
+        font-size: 15px;
         margin: 0;
     }
 
@@ -228,6 +228,7 @@ a {
         flex-direction: column;
         width: 100%;
         text-align: center;
+font-size: 20px;
         margin-left: 0%;
     }
 
@@ -246,7 +247,7 @@ a {
     }
 
     #escritatitulo {
-        font-size: 35px;
+        font-size: 30px;
        margin-top: 5%;
         margin-left: 12%;
         margin-bottom: -10px;
@@ -312,11 +313,11 @@ a {
 
 
 #noticia{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #divcomentarios{
-    font-size: 20px;
+    font-size: 15px;
 }
 aside{
     display: none;
@@ -325,7 +326,7 @@ aside{
     text-align: justify;
 }
 #textoprincipal{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 

@@ -225,6 +225,7 @@ margin-bottom: 0;
         flex-direction: column;
         width: 100%;
         text-align: center;
+        font-size: 20px;
         margin-left: 0%;
     }
 
@@ -243,7 +244,7 @@ margin-bottom: 0;
     }
 
     #escritatitulo {
-        font-size: 35px;
+        font-size: 30px;
        
         margin-left: 12%;
         margin-bottom: -10px;
@@ -309,11 +310,11 @@ margin-bottom: 0;
 
 
 #noticia{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #divcomentarios{
-    font-size: 20px;
+    font-size: 15px;
 }
 aside{
     display: none;
@@ -322,7 +323,7 @@ aside{
     text-align: justify;
 }
 #textoprincipal{
-    font-size: 20px;
+    font-size: 15pxx;
 }
 
 

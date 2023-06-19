@@ -230,6 +230,7 @@ h2{
         width: 100%;
         text-align: center;
         margin-left: 0%;
+        font-size: 20px;
     }
 
     h3 {
@@ -247,7 +248,7 @@ h2{
     }
 
     #escritatitulo {
-        font-size: 35px;
+        font-size: 30px;
        margin-top: 5%;
         margin-left: 12%;
         margin-bottom: -10px;
@@ -313,11 +314,11 @@ h2{
 
 
 #noticia{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 #divcomentarios{
-    font-size: 20px;
+    font-size: 15px;
 }
 aside{
     display: none;
@@ -326,7 +327,7 @@ aside{
     text-align: justify;
 }
 #textoprincipal{
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
