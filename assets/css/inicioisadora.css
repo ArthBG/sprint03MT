@@ -122,6 +122,11 @@ img {
     #resumotema{
         font-size: 20px;
     }
+    .sectionultimasnoticias {
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+    }
     h1{
         font-size: 35px;
         margin-bottom: 7%;
@@ -133,13 +138,33 @@ img {
         width: 60%;
     }
     #ultimasnoticiasfotos{
-        width: 30%;
+        width: 95%;
+        height: 15%;
     }
+    #ultimasnoticiasfotos01{
+        width: 95%;
+        height: 40vh;
+    }
+    
     #resumotema{
         width: 100%;
         font-size: 25px;
         text-align: justify;
         margin-top: 7%;
+    }
+    #fotoenem {
+        border-radius: 10px;
+        border: 5px outset #ffffff;
+    }
+    
+    #fotoprincipal {
+        background-color: #7657b2;
+        border-radius: 10px;
+        -webkit-box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+        -moz-box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+        box-shadow: 10px 10px 36px -13px rgba(82, 65, 109, 1);
+        width: 100%;
+    
     }
 
     #footer{
