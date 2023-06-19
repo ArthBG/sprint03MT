@@ -197,7 +197,7 @@ p01{
     }
     /* responsividade dos textos*/
     p{
-        font-size: 20px;
+        font-size: 15px;
     }
     /* responsividade dos depoimentos*/
     .nomedepoimentos{
@@ -213,15 +213,13 @@ p01{
         /* display: block; */
         text-align: justify;
         margin: 0%;
-        width: 90%;
-        justify-content: center;
+ 
         margin: auto;
     }
    /* responsividade dos subtítulos*/
     h2,
     h3 {
         text-align: center;
-        margin-right: -20px;
     }
 
 /* responsividade do texto do começo*/
@@ -243,8 +241,8 @@ p01{
     }
 /* responsividade da parte de notícias*/
     #noticia {
-        width: 100%;
-        font-size: 20px;
+        width: 90%;
+        font-size: 15px;
     }
     
     

@@ -191,11 +191,11 @@ a {
     }
     /* responsividade dos textos*/
     p{
-        font-size: 25px;
+        font-size: 15px;
     }
     /* responsividade dos depoimentos*/
     .nomedepoimentos{
-        font-size: 25px;
+        font-size: 15px;
     }
     /* responsividade do aside*/
     aside {
@@ -215,7 +215,7 @@ a {
     h2,
     h3 {
         text-align: center;
-        margin-right: -20px;
+ 
     }
 /* responsividade do texto do começo*/
     #começo {
@@ -237,7 +237,7 @@ a {
 /* responsividade da parte de notícias*/
     #noticia {
         width: 100%;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     

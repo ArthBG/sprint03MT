@@ -196,7 +196,7 @@ a {
     }
      /* responsividade dos textos*/
     p{
-        font-size: 25px;
+        font-size: 15px;
     }
     /* responsividade dos depoimentos*/
     .nomedepoimentos{
@@ -233,7 +233,7 @@ a {
     #noticia {
         width: 90%;
         margin-left: 7%;
-        font-size: 20px;
+        font-size: 15px;
     }
     
     /*estilização da section de comentários*/
