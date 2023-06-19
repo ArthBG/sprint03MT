@@ -50,7 +50,7 @@ h3 {
 /*Article Principal Imagem*/
 #fotoprincipal {
     width: 90%;
-    margin: 20px;
+    margin-top: 5%;
     border: 5px outset #7657b2;
 }
 
@@ -169,7 +169,7 @@ margin: 0;
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px){
     body {
-        font-size: 30px;
+        font-size: 15px;
     }
 
     #articleprincipal{
@@ -188,10 +188,10 @@ margin: 0;
    }
 
    h2{
-    font-size: 30px;
+    font-size: 20px;
    }
    h3{
-    font-size: 30px;
+    font-size: 20px;
    }
 
    main{
@@ -206,7 +206,7 @@ margin: 0;
 
    #noticia{ 
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 15px;
     flex-direction: column;
    }
 

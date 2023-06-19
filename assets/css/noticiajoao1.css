@@ -196,7 +196,7 @@ a {
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px){
     body {
-        font-size: 25px;
+        font-size: 15px;
     }
     #fotoprincipal {
         width: 90%;
@@ -220,7 +220,7 @@ a {
     
    }
    #escritatitulo{
-    font-size: 20px;
+    font-size: 30px;
     margin: 0
    }
 
@@ -245,14 +245,14 @@ a {
 
    #noticia{ 
     margin-top: 5%;
-    font-size: 24px;
+    font-size: 15px;
     flex-direction: column;
    }
 
    #sectiontext3{
     margin-top: 5%;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 15px;
     margin: 10px;
    }
    #divcomentarios{
@@ -296,7 +296,7 @@ a {
     font-size: 30px;
   }
   #nomeeinsta{
-    font-size: 23px;
+    font-size: 15px;
   }
   aside{
   display: none;
