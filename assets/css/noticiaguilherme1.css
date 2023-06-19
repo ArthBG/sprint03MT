@@ -62,7 +62,7 @@ h3 {
 /*Article Principal Imagem*/
 #fotoprincipal {
     width: 90%;
-    margin: 20px;
+  margin-top: 5%;
     height: auto;
     border: 5px outset #7657b2;
 }
@@ -177,13 +177,14 @@ a {
 
 @media screen and (max-device-width: 768px) and (min-device-height: 400px) {
     body {
-        font-size: 25px;
+        font-size: 15px;
+
     }
     h2{
         font-size: 20px;
     }
     #escritatitulo {
-        font-size: 35px;
+        font-size: 30px;
         text-align: justify;
         margin-bottom: 10%;
     }
