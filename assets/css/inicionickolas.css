@@ -153,8 +153,7 @@ img {
     #ultimasnoticiasfotos {
         display: block;
         flex-direction: column;
-        width: 95%;
-        height: 95%;
+        width: 85%;
     }
 
     .sectionultimasnoticias {
