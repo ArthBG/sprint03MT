@@ -235,6 +235,7 @@ img {
     }
     .sectionultimasnoticias{
         width: 90%;
+        flex-direction: column;
     }
     #fotoprincipal {
         margin-top: 10%;
@@ -285,8 +286,8 @@ img {
     }
 
     #ultimasnoticiasfotos{
-        width:30%;
-        height: 30%;
+        width: 95%;
+        height: 170px;
         margin: 0;
     }
     
@@ -305,13 +306,13 @@ img {
     }
     p {
         font-size: 20px;
-        text-align: justify;
-        margin-left: 10%;
-        margin-right: 10%;
     }
 
     h2{
-        text-align: center;
+        font-size: 30px;
+    }
+    h1{
+        font-size: 30px;
     }
     #ultimasnoticias2 {
         font-size: 25px;
@@ -319,9 +320,8 @@ img {
     #ultimasnoticias3 {
         font-size: 25px;
     }
-    #h2eltimasnoticias {
-        font-size: 15px;
-        
+    #h2eltimasnoticias{
+        font-size: 20px;
     }
     
     
