@@ -66,7 +66,9 @@ h3 {
 /*Article Principal Imagem*/
 #fotoprincipal {
     width: 90%;
-    margin: 20px;
+    margin: 0;
+    margin-top: 2%;
+    padding: 0;
     border: 5px outset #7657b2;
 }
 
@@ -196,7 +198,15 @@ a {
     body {
         font-size: 25px;
     }
-
+    #fotoprincipal {
+        width: 90%;
+        margin: auto;
+    }
+    #burguer{
+        margin-left: 5%;
+        width: 85%;
+    
+    }
     #articleprincipal{
     flex-direction: column;
     align-items: center;
@@ -211,6 +221,7 @@ a {
    }
    #escritatitulo{
     font-size: 20px;
+    margin: 0
    }
 
    h2{
